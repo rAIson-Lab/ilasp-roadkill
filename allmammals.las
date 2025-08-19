@@ -186,7 +186,7 @@
 % =========================================================
 
 #modeh(roadkill_risk(var(species), const(risk_category))).
-#modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value))).
+#modeb(3, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
 % Background knowledge
@@ -1440,5 +1440,5 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % ILASP constraints
 % =========================================================
 
-#maxv(3).
-#max_penalty(10).
+#maxv(1).
+#max_penalty(15).

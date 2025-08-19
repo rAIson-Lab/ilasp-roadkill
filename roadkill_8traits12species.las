@@ -39,7 +39,7 @@
 % =========================================================
 
 #modeh(roadkill_risk(var(species), const(risk_category))).
-#modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value))).
+#modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
 % Background knowledge
@@ -179,5 +179,5 @@ trait(panthera_onca,habitat_breadth_cat,low).
 % ILASP constraints
 % =========================================================
 
-#maxv(3).
+#maxv(1).
 #max_penalty(10).
