@@ -186,16 +186,7 @@
 % =========================================================
 
 #modeh(roadkill_risk(var(species), const(risk_category))).
-
-% Each trait can appear only once per rule
-#modeb(1, trait(var(species), const(adult_body_mass_g_median_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(home_range_km2_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(longevity_y_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(age_of_maturity_d_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(litter_clutch_size_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(litters_or_clutches_per_y_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(diet_breadth_cat), const(general_trait_value)), (positive)).
-#modeb(1, trait(var(species), const(habitat_breadth_cat), const(general_trait_value)), (positive)).
+#modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
 % Background knowledge
