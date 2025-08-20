@@ -1450,4 +1450,4 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % =========================================================
 
 #maxv(1).
-#max_penalty(10).
+#max_penalty(15).
