@@ -186,9 +186,8 @@
 % =========================================================
 
 #modeh(roadkill_risk(var(species), const(risk_category))).
-#modeh(roadkill_risk(var(species), const(risk_category))).
 
-% Cada trait puede aparecer como máximo una vez por regla
+% Each trait can appear only once per rule
 #modeb(1, trait(var(species), const(adult_body_mass_g_median_cat), const(general_trait_value)), (positive)).
 #modeb(1, trait(var(species), const(home_range_km2_cat), const(general_trait_value)), (positive)).
 #modeb(1, trait(var(species), const(longevity_y_cat), const(general_trait_value)), (positive)).
