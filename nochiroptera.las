@@ -25,10 +25,6 @@
 #constant(species,alouatta_guariba).
 #constant(species,alouatta_palliata).
 #constant(species,alouatta_seniculus).
-#constant(species,anoura_caudifer).
-#constant(species,artibeus_fimbriatus).
-#constant(species,artibeus_lituratus).
-#constant(species,artibeus_planirostris).
 #constant(species,atelocynus_microtis).
 #constant(species,bassaricyon_gabbii).
 #constant(species,bassariscus_astutus).
@@ -44,7 +40,6 @@
 #constant(species,caluromys_lanatus).
 #constant(species,caluromys_philander).
 #constant(species,canis_latrans).
-#constant(species,carollia_perspicillata).
 #constant(species,cavia_aperea).
 #constant(species,cerdocyon_thous).
 #constant(species,chaetomys_subspinosus).
@@ -83,7 +78,6 @@
 #constant(species,galea_flavidens).
 #constant(species,galictis_cuja).
 #constant(species,galictis_vittata).
-#constant(species,glossophaga_soricina).
 #constant(species,gracilinanus_agilis).
 #constant(species,herpailurus_yagouaroundi).
 #constant(species,heterogeomys_cherriei).
@@ -92,8 +86,6 @@
 #constant(species,hydrochoerus_hydrochaeris).
 #constant(species,kerodon_rupestris).
 #constant(species,lama_guanicoe).
-#constant(species,lasiurus_borealis).
-#constant(species,lasiurus_ega).
 #constant(species,leopardus_colocolo).
 #constant(species,leopardus_geoffroyi).
 #constant(species,leopardus_pardalis).
@@ -116,20 +108,14 @@
 #constant(species,mico_melanurus).
 #constant(species,microsciurus_flaviventer).
 #constant(species,microtus_mexicanus).
-#constant(species,mimon_bennettii).
-#constant(species,molossus_molossus).
-#constant(species,molossus_rufus).
 #constant(species,mus_musculus).
 #constant(species,mustela_frenata).
 #constant(species,myocastor_coypus).
-#constant(species,myotis_ruber).
 #constant(species,myrmecophaga_tridactyla).
 #constant(species,nasua_narica).
 #constant(species,nasua_nasua).
 #constant(species,nectomys_squamipes).
 #constant(species,neotoma_mexicana).
-#constant(species,noctilio_albiventris).
-#constant(species,noctilio_leporinus).
 #constant(species,oligoryzomys_flavescens).
 #constant(species,oligoryzomys_nigripes).
 #constant(species,orthogeomys_hispidus).
@@ -143,9 +129,6 @@
 #constant(species,peromyscus_truei).
 #constant(species,philander_frenatus).
 #constant(species,philander_opossum).
-#constant(species,phyllostomus_hastatus).
-#constant(species,platyrrhinus_lineatus).
-#constant(species,platyrrhinus_recifinus).
 #constant(species,potos_flavus).
 #constant(species,priodontes_maximus).
 #constant(species,procyon_cancrivorus).
@@ -167,12 +150,10 @@
 #constant(species,sciurus_variegatoides).
 #constant(species,sigmodon_hispidus).
 #constant(species,speothos_venaticus).
-#constant(species,sturnira_lilium).
 #constant(species,sylvilagus_audubonii).
 #constant(species,sylvilagus_brasiliensis).
 #constant(species,sylvilagus_cunicularius).
 #constant(species,sylvilagus_floridanus).
-#constant(species,tadarida_brasiliensis).
 #constant(species,tamandua_mexicana).
 #constant(species,tamandua_tetradactyla).
 #constant(species,tapirus_terrestris).
@@ -221,23 +202,6 @@ trait(alouatta_seniculus,litter_clutch_size_cat,low).
 trait(alouatta_seniculus,litters_or_clutches_per_y_cat,low).
 trait(alouatta_seniculus,diet_breadth_cat,low).
 trait(alouatta_seniculus,habitat_breadth_cat,low).
-trait(anoura_caudifer,adult_body_mass_g_median_cat,low).
-trait(anoura_caudifer,litter_clutch_size_cat,low).
-trait(anoura_caudifer,diet_breadth_cat,medium).
-trait(anoura_caudifer,habitat_breadth_cat,medium).
-trait(artibeus_fimbriatus,adult_body_mass_g_median_cat,low).
-trait(artibeus_fimbriatus,diet_breadth_cat,medium).
-trait(artibeus_fimbriatus,habitat_breadth_cat,medium).
-trait(artibeus_lituratus,adult_body_mass_g_median_cat,low).
-trait(artibeus_lituratus,longevity_y_cat,medium).
-trait(artibeus_lituratus,age_of_maturity_d_cat,medium).
-trait(artibeus_lituratus,litter_clutch_size_cat,low).
-trait(artibeus_lituratus,litters_or_clutches_per_y_cat,medium).
-trait(artibeus_lituratus,diet_breadth_cat,medium).
-trait(artibeus_lituratus,habitat_breadth_cat,high).
-trait(artibeus_planirostris,adult_body_mass_g_median_cat,low).
-trait(artibeus_planirostris,litter_clutch_size_cat,low).
-trait(artibeus_planirostris,habitat_breadth_cat,low).
 trait(atelocynus_microtis,adult_body_mass_g_median_cat,high).
 trait(atelocynus_microtis,longevity_y_cat,medium).
 trait(atelocynus_microtis,age_of_maturity_d_cat,high).
@@ -265,7 +229,7 @@ trait(blastocerus_dichotomus,litter_clutch_size_cat,low).
 trait(blastocerus_dichotomus,litters_or_clutches_per_y_cat,low).
 trait(blastocerus_dichotomus,diet_breadth_cat,low).
 trait(blastocerus_dichotomus,habitat_breadth_cat,medium).
-trait(bradypus_tridactylus,adult_body_mass_g_median_cat,high).
+trait(bradypus_tridactylus,adult_body_mass_g_median_cat,medium).
 trait(bradypus_tridactylus,home_range_km2_cat,high).
 trait(bradypus_tridactylus,longevity_y_cat,high).
 trait(bradypus_tridactylus,age_of_maturity_d_cat,high).
@@ -283,8 +247,8 @@ trait(bradypus_variegatus,diet_breadth_cat,low).
 trait(bradypus_variegatus,habitat_breadth_cat,low).
 trait(cabassous_tatouay,adult_body_mass_g_median_cat,high).
 trait(cabassous_tatouay,diet_breadth_cat,low).
-trait(cabassous_tatouay,habitat_breadth_cat,low).
-trait(cabassous_unicinctus,adult_body_mass_g_median_cat,high).
+trait(cabassous_tatouay,habitat_breadth_cat,medium).
+trait(cabassous_unicinctus,adult_body_mass_g_median_cat,medium).
 trait(cabassous_unicinctus,home_range_km2_cat,medium).
 trait(cabassous_unicinctus,longevity_y_cat,low).
 trait(cabassous_unicinctus,litter_clutch_size_cat,low).
@@ -343,14 +307,7 @@ trait(canis_latrans,litter_clutch_size_cat,high).
 trait(canis_latrans,litters_or_clutches_per_y_cat,low).
 trait(canis_latrans,diet_breadth_cat,medium).
 trait(canis_latrans,habitat_breadth_cat,high).
-trait(carollia_perspicillata,adult_body_mass_g_median_cat,low).
-trait(carollia_perspicillata,longevity_y_cat,high).
-trait(carollia_perspicillata,age_of_maturity_d_cat,low).
-trait(carollia_perspicillata,litter_clutch_size_cat,low).
-trait(carollia_perspicillata,litters_or_clutches_per_y_cat,medium).
-trait(carollia_perspicillata,diet_breadth_cat,low).
-trait(carollia_perspicillata,habitat_breadth_cat,high).
-trait(cavia_aperea,adult_body_mass_g_median_cat,medium).
+trait(cavia_aperea,adult_body_mass_g_median_cat,low).
 trait(cavia_aperea,home_range_km2_cat,low).
 trait(cavia_aperea,longevity_y_cat,low).
 trait(cavia_aperea,age_of_maturity_d_cat,low).
@@ -373,14 +330,14 @@ trait(chaetomys_subspinosus,habitat_breadth_cat,low).
 trait(chaetophractus_villosus,adult_body_mass_g_median_cat,high).
 trait(chaetophractus_villosus,longevity_y_cat,high).
 trait(chaetophractus_villosus,age_of_maturity_d_cat,low).
-trait(chaetophractus_villosus,litter_clutch_size_cat,medium).
+trait(chaetophractus_villosus,litter_clutch_size_cat,low).
 trait(chaetophractus_villosus,litters_or_clutches_per_y_cat,low).
 trait(chaetophractus_villosus,diet_breadth_cat,high).
 trait(chaetophractus_villosus,habitat_breadth_cat,medium).
 trait(chironectes_minimus,adult_body_mass_g_median_cat,medium).
 trait(chironectes_minimus,longevity_y_cat,low).
 trait(chironectes_minimus,age_of_maturity_d_cat,medium).
-trait(chironectes_minimus,litter_clutch_size_cat,high).
+trait(chironectes_minimus,litter_clutch_size_cat,medium).
 trait(chironectes_minimus,litters_or_clutches_per_y_cat,medium).
 trait(chironectes_minimus,diet_breadth_cat,medium).
 trait(chironectes_minimus,habitat_breadth_cat,low).
@@ -436,7 +393,7 @@ trait(conepatus_chinga,adult_body_mass_g_median_cat,medium).
 trait(conepatus_chinga,home_range_km2_cat,high).
 trait(conepatus_chinga,longevity_y_cat,medium).
 trait(conepatus_chinga,age_of_maturity_d_cat,high).
-trait(conepatus_chinga,litter_clutch_size_cat,high).
+trait(conepatus_chinga,litter_clutch_size_cat,medium).
 trait(conepatus_chinga,diet_breadth_cat,medium).
 trait(conepatus_chinga,habitat_breadth_cat,medium).
 trait(conepatus_semistriatus,adult_body_mass_g_median_cat,medium).
@@ -446,12 +403,12 @@ trait(conepatus_semistriatus,age_of_maturity_d_cat,medium).
 trait(conepatus_semistriatus,litter_clutch_size_cat,high).
 trait(conepatus_semistriatus,diet_breadth_cat,medium).
 trait(conepatus_semistriatus,habitat_breadth_cat,high).
-trait(cratogeomys_fulvescens,adult_body_mass_g_median_cat,medium).
-trait(cratogeomys_fulvescens,litter_clutch_size_cat,medium).
-trait(cratogeomys_fulvescens,habitat_breadth_cat,low).
+trait(cratogeomys_fulvescens,adult_body_mass_g_median_cat,low).
+trait(cratogeomys_fulvescens,litter_clutch_size_cat,low).
+trait(cratogeomys_fulvescens,habitat_breadth_cat,medium).
 trait(ctenomys_minutus,adult_body_mass_g_median_cat,low).
 trait(ctenomys_minutus,diet_breadth_cat,low).
-trait(ctenomys_minutus,habitat_breadth_cat,low).
+trait(ctenomys_minutus,habitat_breadth_cat,medium).
 trait(cuniculus_paca,adult_body_mass_g_median_cat,high).
 trait(cuniculus_paca,home_range_km2_cat,low).
 trait(cuniculus_paca,longevity_y_cat,medium).
@@ -494,8 +451,8 @@ trait(dasypus_kappleri,adult_body_mass_g_median_cat,high).
 trait(dasypus_kappleri,longevity_y_cat,low).
 trait(dasypus_kappleri,litter_clutch_size_cat,high).
 trait(dasypus_kappleri,diet_breadth_cat,low).
-trait(dasypus_kappleri,habitat_breadth_cat,low).
-trait(dasypus_novemcinctus,adult_body_mass_g_median_cat,high).
+trait(dasypus_kappleri,habitat_breadth_cat,medium).
+trait(dasypus_novemcinctus,adult_body_mass_g_median_cat,medium).
 trait(dasypus_novemcinctus,home_range_km2_cat,medium).
 trait(dasypus_novemcinctus,longevity_y_cat,high).
 trait(dasypus_novemcinctus,age_of_maturity_d_cat,medium).
@@ -562,7 +519,7 @@ trait(dolichotis_patagonum,adult_body_mass_g_median_cat,high).
 trait(dolichotis_patagonum,home_range_km2_cat,medium).
 trait(dolichotis_patagonum,longevity_y_cat,medium).
 trait(dolichotis_patagonum,age_of_maturity_d_cat,low).
-trait(dolichotis_patagonum,litter_clutch_size_cat,medium).
+trait(dolichotis_patagonum,litter_clutch_size_cat,low).
 trait(dolichotis_patagonum,litters_or_clutches_per_y_cat,high).
 trait(dolichotis_patagonum,diet_breadth_cat,low).
 trait(dolichotis_patagonum,habitat_breadth_cat,medium).
@@ -573,22 +530,22 @@ trait(eira_barbara,age_of_maturity_d_cat,high).
 trait(eira_barbara,litter_clutch_size_cat,medium).
 trait(eira_barbara,litters_or_clutches_per_y_cat,low).
 trait(eira_barbara,diet_breadth_cat,low).
-trait(eira_barbara,habitat_breadth_cat,low).
+trait(eira_barbara,habitat_breadth_cat,medium).
 trait(euphractus_sexcinctus,adult_body_mass_g_median_cat,high).
 trait(euphractus_sexcinctus,home_range_km2_cat,medium).
 trait(euphractus_sexcinctus,longevity_y_cat,high).
 trait(euphractus_sexcinctus,age_of_maturity_d_cat,medium).
-trait(euphractus_sexcinctus,litter_clutch_size_cat,medium).
+trait(euphractus_sexcinctus,litter_clutch_size_cat,low).
 trait(euphractus_sexcinctus,diet_breadth_cat,low).
 trait(euphractus_sexcinctus,habitat_breadth_cat,medium).
-trait(galea_flavidens,adult_body_mass_g_median_cat,medium).
+trait(galea_flavidens,adult_body_mass_g_median_cat,low).
 trait(galea_flavidens,age_of_maturity_d_cat,low).
 trait(galea_flavidens,litters_or_clutches_per_y_cat,high).
 trait(galea_flavidens,diet_breadth_cat,low).
 trait(galea_flavidens,habitat_breadth_cat,low).
 trait(galictis_cuja,adult_body_mass_g_median_cat,medium).
 trait(galictis_cuja,longevity_y_cat,medium).
-trait(galictis_cuja,litter_clutch_size_cat,high).
+trait(galictis_cuja,litter_clutch_size_cat,medium).
 trait(galictis_cuja,diet_breadth_cat,high).
 trait(galictis_cuja,habitat_breadth_cat,high).
 trait(galictis_vittata,adult_body_mass_g_median_cat,medium).
@@ -597,12 +554,6 @@ trait(galictis_vittata,longevity_y_cat,medium).
 trait(galictis_vittata,litter_clutch_size_cat,medium).
 trait(galictis_vittata,diet_breadth_cat,high).
 trait(galictis_vittata,habitat_breadth_cat,high).
-trait(glossophaga_soricina,adult_body_mass_g_median_cat,low).
-trait(glossophaga_soricina,longevity_y_cat,medium).
-trait(glossophaga_soricina,litter_clutch_size_cat,low).
-trait(glossophaga_soricina,litters_or_clutches_per_y_cat,medium).
-trait(glossophaga_soricina,diet_breadth_cat,medium).
-trait(glossophaga_soricina,habitat_breadth_cat,high).
 trait(gracilinanus_agilis,adult_body_mass_g_median_cat,low).
 trait(gracilinanus_agilis,longevity_y_cat,low).
 trait(gracilinanus_agilis,age_of_maturity_d_cat,low).
@@ -636,7 +587,7 @@ trait(hydrochoerus_hydrochaeris,adult_body_mass_g_median_cat,high).
 trait(hydrochoerus_hydrochaeris,home_range_km2_cat,medium).
 trait(hydrochoerus_hydrochaeris,longevity_y_cat,medium).
 trait(hydrochoerus_hydrochaeris,age_of_maturity_d_cat,high).
-trait(hydrochoerus_hydrochaeris,litter_clutch_size_cat,high).
+trait(hydrochoerus_hydrochaeris,litter_clutch_size_cat,medium).
 trait(hydrochoerus_hydrochaeris,litters_or_clutches_per_y_cat,low).
 trait(hydrochoerus_hydrochaeris,diet_breadth_cat,low).
 trait(hydrochoerus_hydrochaeris,habitat_breadth_cat,high).
@@ -656,18 +607,6 @@ trait(lama_guanicoe,litter_clutch_size_cat,low).
 trait(lama_guanicoe,litters_or_clutches_per_y_cat,low).
 trait(lama_guanicoe,diet_breadth_cat,low).
 trait(lama_guanicoe,habitat_breadth_cat,medium).
-trait(lasiurus_borealis,adult_body_mass_g_median_cat,low).
-trait(lasiurus_borealis,longevity_y_cat,low).
-trait(lasiurus_borealis,litter_clutch_size_cat,medium).
-trait(lasiurus_borealis,litters_or_clutches_per_y_cat,low).
-trait(lasiurus_borealis,diet_breadth_cat,low).
-trait(lasiurus_borealis,habitat_breadth_cat,low).
-trait(lasiurus_ega,adult_body_mass_g_median_cat,low).
-trait(lasiurus_ega,age_of_maturity_d_cat,medium).
-trait(lasiurus_ega,litter_clutch_size_cat,medium).
-trait(lasiurus_ega,litters_or_clutches_per_y_cat,low).
-trait(lasiurus_ega,diet_breadth_cat,low).
-trait(lasiurus_ega,habitat_breadth_cat,medium).
 trait(leopardus_colocolo,adult_body_mass_g_median_cat,high).
 trait(leopardus_colocolo,home_range_km2_cat,high).
 trait(leopardus_colocolo,longevity_y_cat,high).
@@ -675,10 +614,10 @@ trait(leopardus_colocolo,litter_clutch_size_cat,medium).
 trait(leopardus_colocolo,litters_or_clutches_per_y_cat,low).
 trait(leopardus_colocolo,diet_breadth_cat,low).
 trait(leopardus_colocolo,habitat_breadth_cat,high).
-trait(leopardus_geoffroyi,adult_body_mass_g_median_cat,high).
+trait(leopardus_geoffroyi,adult_body_mass_g_median_cat,medium).
 trait(leopardus_geoffroyi,home_range_km2_cat,high).
 trait(leopardus_geoffroyi,longevity_y_cat,high).
-trait(leopardus_geoffroyi,age_of_maturity_d_cat,high).
+trait(leopardus_geoffroyi,age_of_maturity_d_cat,medium).
 trait(leopardus_geoffroyi,litter_clutch_size_cat,medium).
 trait(leopardus_geoffroyi,litters_or_clutches_per_y_cat,medium).
 trait(leopardus_geoffroyi,diet_breadth_cat,medium).
@@ -687,7 +626,7 @@ trait(leopardus_pardalis,adult_body_mass_g_median_cat,high).
 trait(leopardus_pardalis,home_range_km2_cat,high).
 trait(leopardus_pardalis,longevity_y_cat,high).
 trait(leopardus_pardalis,age_of_maturity_d_cat,high).
-trait(leopardus_pardalis,litter_clutch_size_cat,medium).
+trait(leopardus_pardalis,litter_clutch_size_cat,low).
 trait(leopardus_pardalis,litters_or_clutches_per_y_cat,low).
 trait(leopardus_pardalis,diet_breadth_cat,medium).
 trait(leopardus_pardalis,habitat_breadth_cat,high).
@@ -726,7 +665,7 @@ trait(lontra_longicaudis,longevity_y_cat,medium).
 trait(lontra_longicaudis,litter_clutch_size_cat,medium).
 trait(lontra_longicaudis,diet_breadth_cat,medium).
 trait(lontra_longicaudis,habitat_breadth_cat,high).
-trait(lutreolina_crassicaudata,adult_body_mass_g_median_cat,medium).
+trait(lutreolina_crassicaudata,adult_body_mass_g_median_cat,low).
 trait(lutreolina_crassicaudata,home_range_km2_cat,low).
 trait(lutreolina_crassicaudata,longevity_y_cat,low).
 trait(lutreolina_crassicaudata,age_of_maturity_d_cat,low).
@@ -796,7 +735,7 @@ trait(mazama_nana,adult_body_mass_g_median_cat,high).
 trait(mazama_nana,longevity_y_cat,high).
 trait(mazama_nana,diet_breadth_cat,low).
 trait(mazama_nana,habitat_breadth_cat,low).
-trait(metachirus_nudicaudatus,adult_body_mass_g_median_cat,medium).
+trait(metachirus_nudicaudatus,adult_body_mass_g_median_cat,low).
 trait(metachirus_nudicaudatus,home_range_km2_cat,medium).
 trait(metachirus_nudicaudatus,longevity_y_cat,low).
 trait(metachirus_nudicaudatus,litter_clutch_size_cat,high).
@@ -807,7 +746,7 @@ trait(mico_melanurus,adult_body_mass_g_median_cat,low).
 trait(mico_melanurus,home_range_km2_cat,medium).
 trait(mico_melanurus,longevity_y_cat,high).
 trait(mico_melanurus,age_of_maturity_d_cat,high).
-trait(mico_melanurus,litter_clutch_size_cat,medium).
+trait(mico_melanurus,litter_clutch_size_cat,low).
 trait(mico_melanurus,litters_or_clutches_per_y_cat,high).
 trait(mico_melanurus,diet_breadth_cat,medium).
 trait(mico_melanurus,habitat_breadth_cat,low).
@@ -820,23 +759,6 @@ trait(microtus_mexicanus,home_range_km2_cat,low).
 trait(microtus_mexicanus,litter_clutch_size_cat,medium).
 trait(microtus_mexicanus,diet_breadth_cat,low).
 trait(microtus_mexicanus,habitat_breadth_cat,low).
-trait(mimon_bennettii,adult_body_mass_g_median_cat,low).
-trait(mimon_bennettii,litter_clutch_size_cat,low).
-trait(mimon_bennettii,litters_or_clutches_per_y_cat,low).
-trait(mimon_bennettii,diet_breadth_cat,high).
-trait(mimon_bennettii,habitat_breadth_cat,medium).
-trait(molossus_molossus,adult_body_mass_g_median_cat,low).
-trait(molossus_molossus,longevity_y_cat,low).
-trait(molossus_molossus,age_of_maturity_d_cat,low).
-trait(molossus_molossus,litter_clutch_size_cat,low).
-trait(molossus_molossus,litters_or_clutches_per_y_cat,medium).
-trait(molossus_molossus,diet_breadth_cat,low).
-trait(molossus_molossus,habitat_breadth_cat,high).
-trait(molossus_rufus,adult_body_mass_g_median_cat,low).
-trait(molossus_rufus,litter_clutch_size_cat,low).
-trait(molossus_rufus,litters_or_clutches_per_y_cat,low).
-trait(molossus_rufus,diet_breadth_cat,low).
-trait(molossus_rufus,habitat_breadth_cat,high).
 trait(mus_musculus,adult_body_mass_g_median_cat,low).
 trait(mus_musculus,home_range_km2_cat,low).
 trait(mus_musculus,longevity_y_cat,low).
@@ -861,9 +783,6 @@ trait(myocastor_coypus,litter_clutch_size_cat,high).
 trait(myocastor_coypus,litters_or_clutches_per_y_cat,high).
 trait(myocastor_coypus,diet_breadth_cat,low).
 trait(myocastor_coypus,habitat_breadth_cat,medium).
-trait(myotis_ruber,adult_body_mass_g_median_cat,low).
-trait(myotis_ruber,diet_breadth_cat,low).
-trait(myotis_ruber,habitat_breadth_cat,low).
 trait(myrmecophaga_tridactyla,adult_body_mass_g_median_cat,high).
 trait(myrmecophaga_tridactyla,home_range_km2_cat,high).
 trait(myrmecophaga_tridactyla,longevity_y_cat,high).
@@ -872,7 +791,7 @@ trait(myrmecophaga_tridactyla,litter_clutch_size_cat,low).
 trait(myrmecophaga_tridactyla,litters_or_clutches_per_y_cat,medium).
 trait(myrmecophaga_tridactyla,diet_breadth_cat,low).
 trait(myrmecophaga_tridactyla,habitat_breadth_cat,medium).
-trait(nasua_narica,adult_body_mass_g_median_cat,high).
+trait(nasua_narica,adult_body_mass_g_median_cat,medium).
 trait(nasua_narica,home_range_km2_cat,medium).
 trait(nasua_narica,longevity_y_cat,high).
 trait(nasua_narica,age_of_maturity_d_cat,high).
@@ -887,7 +806,7 @@ trait(nasua_nasua,age_of_maturity_d_cat,high).
 trait(nasua_nasua,litter_clutch_size_cat,high).
 trait(nasua_nasua,litters_or_clutches_per_y_cat,medium).
 trait(nasua_nasua,diet_breadth_cat,medium).
-trait(nasua_nasua,habitat_breadth_cat,low).
+trait(nasua_nasua,habitat_breadth_cat,medium).
 trait(nectomys_squamipes,adult_body_mass_g_median_cat,low).
 trait(nectomys_squamipes,home_range_km2_cat,low).
 trait(nectomys_squamipes,longevity_y_cat,low).
@@ -900,33 +819,19 @@ trait(neotoma_mexicana,age_of_maturity_d_cat,low).
 trait(neotoma_mexicana,litter_clutch_size_cat,medium).
 trait(neotoma_mexicana,litters_or_clutches_per_y_cat,medium).
 trait(neotoma_mexicana,diet_breadth_cat,medium).
-trait(neotoma_mexicana,habitat_breadth_cat,low).
-trait(noctilio_albiventris,adult_body_mass_g_median_cat,low).
-trait(noctilio_albiventris,longevity_y_cat,medium).
-trait(noctilio_albiventris,age_of_maturity_d_cat,medium).
-trait(noctilio_albiventris,litter_clutch_size_cat,low).
-trait(noctilio_albiventris,litters_or_clutches_per_y_cat,low).
-trait(noctilio_albiventris,diet_breadth_cat,low).
-trait(noctilio_albiventris,habitat_breadth_cat,medium).
-trait(noctilio_leporinus,adult_body_mass_g_median_cat,low).
-trait(noctilio_leporinus,longevity_y_cat,medium).
-trait(noctilio_leporinus,age_of_maturity_d_cat,medium).
-trait(noctilio_leporinus,litter_clutch_size_cat,low).
-trait(noctilio_leporinus,litters_or_clutches_per_y_cat,low).
-trait(noctilio_leporinus,diet_breadth_cat,low).
-trait(noctilio_leporinus,habitat_breadth_cat,high).
+trait(neotoma_mexicana,habitat_breadth_cat,medium).
 trait(oligoryzomys_flavescens,adult_body_mass_g_median_cat,low).
 trait(oligoryzomys_flavescens,litter_clutch_size_cat,high).
 trait(oligoryzomys_flavescens,diet_breadth_cat,medium).
 trait(oligoryzomys_flavescens,habitat_breadth_cat,medium).
 trait(oligoryzomys_nigripes,adult_body_mass_g_median_cat,low).
 trait(oligoryzomys_nigripes,age_of_maturity_d_cat,low).
-trait(oligoryzomys_nigripes,litter_clutch_size_cat,high).
+trait(oligoryzomys_nigripes,litter_clutch_size_cat,medium).
 trait(oligoryzomys_nigripes,diet_breadth_cat,medium).
 trait(oligoryzomys_nigripes,habitat_breadth_cat,medium).
-trait(orthogeomys_hispidus,adult_body_mass_g_median_cat,medium).
+trait(orthogeomys_hispidus,adult_body_mass_g_median_cat,low).
 trait(orthogeomys_hispidus,age_of_maturity_d_cat,low).
-trait(orthogeomys_hispidus,litter_clutch_size_cat,medium).
+trait(orthogeomys_hispidus,litter_clutch_size_cat,low).
 trait(orthogeomys_hispidus,diet_breadth_cat,low).
 trait(orthogeomys_hispidus,habitat_breadth_cat,low).
 trait(otospermophilus_variegatus,adult_body_mass_g_median_cat,medium).
@@ -936,7 +841,7 @@ trait(otospermophilus_variegatus,age_of_maturity_d_cat,medium).
 trait(otospermophilus_variegatus,litter_clutch_size_cat,high).
 trait(otospermophilus_variegatus,litters_or_clutches_per_y_cat,medium).
 trait(otospermophilus_variegatus,diet_breadth_cat,medium).
-trait(otospermophilus_variegatus,habitat_breadth_cat,low).
+trait(otospermophilus_variegatus,habitat_breadth_cat,medium).
 trait(ozotoceros_bezoarticus,adult_body_mass_g_median_cat,high).
 trait(ozotoceros_bezoarticus,home_range_km2_cat,high).
 trait(ozotoceros_bezoarticus,longevity_y_cat,high).
@@ -957,7 +862,7 @@ trait(pecari_tajacu,adult_body_mass_g_median_cat,high).
 trait(pecari_tajacu,home_range_km2_cat,high).
 trait(pecari_tajacu,longevity_y_cat,high).
 trait(pecari_tajacu,age_of_maturity_d_cat,medium).
-trait(pecari_tajacu,litter_clutch_size_cat,medium).
+trait(pecari_tajacu,litter_clutch_size_cat,low).
 trait(pecari_tajacu,litters_or_clutches_per_y_cat,medium).
 trait(pecari_tajacu,diet_breadth_cat,high).
 trait(pecari_tajacu,habitat_breadth_cat,high).
@@ -967,7 +872,7 @@ trait(perognathus_flavus,longevity_y_cat,low).
 trait(perognathus_flavus,litter_clutch_size_cat,high).
 trait(perognathus_flavus,litters_or_clutches_per_y_cat,medium).
 trait(perognathus_flavus,diet_breadth_cat,medium).
-trait(perognathus_flavus,habitat_breadth_cat,low).
+trait(perognathus_flavus,habitat_breadth_cat,medium).
 trait(peromyscus_difficilis,adult_body_mass_g_median_cat,low).
 trait(peromyscus_difficilis,longevity_y_cat,low).
 trait(peromyscus_difficilis,age_of_maturity_d_cat,low).
@@ -987,11 +892,11 @@ trait(peromyscus_truei,adult_body_mass_g_median_cat,low).
 trait(peromyscus_truei,home_range_km2_cat,low).
 trait(peromyscus_truei,longevity_y_cat,low).
 trait(peromyscus_truei,age_of_maturity_d_cat,low).
-trait(peromyscus_truei,litter_clutch_size_cat,high).
+trait(peromyscus_truei,litter_clutch_size_cat,medium).
 trait(peromyscus_truei,litters_or_clutches_per_y_cat,high).
 trait(peromyscus_truei,diet_breadth_cat,high).
 trait(peromyscus_truei,habitat_breadth_cat,medium).
-trait(philander_frenatus,adult_body_mass_g_median_cat,medium).
+trait(philander_frenatus,adult_body_mass_g_median_cat,low).
 trait(philander_frenatus,home_range_km2_cat,medium).
 trait(philander_frenatus,longevity_y_cat,low).
 trait(philander_frenatus,age_of_maturity_d_cat,low).
@@ -999,7 +904,7 @@ trait(philander_frenatus,litter_clutch_size_cat,high).
 trait(philander_frenatus,litters_or_clutches_per_y_cat,high).
 trait(philander_frenatus,diet_breadth_cat,high).
 trait(philander_frenatus,habitat_breadth_cat,medium).
-trait(philander_opossum,adult_body_mass_g_median_cat,medium).
+trait(philander_opossum,adult_body_mass_g_median_cat,low).
 trait(philander_opossum,home_range_km2_cat,low).
 trait(philander_opossum,longevity_y_cat,low).
 trait(philander_opossum,age_of_maturity_d_cat,low).
@@ -1007,24 +912,6 @@ trait(philander_opossum,litter_clutch_size_cat,high).
 trait(philander_opossum,litters_or_clutches_per_y_cat,high).
 trait(philander_opossum,diet_breadth_cat,high).
 trait(philander_opossum,habitat_breadth_cat,medium).
-trait(phyllostomus_hastatus,adult_body_mass_g_median_cat,low).
-trait(phyllostomus_hastatus,longevity_y_cat,high).
-trait(phyllostomus_hastatus,age_of_maturity_d_cat,high).
-trait(phyllostomus_hastatus,litter_clutch_size_cat,low).
-trait(phyllostomus_hastatus,litters_or_clutches_per_y_cat,low).
-trait(phyllostomus_hastatus,diet_breadth_cat,medium).
-trait(phyllostomus_hastatus,habitat_breadth_cat,high).
-trait(platyrrhinus_lineatus,adult_body_mass_g_median_cat,low).
-trait(platyrrhinus_lineatus,longevity_y_cat,medium).
-trait(platyrrhinus_lineatus,litter_clutch_size_cat,low).
-trait(platyrrhinus_lineatus,litters_or_clutches_per_y_cat,medium).
-trait(platyrrhinus_lineatus,diet_breadth_cat,low).
-trait(platyrrhinus_lineatus,habitat_breadth_cat,high).
-trait(platyrrhinus_recifinus,adult_body_mass_g_median_cat,low).
-trait(platyrrhinus_recifinus,litter_clutch_size_cat,low).
-trait(platyrrhinus_recifinus,litters_or_clutches_per_y_cat,medium).
-trait(platyrrhinus_recifinus,diet_breadth_cat,low).
-trait(platyrrhinus_recifinus,habitat_breadth_cat,medium).
 trait(potos_flavus,adult_body_mass_g_median_cat,medium).
 trait(potos_flavus,home_range_km2_cat,medium).
 trait(potos_flavus,longevity_y_cat,high).
@@ -1032,7 +919,7 @@ trait(potos_flavus,age_of_maturity_d_cat,high).
 trait(potos_flavus,litter_clutch_size_cat,low).
 trait(potos_flavus,litters_or_clutches_per_y_cat,low).
 trait(potos_flavus,diet_breadth_cat,medium).
-trait(potos_flavus,habitat_breadth_cat,low).
+trait(potos_flavus,habitat_breadth_cat,medium).
 trait(priodontes_maximus,adult_body_mass_g_median_cat,high).
 trait(priodontes_maximus,home_range_km2_cat,high).
 trait(priodontes_maximus,longevity_y_cat,medium).
@@ -1042,8 +929,8 @@ trait(priodontes_maximus,diet_breadth_cat,low).
 trait(priodontes_maximus,habitat_breadth_cat,medium).
 trait(procyon_cancrivorus,adult_body_mass_g_median_cat,high).
 trait(procyon_cancrivorus,home_range_km2_cat,high).
-trait(procyon_cancrivorus,longevity_y_cat,high).
-trait(procyon_cancrivorus,age_of_maturity_d_cat,high).
+trait(procyon_cancrivorus,longevity_y_cat,medium).
+trait(procyon_cancrivorus,age_of_maturity_d_cat,medium).
 trait(procyon_cancrivorus,litter_clutch_size_cat,medium).
 trait(procyon_cancrivorus,litters_or_clutches_per_y_cat,low).
 trait(procyon_cancrivorus,diet_breadth_cat,high).
@@ -1088,7 +975,7 @@ trait(reithrodontomys_megalotis,litter_clutch_size_cat,high).
 trait(reithrodontomys_megalotis,litters_or_clutches_per_y_cat,high).
 trait(reithrodontomys_megalotis,diet_breadth_cat,low).
 trait(reithrodontomys_megalotis,habitat_breadth_cat,high).
-trait(saguinus_midas,adult_body_mass_g_median_cat,medium).
+trait(saguinus_midas,adult_body_mass_g_median_cat,low).
 trait(saguinus_midas,home_range_km2_cat,medium).
 trait(saguinus_midas,longevity_y_cat,medium).
 trait(saguinus_midas,age_of_maturity_d_cat,high).
@@ -1133,27 +1020,27 @@ trait(sciurus_aestuans,longevity_y_cat,low).
 trait(sciurus_aestuans,litter_clutch_size_cat,medium).
 trait(sciurus_aestuans,diet_breadth_cat,medium).
 trait(sciurus_aestuans,habitat_breadth_cat,low).
-trait(sciurus_aureogaster,adult_body_mass_g_median_cat,medium).
+trait(sciurus_aureogaster,adult_body_mass_g_median_cat,low).
 trait(sciurus_aureogaster,home_range_km2_cat,low).
 trait(sciurus_aureogaster,longevity_y_cat,medium).
-trait(sciurus_aureogaster,litter_clutch_size_cat,medium).
+trait(sciurus_aureogaster,litter_clutch_size_cat,low).
 trait(sciurus_aureogaster,diet_breadth_cat,medium).
-trait(sciurus_aureogaster,habitat_breadth_cat,low).
+trait(sciurus_aureogaster,habitat_breadth_cat,medium).
 trait(sciurus_granatensis,adult_body_mass_g_median_cat,low).
 trait(sciurus_granatensis,home_range_km2_cat,low).
 trait(sciurus_granatensis,longevity_y_cat,medium).
-trait(sciurus_granatensis,litter_clutch_size_cat,medium).
+trait(sciurus_granatensis,litter_clutch_size_cat,low).
 trait(sciurus_granatensis,litters_or_clutches_per_y_cat,medium).
 trait(sciurus_granatensis,diet_breadth_cat,medium).
 trait(sciurus_granatensis,habitat_breadth_cat,low).
 trait(sciurus_igniventris,adult_body_mass_g_median_cat,medium).
 trait(sciurus_igniventris,diet_breadth_cat,medium).
 trait(sciurus_igniventris,habitat_breadth_cat,low).
-trait(sciurus_stramineus,adult_body_mass_g_median_cat,medium).
+trait(sciurus_stramineus,adult_body_mass_g_median_cat,low).
 trait(sciurus_stramineus,longevity_y_cat,low).
 trait(sciurus_stramineus,diet_breadth_cat,medium).
 trait(sciurus_stramineus,habitat_breadth_cat,low).
-trait(sciurus_variegatoides,adult_body_mass_g_median_cat,medium).
+trait(sciurus_variegatoides,adult_body_mass_g_median_cat,low).
 trait(sciurus_variegatoides,longevity_y_cat,medium).
 trait(sciurus_variegatoides,age_of_maturity_d_cat,low).
 trait(sciurus_variegatoides,litter_clutch_size_cat,high).
@@ -1175,13 +1062,6 @@ trait(speothos_venaticus,litter_clutch_size_cat,high).
 trait(speothos_venaticus,litters_or_clutches_per_y_cat,medium).
 trait(speothos_venaticus,diet_breadth_cat,low).
 trait(speothos_venaticus,habitat_breadth_cat,medium).
-trait(sturnira_lilium,adult_body_mass_g_median_cat,low).
-trait(sturnira_lilium,longevity_y_cat,medium).
-trait(sturnira_lilium,age_of_maturity_d_cat,medium).
-trait(sturnira_lilium,litter_clutch_size_cat,low).
-trait(sturnira_lilium,litters_or_clutches_per_y_cat,medium).
-trait(sturnira_lilium,diet_breadth_cat,low).
-trait(sturnira_lilium,habitat_breadth_cat,high).
 trait(sylvilagus_audubonii,adult_body_mass_g_median_cat,medium).
 trait(sylvilagus_audubonii,home_range_km2_cat,low).
 trait(sylvilagus_audubonii,longevity_y_cat,low).
@@ -1204,19 +1084,12 @@ trait(sylvilagus_cunicularius,diet_breadth_cat,low).
 trait(sylvilagus_cunicularius,habitat_breadth_cat,medium).
 trait(sylvilagus_floridanus,adult_body_mass_g_median_cat,medium).
 trait(sylvilagus_floridanus,home_range_km2_cat,low).
-trait(sylvilagus_floridanus,longevity_y_cat,low).
+trait(sylvilagus_floridanus,longevity_y_cat,medium).
 trait(sylvilagus_floridanus,age_of_maturity_d_cat,low).
 trait(sylvilagus_floridanus,litter_clutch_size_cat,high).
 trait(sylvilagus_floridanus,litters_or_clutches_per_y_cat,high).
 trait(sylvilagus_floridanus,diet_breadth_cat,low).
 trait(sylvilagus_floridanus,habitat_breadth_cat,medium).
-trait(tadarida_brasiliensis,adult_body_mass_g_median_cat,low).
-trait(tadarida_brasiliensis,longevity_y_cat,medium).
-trait(tadarida_brasiliensis,age_of_maturity_d_cat,medium).
-trait(tadarida_brasiliensis,litter_clutch_size_cat,low).
-trait(tadarida_brasiliensis,litters_or_clutches_per_y_cat,low).
-trait(tadarida_brasiliensis,diet_breadth_cat,low).
-trait(tadarida_brasiliensis,habitat_breadth_cat,high).
 trait(tamandua_mexicana,adult_body_mass_g_median_cat,high).
 trait(tamandua_mexicana,home_range_km2_cat,medium).
 trait(tamandua_mexicana,longevity_y_cat,medium).
@@ -1247,7 +1120,7 @@ trait(tayassu_pecari,age_of_maturity_d_cat,high).
 trait(tayassu_pecari,litter_clutch_size_cat,medium).
 trait(tayassu_pecari,diet_breadth_cat,high).
 trait(tayassu_pecari,habitat_breadth_cat,high).
-trait(urocyon_cinereoargenteus,adult_body_mass_g_median_cat,high).
+trait(urocyon_cinereoargenteus,adult_body_mass_g_median_cat,medium).
 trait(urocyon_cinereoargenteus,home_range_km2_cat,high).
 trait(urocyon_cinereoargenteus,longevity_y_cat,medium).
 trait(urocyon_cinereoargenteus,age_of_maturity_d_cat,medium).
@@ -1261,7 +1134,7 @@ trait(xerospermophilus_perotensis,litters_or_clutches_per_y_cat,low).
 trait(xerospermophilus_perotensis,diet_breadth_cat,medium).
 trait(xerospermophilus_perotensis,habitat_breadth_cat,medium).
 trait(zaedyus_pichiy,adult_body_mass_g_median_cat,medium).
-trait(zaedyus_pichiy,longevity_y_cat,low).
+trait(zaedyus_pichiy,longevity_y_cat,medium).
 trait(zaedyus_pichiy,age_of_maturity_d_cat,medium).
 trait(zaedyus_pichiy,litter_clutch_size_cat,medium).
 trait(zaedyus_pichiy,diet_breadth_cat,low).
@@ -1271,21 +1144,17 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % Positive examples: species with high risk
 % =========================================================
 
-#pos({roadkill_risk(artibeus_lituratus, high)}, {}).
 #pos({roadkill_risk(atelocynus_microtis, high)}, {}).
 #pos({roadkill_risk(cabassous_tatouay, high)}, {}).
 #pos({roadkill_risk(caluromys_derbianus, high)}, {}).
-#pos({roadkill_risk(carollia_perspicillata, high)}, {}).
 #pos({roadkill_risk(cerdocyon_thous, high)}, {}).
 #pos({roadkill_risk(chaetophractus_villosus, high)}, {}).
 #pos({roadkill_risk(choloepus_hoffmanni, high)}, {}).
-#pos({roadkill_risk(coendou_mexicanus, high)}, {}).
 #pos({roadkill_risk(coendou_spinosus, high)}, {}).
 #pos({roadkill_risk(conepatus_chinga, high)}, {}).
 #pos({roadkill_risk(conepatus_semistriatus, high)}, {}).
 #pos({roadkill_risk(cratogeomys_fulvescens, high)}, {}).
 #pos({roadkill_risk(dasypus_hybridus, high)}, {}).
-#pos({roadkill_risk(dasypus_novemcinctus, high)}, {}).
 #pos({roadkill_risk(didelphis_albiventris, high)}, {}).
 #pos({roadkill_risk(didelphis_aurita, high)}, {}).
 #pos({roadkill_risk(didelphis_marsupialis, high)}, {}).
@@ -1295,7 +1164,6 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 #pos({roadkill_risk(dolichotis_patagonum, high)}, {}).
 #pos({roadkill_risk(euphractus_sexcinctus, high)}, {}).
 #pos({roadkill_risk(galea_flavidens, high)}, {}).
-#pos({roadkill_risk(glossophaga_soricina, high)}, {}).
 #pos({roadkill_risk(lama_guanicoe, high)}, {}).
 #pos({roadkill_risk(leopardus_geoffroyi, high)}, {}).
 #pos({roadkill_risk(lycalopex_culpaeus, high)}, {}).
@@ -1312,7 +1180,6 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 #pos({roadkill_risk(peromyscus_difficilis, high)}, {}).
 #pos({roadkill_risk(peromyscus_maniculatus, high)}, {}).
 #pos({roadkill_risk(philander_opossum, high)}, {}).
-#pos({roadkill_risk(platyrrhinus_lineatus, high)}, {}).
 #pos({roadkill_risk(rattus_rattus, high)}, {}).
 #pos({roadkill_risk(sciurus_aureogaster, high)}, {}).
 #pos({roadkill_risk(sciurus_granatensis, high)}, {}).
@@ -1327,12 +1194,110 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 #pos({roadkill_risk(zaedyus_pichiy, high)}, {}).
 
 % =========================================================
+% Negative examples: with low/medium risk
+% =========================================================
+
+#neg({roadkill_risk(alouatta_caraya, high)}, {}).
+#neg({roadkill_risk(alouatta_guariba, high)}, {}).
+#neg({roadkill_risk(alouatta_palliata, high)}, {}).
+#neg({roadkill_risk(alouatta_seniculus, high)}, {}).
+#neg({roadkill_risk(bassaricyon_gabbii, high)}, {}).
+#neg({roadkill_risk(bassariscus_astutus, high)}, {}).
+#neg({roadkill_risk(blastocerus_dichotomus, high)}, {}).
+#neg({roadkill_risk(bradypus_tridactylus, high)}, {}).
+#neg({roadkill_risk(bradypus_variegatus, high)}, {}).
+#neg({roadkill_risk(cabassous_unicinctus, high)}, {}).
+#neg({roadkill_risk(callithrix_geoffroyi, high)}, {}).
+#neg({roadkill_risk(callithrix_jacchus, high)}, {}).
+#neg({roadkill_risk(callithrix_penicillata, high)}, {}).
+#neg({roadkill_risk(caluromys_lanatus, high)}, {}).
+#neg({roadkill_risk(caluromys_philander, high)}, {}).
+#neg({roadkill_risk(canis_latrans, high)}, {}).
+#neg({roadkill_risk(cavia_aperea, high)}, {}).
+#neg({roadkill_risk(chaetomys_subspinosus, high)}, {}).
+#neg({roadkill_risk(chironectes_minimus, high)}, {}).
+#neg({roadkill_risk(choloepus_didactylus, high)}, {}).
+#neg({roadkill_risk(chrysocyon_brachyurus, high)}, {}).
+#neg({roadkill_risk(coendou_insidiosus, high)}, {}).
+#neg({roadkill_risk(coendou_mexicanus, high)}, {}).
+#neg({roadkill_risk(coendou_prehensilis, high)}, {}).
+#neg({roadkill_risk(ctenomys_minutus, high)}, {}).
+#neg({roadkill_risk(cuniculus_paca, high)}, {}).
+#neg({roadkill_risk(cyclopes_didactylus, high)}, {}).
+#neg({roadkill_risk(dasyprocta_azarae, high)}, {}).
+#neg({roadkill_risk(dasyprocta_fuliginosa, high)}, {}).
+#neg({roadkill_risk(dasyprocta_leporina, high)}, {}).
+#neg({roadkill_risk(dasypus_kappleri, high)}, {}).
+#neg({roadkill_risk(dasypus_novemcinctus, high)}, {}).
+#neg({roadkill_risk(dasypus_sabanicola, high)}, {}).
+#neg({roadkill_risk(dasypus_septemcinctus, high)}, {}).
+#neg({roadkill_risk(eira_barbara, high)}, {}).
+#neg({roadkill_risk(galictis_cuja, high)}, {}).
+#neg({roadkill_risk(galictis_vittata, high)}, {}).
+#neg({roadkill_risk(gracilinanus_agilis, high)}, {}).
+#neg({roadkill_risk(herpailurus_yagouaroundi, high)}, {}).
+#neg({roadkill_risk(heterogeomys_cherriei, high)}, {}).
+#neg({roadkill_risk(heteromys_irroratus, high)}, {}).
+#neg({roadkill_risk(holochilus_brasiliensis, high)}, {}).
+#neg({roadkill_risk(hydrochoerus_hydrochaeris, high)}, {}).
+#neg({roadkill_risk(kerodon_rupestris, high)}, {}).
+#neg({roadkill_risk(leopardus_colocolo, high)}, {}).
+#neg({roadkill_risk(leopardus_pardalis, high)}, {}).
+#neg({roadkill_risk(leopardus_tigrinus, high)}, {}).
+#neg({roadkill_risk(leopardus_wiedii, high)}, {}).
+#neg({roadkill_risk(lepus_callotis, high)}, {}).
+#neg({roadkill_risk(lepus_europaeus, high)}, {}).
+#neg({roadkill_risk(lontra_longicaudis, high)}, {}).
+#neg({roadkill_risk(lutreolina_crassicaudata, high)}, {}).
+#neg({roadkill_risk(lycalopex_vetulus, high)}, {}).
+#neg({roadkill_risk(marmosa_murina, high)}, {}).
+#neg({roadkill_risk(mazama_americana, high)}, {}).
+#neg({roadkill_risk(mazama_gouazoubira, high)}, {}).
+#neg({roadkill_risk(mazama_nana, high)}, {}).
+#neg({roadkill_risk(metachirus_nudicaudatus, high)}, {}).
+#neg({roadkill_risk(mico_melanurus, high)}, {}).
+#neg({roadkill_risk(microsciurus_flaviventer, high)}, {}).
+#neg({roadkill_risk(microtus_mexicanus, high)}, {}).
+#neg({roadkill_risk(myocastor_coypus, high)}, {}).
+#neg({roadkill_risk(nasua_narica, high)}, {}).
+#neg({roadkill_risk(nasua_nasua, high)}, {}).
+#neg({roadkill_risk(nectomys_squamipes, high)}, {}).
+#neg({roadkill_risk(oligoryzomys_nigripes, high)}, {}).
+#neg({roadkill_risk(otospermophilus_variegatus, high)}, {}).
+#neg({roadkill_risk(ozotoceros_bezoarticus, high)}, {}).
+#neg({roadkill_risk(panthera_onca, high)}, {}).
+#neg({roadkill_risk(pecari_tajacu, high)}, {}).
+#neg({roadkill_risk(peromyscus_truei, high)}, {}).
+#neg({roadkill_risk(philander_frenatus, high)}, {}).
+#neg({roadkill_risk(potos_flavus, high)}, {}).
+#neg({roadkill_risk(priodontes_maximus, high)}, {}).
+#neg({roadkill_risk(procyon_cancrivorus, high)}, {}).
+#neg({roadkill_risk(procyon_lotor, high)}, {}).
+#neg({roadkill_risk(puma_concolor, high)}, {}).
+#neg({roadkill_risk(rattus_norvegicus, high)}, {}).
+#neg({roadkill_risk(reithrodontomys_megalotis, high)}, {}).
+#neg({roadkill_risk(saguinus_midas, high)}, {}).
+#neg({roadkill_risk(saimiri_sciureus, high)}, {}).
+#neg({roadkill_risk(sapajus_apella, high)}, {}).
+#neg({roadkill_risk(sapajus_cay, high)}, {}).
+#neg({roadkill_risk(sapajus_libidinosus, high)}, {}).
+#neg({roadkill_risk(sciurus_aestuans, high)}, {}).
+#neg({roadkill_risk(sciurus_igniventris, high)}, {}).
+#neg({roadkill_risk(sciurus_variegatoides, high)}, {}).
+#neg({roadkill_risk(speothos_venaticus, high)}, {}).
+#neg({roadkill_risk(sylvilagus_brasiliensis, high)}, {}).
+#neg({roadkill_risk(sylvilagus_cunicularius, high)}, {}).
+#neg({roadkill_risk(tapirus_terrestris, high)}, {}).
+#neg({roadkill_risk(tayassu_pecari, high)}, {}).
+
+% =========================================================
 % ILASP constraints
 % =========================================================
 
-#maxv(1).
-#max_penalty(11).
-
+#maxv(3).
+#max_penalty(10).
+% =========================================================
 % Constraint to avoid repeated traits in the same rule
+% =========================================================
 
 #bias(":- trait(Species,Trait,Value1), trait(Species,Trait,Value2), Value1 != Value2.").
