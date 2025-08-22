@@ -1294,7 +1294,7 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % ILASP constraints
 % =========================================================
 
-#maxv(3).
+#maxv(1).
 #max_penalty(10).
 % =========================================================
 % Constraint to avoid repeated traits in the same rule
