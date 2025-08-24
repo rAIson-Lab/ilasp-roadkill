@@ -1295,9 +1295,17 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % =========================================================
 
 #maxv(1).
+#max_rule_length(5). 
 #max_penalty(15).
-% =========================================================
-% Constraint to avoid repeated traits in the same rule
-% =========================================================
 
-#bias(":- trait(Species,Trait,Value1), trait(Species,Trait,Value2), Value1 != Value2.").
+
+#bias("
+    % Prohibited negation by failure in the body:
+    :- body(naf(trait(_,_,_))).
+
+    % Not repeating the same trait with different values twice
+    :- body(trait(S,T,V1)), body(trait(S,T,V2)), V1 != V2.
+
+    % Not repeating the same trait with the same value twice
+      :- body(trait(S,T,V)), body(trait(S,T,V)), dup_block.
+").
