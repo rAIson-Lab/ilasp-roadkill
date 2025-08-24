@@ -1295,9 +1295,7 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % =========================================================
 
 #maxv(1).
-#max_rule_length(5). 
 #max_penalty(15).
-
 
 #bias("
     % Prohibited negation by failure in the body:
