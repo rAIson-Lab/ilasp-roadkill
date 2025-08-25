@@ -1,7 +1,7 @@
 #modeha(roadkill_risk(var(species),const(risk_category))).
 
 % Mode declarations
-#modeb(3,trait(var(species),const(general_trait_name),const(general_trait_value))).
+#modeb(3,trait(var(species),const(general_trait_name),const(general_trait_value),(positive))).
 
 % Constant declarations for trait names
 #constant(general_trait_name,adult_body_mass_g_median_cat).
@@ -12,7 +12,6 @@
 #constant(general_trait_name,litters_or_clutches_per_y_cat).
 #constant(general_trait_name,diet_breadth_cat).
 #constant(general_trait_name,habitat_breadth_cat).
-
 
 % Constant declarations for trait values
 #constant(general_trait_value,low).
@@ -674,4 +673,4 @@ trait(urocyon_cinereoargenteus,habitat_breadth_cat,medium).
 #pos({roadkill_risk(tamandua_tetradactyla,high)},{roadkill_risk(tamandua_tetradactyla,low),roadkill_risk(tamandua_tetradactyla,medium)}).
 #pos({roadkill_risk(urocyon_cinereoargenteus,high)},{roadkill_risk(urocyon_cinereoargenteus,low),roadkill_risk(urocyon_cinereoargenteus,medium)}).
 #maxv(1).
-#max_penalty(1).
+#max_penalty(5).
