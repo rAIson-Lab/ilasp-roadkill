@@ -21,148 +21,6 @@
 #constant(general_trait_value,medium).
 #constant(general_trait_value,high).
 
-% Species
-#constant(species,alouatta_caraya).
-#constant(species,alouatta_guariba).
-#constant(species,alouatta_palliata).
-#constant(species,alouatta_seniculus).
-#constant(species,atelocynus_microtis).
-#constant(species,bassaricyon_gabbii).
-#constant(species,bassariscus_astutus).
-#constant(species,blastocerus_dichotomus).
-#constant(species,bradypus_tridactylus).
-#constant(species,bradypus_variegatus).
-#constant(species,cabassous_tatouay).
-#constant(species,cabassous_unicinctus).
-#constant(species,callithrix_geoffroyi).
-#constant(species,callithrix_jacchus).
-#constant(species,callithrix_penicillata).
-#constant(species,caluromys_derbianus).
-#constant(species,caluromys_lanatus).
-#constant(species,caluromys_philander).
-#constant(species,canis_latrans).
-#constant(species,cavia_aperea).
-#constant(species,cerdocyon_thous).
-#constant(species,chaetomys_subspinosus).
-#constant(species,chaetophractus_villosus).
-#constant(species,chironectes_minimus).
-#constant(species,choloepus_didactylus).
-#constant(species,choloepus_hoffmanni).
-#constant(species,chrysocyon_brachyurus).
-#constant(species,coendou_insidiosus).
-#constant(species,coendou_mexicanus).
-#constant(species,coendou_prehensilis).
-#constant(species,coendou_spinosus).
-#constant(species,conepatus_chinga).
-#constant(species,conepatus_semistriatus).
-#constant(species,cratogeomys_fulvescens).
-#constant(species,ctenomys_minutus).
-#constant(species,cuniculus_paca).
-#constant(species,cyclopes_didactylus).
-#constant(species,dasyprocta_azarae).
-#constant(species,dasyprocta_fuliginosa).
-#constant(species,dasyprocta_leporina).
-#constant(species,dasypus_hybridus).
-#constant(species,dasypus_kappleri).
-#constant(species,dasypus_novemcinctus).
-#constant(species,dasypus_sabanicola).
-#constant(species,dasypus_septemcinctus).
-#constant(species,didelphis_albiventris).
-#constant(species,didelphis_aurita).
-#constant(species,didelphis_marsupialis).
-#constant(species,didelphis_pernigra).
-#constant(species,didelphis_virginiana).
-#constant(species,dipodomys_phillipsii).
-#constant(species,dolichotis_patagonum).
-#constant(species,eira_barbara).
-#constant(species,euphractus_sexcinctus).
-#constant(species,galea_flavidens).
-#constant(species,galictis_cuja).
-#constant(species,galictis_vittata).
-#constant(species,gracilinanus_agilis).
-#constant(species,herpailurus_yagouaroundi).
-#constant(species,heterogeomys_cherriei).
-#constant(species,heteromys_irroratus).
-#constant(species,holochilus_brasiliensis).
-#constant(species,hydrochoerus_hydrochaeris).
-#constant(species,kerodon_rupestris).
-#constant(species,lama_guanicoe).
-#constant(species,leopardus_colocolo).
-#constant(species,leopardus_geoffroyi).
-#constant(species,leopardus_pardalis).
-#constant(species,leopardus_tigrinus).
-#constant(species,leopardus_wiedii).
-#constant(species,lepus_callotis).
-#constant(species,lepus_europaeus).
-#constant(species,lontra_longicaudis).
-#constant(species,lutreolina_crassicaudata).
-#constant(species,lycalopex_culpaeus).
-#constant(species,lycalopex_griseus).
-#constant(species,lycalopex_gymnocercus).
-#constant(species,lycalopex_sechurae).
-#constant(species,lycalopex_vetulus).
-#constant(species,marmosa_murina).
-#constant(species,mazama_americana).
-#constant(species,mazama_gouazoubira).
-#constant(species,mazama_nana).
-#constant(species,metachirus_nudicaudatus).
-#constant(species,mico_melanurus).
-#constant(species,microsciurus_flaviventer).
-#constant(species,microtus_mexicanus).
-#constant(species,mus_musculus).
-#constant(species,mustela_frenata).
-#constant(species,myocastor_coypus).
-#constant(species,myrmecophaga_tridactyla).
-#constant(species,nasua_narica).
-#constant(species,nasua_nasua).
-#constant(species,nectomys_squamipes).
-#constant(species,neotoma_mexicana).
-#constant(species,oligoryzomys_flavescens).
-#constant(species,oligoryzomys_nigripes).
-#constant(species,orthogeomys_hispidus).
-#constant(species,otospermophilus_variegatus).
-#constant(species,ozotoceros_bezoarticus).
-#constant(species,panthera_onca).
-#constant(species,pecari_tajacu).
-#constant(species,perognathus_flavus).
-#constant(species,peromyscus_difficilis).
-#constant(species,peromyscus_maniculatus).
-#constant(species,peromyscus_truei).
-#constant(species,philander_frenatus).
-#constant(species,philander_opossum).
-#constant(species,potos_flavus).
-#constant(species,priodontes_maximus).
-#constant(species,procyon_cancrivorus).
-#constant(species,procyon_lotor).
-#constant(species,puma_concolor).
-#constant(species,rattus_norvegicus).
-#constant(species,rattus_rattus).
-#constant(species,reithrodontomys_megalotis).
-#constant(species,saguinus_midas).
-#constant(species,saimiri_sciureus).
-#constant(species,sapajus_apella).
-#constant(species,sapajus_cay).
-#constant(species,sapajus_libidinosus).
-#constant(species,sciurus_aestuans).
-#constant(species,sciurus_aureogaster).
-#constant(species,sciurus_granatensis).
-#constant(species,sciurus_igniventris).
-#constant(species,sciurus_stramineus).
-#constant(species,sciurus_variegatoides).
-#constant(species,sigmodon_hispidus).
-#constant(species,speothos_venaticus).
-#constant(species,sylvilagus_audubonii).
-#constant(species,sylvilagus_brasiliensis).
-#constant(species,sylvilagus_cunicularius).
-#constant(species,sylvilagus_floridanus).
-#constant(species,tamandua_mexicana).
-#constant(species,tamandua_tetradactyla).
-#constant(species,tapirus_terrestris).
-#constant(species,tayassu_pecari).
-#constant(species,urocyon_cinereoargenteus).
-#constant(species,xerospermophilus_perotensis).
-#constant(species,zaedyus_pichiy).
-
 % =========================================================
 % Mode declarations
 % =========================================================
@@ -1298,3 +1156,13 @@ roadkill_class(tayassu_pecari, mediumlow).
 #maxv(1).
 #max_penalty(15).
 
+% Para cada especie 'S' con un riesgo de atropello 'alto',
+% la hipótesis aprendida DEBE ser capaz de derivar 'roadkill_risk(S, high)'.
+% La hipótesis se penalizará si no lo hace.
+:- roadkill_class(S, high), not roadkill_risk(S, high).
+
+% Restricción para ejemplos negativos:
+% Para cada especie 'S' con un riesgo de atropello 'mediumlow',
+% la hipótesis aprendida NO DEBE derivar 'roadkill_risk(S, high)'.
+% La hipótesis se penalizará si lo hace.
+:- roadkill_class(S, mediumlow), roadkill_risk(S, high).
