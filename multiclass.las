@@ -680,3 +680,9 @@ trait(urocyon_cinereoargenteus,habitat_breadth_cat,medium).
 
 #maxv(1).
 #max_penalty(5).
+
+% =========================================================
+% Constraint to avoid repeated traits in the same rule
+% =========================================================
+
+#bias(":- trait(Species,Trait,Value1), trait(Species,Trait,Value2), Value1 != Value2.").
