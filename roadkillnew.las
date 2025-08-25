@@ -1145,151 +1145,151 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % Positive examples: species with high risk
 % =========================================================
 
-roadkill_class(atelocynus_microtis, high).
-roadkill_class(cabassous_tatouay, high).
-roadkill_class(caluromys_derbianus, high).
-roadkill_class(cerdocyon_thous, high).
-roadkill_class(chaetophractus_villosus, high).
-roadkill_class(choloepus_hoffmanni, high).
-roadkill_class(coendou_spinosus, high).
-roadkill_class(conepatus_chinga, high).
-roadkill_class(conepatus_semistriatus, high).
-roadkill_class(cratogeomys_fulvescens, high).
-roadkill_class(dasypus_hybridus, high).
-roadkill_class(didelphis_albiventris, high).
-roadkill_class(didelphis_aurita, high).
-roadkill_class(didelphis_marsupialis, high).
-roadkill_class(didelphis_pernigra, high).
-roadkill_class(didelphis_virginiana, high).
-roadkill_class(dipodomys_phillipsii, high).
-roadkill_class(dolichotis_patagonum, high).
-roadkill_class(euphractus_sexcinctus, high).
-roadkill_class(galea_flavidens, high).
-roadkill_class(lama_guanicoe, high).
-roadkill_class(leopardus_geoffroyi, high).
-roadkill_class(lycalopex_culpaeus, high).
-roadkill_class(lycalopex_griseus, high).
-roadkill_class(lycalopex_gymnocercus, high).
-roadkill_class(lycalopex_sechurae, high).
-roadkill_class(mus_musculus, high).
-roadkill_class(mustela_frenata, high).
-roadkill_class(myrmecophaga_tridactyla, high).
-roadkill_class(neotoma_mexicana, high).
-roadkill_class(oligoryzomys_flavescens, high).
-roadkill_class(orthogeomys_hispidus, high).
-roadkill_class(perognathus_flavus, high).
-roadkill_class(peromyscus_difficilis, high).
-roadkill_class(peromyscus_maniculatus, high).
-roadkill_class(philander_opossum, high).
-roadkill_class(rattus_rattus, high).
-roadkill_class(sciurus_aureogaster, high).
-roadkill_class(sciurus_granatensis, high).
-roadkill_class(sciurus_stramineus, high).
-roadkill_class(sigmodon_hispidus, high).
-roadkill_class(sylvilagus_audubonii, high).
-roadkill_class(sylvilagus_floridanus, high).
-roadkill_class(tamandua_mexicana, high).
-roadkill_class(tamandua_tetradactyla, high).
-roadkill_class(urocyon_cinereoargenteus, high).
-roadkill_class(xerospermophilus_perotensis, high).
-roadkill_class(zaedyus_pichiy, high).
+#pos({roadkill_risk(atelocynus_microtis, high)}, {}).
+#pos({roadkill_risk(cabassous_tatouay, high)}, {}).
+#pos({roadkill_risk(caluromys_derbianus, high)}, {}).
+#pos({roadkill_risk(cerdocyon_thous, high)}, {}).
+#pos({roadkill_risk(chaetophractus_villosus, high)}, {}).
+#pos({roadkill_risk(choloepus_hoffmanni, high)}, {}).
+#pos({roadkill_risk(coendou_spinosus, high)}, {}).
+#pos({roadkill_risk(conepatus_chinga, high)}, {}).
+#pos({roadkill_risk(conepatus_semistriatus, high)}, {}).
+#pos({roadkill_risk(cratogeomys_fulvescens, high)}, {}).
+#pos({roadkill_risk(dasypus_hybridus, high)}, {}).
+#pos({roadkill_risk(didelphis_albiventris, high)}, {}).
+#pos({roadkill_risk(didelphis_aurita, high)}, {}).
+#pos({roadkill_risk(didelphis_marsupialis, high)}, {}).
+#pos({roadkill_risk(didelphis_pernigra, high)}, {}).
+#pos({roadkill_risk(didelphis_virginiana, high)}, {}).
+#pos({roadkill_risk(dipodomys_phillipsii, high)}, {}).
+#pos({roadkill_risk(dolichotis_patagonum, high)}, {}).
+#pos({roadkill_risk(euphractus_sexcinctus, high)}, {}).
+#pos({roadkill_risk(galea_flavidens, high)}, {}).
+#pos({roadkill_risk(lama_guanicoe, high)}, {}).
+#pos({roadkill_risk(leopardus_geoffroyi, high)}, {}).
+#pos({roadkill_risk(lycalopex_culpaeus, high)}, {}).
+#pos({roadkill_risk(lycalopex_griseus, high)}, {}).
+#pos({roadkill_risk(lycalopex_gymnocercus, high)}, {}).
+#pos({roadkill_risk(lycalopex_sechurae, high)}, {}).
+#pos({roadkill_risk(mus_musculus, high)}, {}).
+#pos({roadkill_risk(mustela_frenata, high)}, {}).
+#pos({roadkill_risk(myrmecophaga_tridactyla, high)}, {}).
+#pos({roadkill_risk(neotoma_mexicana, high)}, {}).
+#pos({roadkill_risk(oligoryzomys_flavescens, high)}, {}).
+#pos({roadkill_risk(orthogeomys_hispidus, high)}, {}).
+#pos({roadkill_risk(perognathus_flavus, high)}, {}).
+#pos({roadkill_risk(peromyscus_difficilis, high)}, {}).
+#pos({roadkill_risk(peromyscus_maniculatus, high)}, {}).
+#pos({roadkill_risk(philander_opossum, high)}, {}).
+#pos({roadkill_risk(rattus_rattus, high)}, {}).
+#pos({roadkill_risk(sciurus_aureogaster, high)}, {}).
+#pos({roadkill_risk(sciurus_granatensis, high)}, {}).
+#pos({roadkill_risk(sciurus_stramineus, high)}, {}).
+#pos({roadkill_risk(sigmodon_hispidus, high)}, {}).
+#pos({roadkill_risk(sylvilagus_audubonii, high)}, {}).
+#pos({roadkill_risk(sylvilagus_floridanus, high)}, {}).
+#pos({roadkill_risk(tamandua_mexicana, high)}, {}).
+#pos({roadkill_risk(tamandua_tetradactyla, high)}, {}).
+#pos({roadkill_risk(urocyon_cinereoargenteus, high)}, {}).
+#pos({roadkill_risk(xerospermophilus_perotensis, high)}, {}).
+#pos({roadkill_risk(zaedyus_pichiy, high)}, {}).
 
 % =========================================================
 % Negative examples: with low/medium risk
 % =========================================================
 
-roadkill_class(alouatta_caraya, mediumlow).
-roadkill_class(alouatta_guariba, mediumlow).
-roadkill_class(alouatta_palliata, mediumlow).
-roadkill_class(alouatta_seniculus, mediumlow).
-roadkill_class(bassaricyon_gabbii, mediumlow).
-roadkill_class(bassariscus_astutus, mediumlow).
-roadkill_class(blastocerus_dichotomus, mediumlow).
-roadkill_class(bradypus_tridactylus, mediumlow).
-roadkill_class(bradypus_variegatus, mediumlow).
-roadkill_class(cabassous_unicinctus, mediumlow).
-roadkill_class(callithrix_geoffroyi, mediumlow).
-roadkill_class(callithrix_jacchus, mediumlow).
-roadkill_class(callithrix_penicillata, mediumlow).
-roadkill_class(caluromys_lanatus, mediumlow).
-roadkill_class(caluromys_philander, mediumlow).
-roadkill_class(canis_latrans, mediumlow).
-roadkill_class(cavia_aperea, mediumlow).
-roadkill_class(chaetomys_subspinosus, mediumlow).
-roadkill_class(chironectes_minimus, mediumlow).
-roadkill_class(choloepus_didactylus, mediumlow).
-roadkill_class(chrysocyon_brachyurus, mediumlow).
-roadkill_class(coendou_insidiosus, mediumlow).
-roadkill_class(coendou_mexicanus, mediumlow).
-roadkill_class(coendou_prehensilis, mediumlow).
-roadkill_class(ctenomys_minutus, mediumlow).
-roadkill_class(cuniculus_paca, mediumlow).
-roadkill_class(cyclopes_didactylus, mediumlow).
-roadkill_class(dasyprocta_azarae, mediumlow).
-roadkill_class(dasyprocta_fuliginosa, mediumlow).
-roadkill_class(dasyprocta_leporina, mediumlow).
-roadkill_class(dasypus_kappleri, mediumlow).
-roadkill_class(dasypus_novemcinctus, mediumlow).
-roadkill_class(dasypus_sabanicola, mediumlow).
-roadkill_class(dasypus_septemcinctus, mediumlow).
-roadkill_class(eira_barbara, mediumlow).
-roadkill_class(galictis_cuja, mediumlow).
-roadkill_class(galictis_vittata, mediumlow).
-roadkill_class(gracilinanus_agilis, mediumlow).
-roadkill_class(herpailurus_yagouaroundi, mediumlow).
-roadkill_class(heterogeomys_cherriei, mediumlow).
-roadkill_class(heteromys_irroratus, mediumlow).
-roadkill_class(holochilus_brasiliensis, mediumlow).
-roadkill_class(hydrochoerus_hydrochaeris, mediumlow).
-roadkill_class(kerodon_rupestris, mediumlow).
-roadkill_class(leopardus_colocolo, mediumlow).
-roadkill_class(leopardus_pardalis, mediumlow).
-roadkill_class(leopardus_tigrinus, mediumlow).
-roadkill_class(leopardus_wiedii, mediumlow).
-roadkill_class(lepus_callotis, mediumlow).
-roadkill_class(lepus_europaeus, mediumlow).
-roadkill_class(lontra_longicaudis, mediumlow).
-roadkill_class(lutreolina_crassicaudata, mediumlow).
-roadkill_class(lycalopex_vetulus, mediumlow).
-roadkill_class(marmosa_murina, mediumlow).
-roadkill_class(mazama_americana, mediumlow).
-roadkill_class(mazama_gouazoubira, mediumlow).
-roadkill_class(mazama_nana, mediumlow).
-roadkill_class(metachirus_nudicaudatus, mediumlow).
-roadkill_class(mico_melanurus, mediumlow).
-roadkill_class(microsciurus_flaviventer, mediumlow).
-roadkill_class(microtus_mexicanus, mediumlow).
-roadkill_class(myocastor_coypus, mediumlow).
-roadkill_class(nasua_narica, mediumlow).
-roadkill_class(nasua_nasua, mediumlow).
-roadkill_class(nectomys_squamipes, mediumlow).
-roadkill_class(oligoryzomys_nigripes, mediumlow).
-roadkill_class(otospermophilus_variegatus, mediumlow).
-roadkill_class(ozotoceros_bezoarticus, mediumlow).
-roadkill_class(panthera_onca, mediumlow).
-roadkill_class(pecari_tajacu, mediumlow).
-roadkill_class(peromyscus_truei, mediumlow).
-roadkill_class(philander_frenatus, mediumlow).
-roadkill_class(potos_flavus, mediumlow).
-roadkill_class(priodontes_maximus, mediumlow).
-roadkill_class(procyon_cancrivorus, mediumlow).
-roadkill_class(procyon_lotor, mediumlow).
-roadkill_class(puma_concolor, mediumlow).
-roadkill_class(rattus_norvegicus, mediumlow).
-roadkill_class(reithrodontomys_megalotis, mediumlow).
-roadkill_class(saguinus_midas, mediumlow).
-roadkill_class(saimiri_sciureus, mediumlow).
-roadkill_class(sapajus_apella, mediumlow).
-roadkill_class(sapajus_cay, mediumlow).
-roadkill_class(sapajus_libidinosus, mediumlow).
-roadkill_class(sciurus_aestuans, mediumlow).
-roadkill_class(sciurus_igniventris, mediumlow).
-roadkill_class(sciurus_variegatoides, mediumlow).
-roadkill_class(speothos_venaticus, mediumlow).
-roadkill_class(sylvilagus_brasiliensis, mediumlow).
-roadkill_class(sylvilagus_cunicularius, mediumlow).
-roadkill_class(tapirus_terrestris, mediumlow).
-roadkill_class(tayassu_pecari, mediumlow).
+#neg({roadkill_risk(alouatta_caraya, high)}, {}).
+#neg({roadkill_risk(alouatta_guariba, high)}, {}).
+#neg({roadkill_risk(alouatta_palliata, high)}, {}).
+#neg({roadkill_risk(alouatta_seniculus, high)}, {}).
+#neg({roadkill_risk(bassaricyon_gabbii, high)}, {}).
+#neg({roadkill_risk(bassariscus_astutus, high)}, {}).
+#neg({roadkill_risk(blastocerus_dichotomus, high)}, {}).
+#neg({roadkill_risk(bradypus_tridactylus, high)}, {}).
+#neg({roadkill_risk(bradypus_variegatus, high)}, {}).
+#neg({roadkill_risk(cabassous_unicinctus, high)}, {}).
+#neg({roadkill_risk(callithrix_geoffroyi, high)}, {}).
+#neg({roadkill_risk(callithrix_jacchus, high)}, {}).
+#neg({roadkill_risk(callithrix_penicillata, high)}, {}).
+#neg({roadkill_risk(caluromys_lanatus, high)}, {}).
+#neg({roadkill_risk(caluromys_philander, high)}, {}).
+#neg({roadkill_risk(canis_latrans, high)}, {}).
+#neg({roadkill_risk(cavia_aperea, high)}, {}).
+#neg({roadkill_risk(chaetomys_subspinosus, high)}, {}).
+#neg({roadkill_risk(chironectes_minimus, high)}, {}).
+#neg({roadkill_risk(choloepus_didactylus, high)}, {}).
+#neg({roadkill_risk(chrysocyon_brachyurus, high)}, {}).
+#neg({roadkill_risk(coendou_insidiosus, high)}, {}).
+#neg({roadkill_risk(coendou_mexicanus, high)}, {}).
+#neg({roadkill_risk(coendou_prehensilis, high)}, {}).
+#neg({roadkill_risk(ctenomys_minutus, high)}, {}).
+#neg({roadkill_risk(cuniculus_paca, high)}, {}).
+#neg({roadkill_risk(cyclopes_didactylus, high)}, {}).
+#neg({roadkill_risk(dasyprocta_azarae, high)}, {}).
+#neg({roadkill_risk(dasyprocta_fuliginosa, high)}, {}).
+#neg({roadkill_risk(dasyprocta_leporina, high)}, {}).
+#neg({roadkill_risk(dasypus_kappleri, high)}, {}).
+#neg({roadkill_risk(dasypus_novemcinctus, high)}, {}).
+#neg({roadkill_risk(dasypus_sabanicola, high)}, {}).
+#neg({roadkill_risk(dasypus_septemcinctus, high)}, {}).
+#neg({roadkill_risk(eira_barbara, high)}, {}).
+#neg({roadkill_risk(galictis_cuja, high)}, {}).
+#neg({roadkill_risk(galictis_vittata, high)}, {}).
+#neg({roadkill_risk(gracilinanus_agilis, high)}, {}).
+#neg({roadkill_risk(herpailurus_yagouaroundi, high)}, {}).
+#neg({roadkill_risk(heterogeomys_cherriei, high)}, {}).
+#neg({roadkill_risk(heteromys_irroratus, high)}, {}).
+#neg({roadkill_risk(holochilus_brasiliensis, high)}, {}).
+#neg({roadkill_risk(hydrochoerus_hydrochaeris, high)}, {}).
+#neg({roadkill_risk(kerodon_rupestris, high)}, {}).
+#neg({roadkill_risk(leopardus_colocolo, high)}, {}).
+#neg({roadkill_risk(leopardus_pardalis, high)}, {}).
+#neg({roadkill_risk(leopardus_tigrinus, high)}, {}).
+#neg({roadkill_risk(leopardus_wiedii, high)}, {}).
+#neg({roadkill_risk(lepus_callotis, high)}, {}).
+#neg({roadkill_risk(lepus_europaeus, high)}, {}).
+#neg({roadkill_risk(lontra_longicaudis, high)}, {}).
+#neg({roadkill_risk(lutreolina_crassicaudata, high)}, {}).
+#neg({roadkill_risk(lycalopex_vetulus, high)}, {}).
+#neg({roadkill_risk(marmosa_murina, high)}, {}).
+#neg({roadkill_risk(mazama_americana, high)}, {}).
+#neg({roadkill_risk(mazama_gouazoubira, high)}, {}).
+#neg({roadkill_risk(mazama_nana, high)}, {}).
+#neg({roadkill_risk(metachirus_nudicaudatus, high)}, {}).
+#neg({roadkill_risk(mico_melanurus, high)}, {}).
+#neg({roadkill_risk(microsciurus_flaviventer, high)}, {}).
+#neg({roadkill_risk(microtus_mexicanus, high)}, {}).
+#neg({roadkill_risk(myocastor_coypus, high)}, {}).
+#neg({roadkill_risk(nasua_narica, high)}, {}).
+#neg({roadkill_risk(nasua_nasua, high)}, {}).
+#neg({roadkill_risk(nectomys_squamipes, high)}, {}).
+#neg({roadkill_risk(oligoryzomys_nigripes, high)}, {}).
+#neg({roadkill_risk(otospermophilus_variegatus, high)}, {}).
+#neg({roadkill_risk(ozotoceros_bezoarticus, high)}, {}).
+#neg({roadkill_risk(panthera_onca, high)}, {}).
+#neg({roadkill_risk(pecari_tajacu, high)}, {}).
+#neg({roadkill_risk(peromyscus_truei, high)}, {}).
+#neg({roadkill_risk(philander_frenatus, high)}, {}).
+#neg({roadkill_risk(potos_flavus, high)}, {}).
+#neg({roadkill_risk(priodontes_maximus, high)}, {}).
+#neg({roadkill_risk(procyon_cancrivorus, high)}, {}).
+#neg({roadkill_risk(procyon_lotor, high)}, {}).
+#neg({roadkill_risk(puma_concolor, high)}, {}).
+#neg({roadkill_risk(rattus_norvegicus, high)}, {}).
+#neg({roadkill_risk(reithrodontomys_megalotis, high)}, {}).
+#neg({roadkill_risk(saguinus_midas, high)}, {}).
+#neg({roadkill_risk(saimiri_sciureus, high)}, {}).
+#neg({roadkill_risk(sapajus_apella, high)}, {}).
+#neg({roadkill_risk(sapajus_cay, high)}, {}).
+#neg({roadkill_risk(sapajus_libidinosus, high)}, {}).
+#neg({roadkill_risk(sciurus_aestuans, high)}, {}).
+#neg({roadkill_risk(sciurus_igniventris, high)}, {}).
+#neg({roadkill_risk(sciurus_variegatoides, high)}, {}).
+#neg({roadkill_risk(speothos_venaticus, high)}, {}).
+#neg({roadkill_risk(sylvilagus_brasiliensis, high)}, {}).
+#neg({roadkill_risk(sylvilagus_cunicularius, high)}, {}).
+#neg({roadkill_risk(tapirus_terrestris, high)}, {}).
+#neg({roadkill_risk(tayassu_pecari, high)}, {}).
 
 % =========================================================
 % ILASP constraints
