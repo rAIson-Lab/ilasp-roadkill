@@ -92,7 +92,7 @@
 % =========================================================
 
 #modeh(roadkill_risk(var(species), const(risk_category))).
-#modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
+#modeb(3, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
 % Background knowledge
