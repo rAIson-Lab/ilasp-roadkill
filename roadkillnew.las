@@ -2,10 +2,6 @@
 % Constant declarations
 % =========================================================
 
-% Risk categories 
-#constant(risk_category,high).
-#constant(risk_category,mediumlow).
-
 % Trait names
 #constant(general_trait_name,adult_body_mass_g_median_cat).
 #constant(general_trait_name,home_range_km2_cat).
@@ -167,7 +163,7 @@
 % Mode declarations
 % =========================================================
 
-#modeh(roadkill_class(var(species), const(risk_category))).
+#modeh(roadkill_risk_high(var(species))).
 #modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
@@ -1145,151 +1141,152 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % Positive examples: species with high risk
 % =========================================================
 
-#pos({roadkill_risk(atelocynus_microtis, high)}, {}).
-#pos({roadkill_risk(cabassous_tatouay, high)}, {}).
-#pos({roadkill_risk(caluromys_derbianus, high)}, {}).
-#pos({roadkill_risk(cerdocyon_thous, high)}, {}).
-#pos({roadkill_risk(chaetophractus_villosus, high)}, {}).
-#pos({roadkill_risk(choloepus_hoffmanni, high)}, {}).
-#pos({roadkill_risk(coendou_spinosus, high)}, {}).
-#pos({roadkill_risk(conepatus_chinga, high)}, {}).
-#pos({roadkill_risk(conepatus_semistriatus, high)}, {}).
-#pos({roadkill_risk(cratogeomys_fulvescens, high)}, {}).
-#pos({roadkill_risk(dasypus_hybridus, high)}, {}).
-#pos({roadkill_risk(didelphis_albiventris, high)}, {}).
-#pos({roadkill_risk(didelphis_aurita, high)}, {}).
-#pos({roadkill_risk(didelphis_marsupialis, high)}, {}).
-#pos({roadkill_risk(didelphis_pernigra, high)}, {}).
-#pos({roadkill_risk(didelphis_virginiana, high)}, {}).
-#pos({roadkill_risk(dipodomys_phillipsii, high)}, {}).
-#pos({roadkill_risk(dolichotis_patagonum, high)}, {}).
-#pos({roadkill_risk(euphractus_sexcinctus, high)}, {}).
-#pos({roadkill_risk(galea_flavidens, high)}, {}).
-#pos({roadkill_risk(lama_guanicoe, high)}, {}).
-#pos({roadkill_risk(leopardus_geoffroyi, high)}, {}).
-#pos({roadkill_risk(lycalopex_culpaeus, high)}, {}).
-#pos({roadkill_risk(lycalopex_griseus, high)}, {}).
-#pos({roadkill_risk(lycalopex_gymnocercus, high)}, {}).
-#pos({roadkill_risk(lycalopex_sechurae, high)}, {}).
-#pos({roadkill_risk(mus_musculus, high)}, {}).
-#pos({roadkill_risk(mustela_frenata, high)}, {}).
-#pos({roadkill_risk(myrmecophaga_tridactyla, high)}, {}).
-#pos({roadkill_risk(neotoma_mexicana, high)}, {}).
-#pos({roadkill_risk(oligoryzomys_flavescens, high)}, {}).
-#pos({roadkill_risk(orthogeomys_hispidus, high)}, {}).
-#pos({roadkill_risk(perognathus_flavus, high)}, {}).
-#pos({roadkill_risk(peromyscus_difficilis, high)}, {}).
-#pos({roadkill_risk(peromyscus_maniculatus, high)}, {}).
-#pos({roadkill_risk(philander_opossum, high)}, {}).
-#pos({roadkill_risk(rattus_rattus, high)}, {}).
-#pos({roadkill_risk(sciurus_aureogaster, high)}, {}).
-#pos({roadkill_risk(sciurus_granatensis, high)}, {}).
-#pos({roadkill_risk(sciurus_stramineus, high)}, {}).
-#pos({roadkill_risk(sigmodon_hispidus, high)}, {}).
-#pos({roadkill_risk(sylvilagus_audubonii, high)}, {}).
-#pos({roadkill_risk(sylvilagus_floridanus, high)}, {}).
-#pos({roadkill_risk(tamandua_mexicana, high)}, {}).
-#pos({roadkill_risk(tamandua_tetradactyla, high)}, {}).
-#pos({roadkill_risk(urocyon_cinereoargenteus, high)}, {}).
-#pos({roadkill_risk(xerospermophilus_perotensis, high)}, {}).
-#pos({roadkill_risk(zaedyus_pichiy, high)}, {}).
+#pos({roadkill_risk_high(atelocynus_microtis)}, {}).
+#pos({roadkill_risk_high(cabassous_tatouay)}, {}).
+#pos({roadkill_risk_high(caluromys_derbianus)}, {}).
+#pos({roadkill_risk_high(cerdocyon_thous)}, {}).
+#pos({roadkill_risk_high(chaetophractus_villosus)}, {}).
+#pos({roadkill_risk_high(choloepus_hoffmanni)}, {}).
+#pos({roadkill_risk_high(coendou_spinosus)}, {}).
+#pos({roadkill_risk_high(conepatus_chinga)}, {}).
+#pos({roadkill_risk_high(conepatus_semistriatus)}, {}).
+#pos({roadkill_risk_high(cratogeomys_fulvescens)}, {}).
+#pos({roadkill_risk_high(dasypus_hybridus)}, {}).
+#pos({roadkill_risk_high(didelphis_albiventris)}, {}).
+#pos({roadkill_risk_high(didelphis_aurita)}, {}).
+#pos({roadkill_risk_high(didelphis_marsupialis)}, {}).
+#pos({roadkill_risk_high(didelphis_pernigra)}, {}).
+#pos({roadkill_risk_high(didelphis_virginiana)}, {}).
+#pos({roadkill_risk_high(dipodomys_phillipsii)}, {}).
+#pos({roadkill_risk_high(dolichotis_patagonum)}, {}).
+#pos({roadkill_risk_high(euphractus_sexcinctus)}, {}).
+#pos({roadkill_risk_high(galea_flavidens)}, {}).
+#pos({roadkill_risk_high(lama_guanicoe)}, {}).
+#pos({roadkill_risk_high(leopardus_geoffroyi)}, {}).
+#pos({roadkill_risk_high(lycalopex_culpaeus)}, {}).
+#pos({roadkill_risk_high(lycalopex_griseus)}, {}).
+#pos({roadkill_risk_high(lycalopex_gymnocercus)}, {}).
+#pos({roadkill_risk_high(lycalopex_sechurae)}, {}).
+#pos({roadkill_risk_high(mus_musculus)}, {}).
+#pos({roadkill_risk_high(mustela_frenata)}, {}).
+#pos({roadkill_risk_high(myrmecophaga_tridactyla)}, {}).
+#pos({roadkill_risk_high(neotoma_mexicana)}, {}).
+#pos({roadkill_risk_high(oligoryzomys_flavescens)}, {}).
+#pos({roadkill_risk_high(orthogeomys_hispidus)}, {}).
+#pos({roadkill_risk_high(perognathus_flavus)}, {}).
+#pos({roadkill_risk_high(peromyscus_difficilis)}, {}).
+#pos({roadkill_risk_high(peromyscus_maniculatus)}, {}).
+#pos({roadkill_risk_high(philander_opossum)}, {}).
+#pos({roadkill_risk_high(rattus_rattus)}, {}).
+#pos({roadkill_risk_high(sciurus_aureogaster)}, {}).
+#pos({roadkill_risk_high(sciurus_granatensis)}, {}).
+#pos({roadkill_risk_high(sciurus_stramineus)}, {}).
+#pos({roadkill_risk_high(sigmodon_hispidus)}, {}).
+#pos({roadkill_risk_high(sylvilagus_audubonii)}, {}).
+#pos({roadkill_risk_high(sylvilagus_floridanus)}, {}).
+#pos({roadkill_risk_high(tamandua_mexicana)}, {}).
+#pos({roadkill_risk_high(tamandua_tetradactyla)}, {}).
+#pos({roadkill_risk_high(urocyon_cinereoargenteus)}, {}).
+#pos({roadkill_risk_high(xerospermophilus_perotensis)}, {}).
+#pos({roadkill_risk_high(zaedyus_pichiy)}, {}).
+
 
 % =========================================================
 % Negative examples: with low/medium risk
 % =========================================================
 
-#neg({roadkill_risk(alouatta_caraya, high)}, {}).
-#neg({roadkill_risk(alouatta_guariba, high)}, {}).
-#neg({roadkill_risk(alouatta_palliata, high)}, {}).
-#neg({roadkill_risk(alouatta_seniculus, high)}, {}).
-#neg({roadkill_risk(bassaricyon_gabbii, high)}, {}).
-#neg({roadkill_risk(bassariscus_astutus, high)}, {}).
-#neg({roadkill_risk(blastocerus_dichotomus, high)}, {}).
-#neg({roadkill_risk(bradypus_tridactylus, high)}, {}).
-#neg({roadkill_risk(bradypus_variegatus, high)}, {}).
-#neg({roadkill_risk(cabassous_unicinctus, high)}, {}).
-#neg({roadkill_risk(callithrix_geoffroyi, high)}, {}).
-#neg({roadkill_risk(callithrix_jacchus, high)}, {}).
-#neg({roadkill_risk(callithrix_penicillata, high)}, {}).
-#neg({roadkill_risk(caluromys_lanatus, high)}, {}).
-#neg({roadkill_risk(caluromys_philander, high)}, {}).
-#neg({roadkill_risk(canis_latrans, high)}, {}).
-#neg({roadkill_risk(cavia_aperea, high)}, {}).
-#neg({roadkill_risk(chaetomys_subspinosus, high)}, {}).
-#neg({roadkill_risk(chironectes_minimus, high)}, {}).
-#neg({roadkill_risk(choloepus_didactylus, high)}, {}).
-#neg({roadkill_risk(chrysocyon_brachyurus, high)}, {}).
-#neg({roadkill_risk(coendou_insidiosus, high)}, {}).
-#neg({roadkill_risk(coendou_mexicanus, high)}, {}).
-#neg({roadkill_risk(coendou_prehensilis, high)}, {}).
-#neg({roadkill_risk(ctenomys_minutus, high)}, {}).
-#neg({roadkill_risk(cuniculus_paca, high)}, {}).
-#neg({roadkill_risk(cyclopes_didactylus, high)}, {}).
-#neg({roadkill_risk(dasyprocta_azarae, high)}, {}).
-#neg({roadkill_risk(dasyprocta_fuliginosa, high)}, {}).
-#neg({roadkill_risk(dasyprocta_leporina, high)}, {}).
-#neg({roadkill_risk(dasypus_kappleri, high)}, {}).
-#neg({roadkill_risk(dasypus_novemcinctus, high)}, {}).
-#neg({roadkill_risk(dasypus_sabanicola, high)}, {}).
-#neg({roadkill_risk(dasypus_septemcinctus, high)}, {}).
-#neg({roadkill_risk(eira_barbara, high)}, {}).
-#neg({roadkill_risk(galictis_cuja, high)}, {}).
-#neg({roadkill_risk(galictis_vittata, high)}, {}).
-#neg({roadkill_risk(gracilinanus_agilis, high)}, {}).
-#neg({roadkill_risk(herpailurus_yagouaroundi, high)}, {}).
-#neg({roadkill_risk(heterogeomys_cherriei, high)}, {}).
-#neg({roadkill_risk(heteromys_irroratus, high)}, {}).
-#neg({roadkill_risk(holochilus_brasiliensis, high)}, {}).
-#neg({roadkill_risk(hydrochoerus_hydrochaeris, high)}, {}).
-#neg({roadkill_risk(kerodon_rupestris, high)}, {}).
-#neg({roadkill_risk(leopardus_colocolo, high)}, {}).
-#neg({roadkill_risk(leopardus_pardalis, high)}, {}).
-#neg({roadkill_risk(leopardus_tigrinus, high)}, {}).
-#neg({roadkill_risk(leopardus_wiedii, high)}, {}).
-#neg({roadkill_risk(lepus_callotis, high)}, {}).
-#neg({roadkill_risk(lepus_europaeus, high)}, {}).
-#neg({roadkill_risk(lontra_longicaudis, high)}, {}).
-#neg({roadkill_risk(lutreolina_crassicaudata, high)}, {}).
-#neg({roadkill_risk(lycalopex_vetulus, high)}, {}).
-#neg({roadkill_risk(marmosa_murina, high)}, {}).
-#neg({roadkill_risk(mazama_americana, high)}, {}).
-#neg({roadkill_risk(mazama_gouazoubira, high)}, {}).
-#neg({roadkill_risk(mazama_nana, high)}, {}).
-#neg({roadkill_risk(metachirus_nudicaudatus, high)}, {}).
-#neg({roadkill_risk(mico_melanurus, high)}, {}).
-#neg({roadkill_risk(microsciurus_flaviventer, high)}, {}).
-#neg({roadkill_risk(microtus_mexicanus, high)}, {}).
-#neg({roadkill_risk(myocastor_coypus, high)}, {}).
-#neg({roadkill_risk(nasua_narica, high)}, {}).
-#neg({roadkill_risk(nasua_nasua, high)}, {}).
-#neg({roadkill_risk(nectomys_squamipes, high)}, {}).
-#neg({roadkill_risk(oligoryzomys_nigripes, high)}, {}).
-#neg({roadkill_risk(otospermophilus_variegatus, high)}, {}).
-#neg({roadkill_risk(ozotoceros_bezoarticus, high)}, {}).
-#neg({roadkill_risk(panthera_onca, high)}, {}).
-#neg({roadkill_risk(pecari_tajacu, high)}, {}).
-#neg({roadkill_risk(peromyscus_truei, high)}, {}).
-#neg({roadkill_risk(philander_frenatus, high)}, {}).
-#neg({roadkill_risk(potos_flavus, high)}, {}).
-#neg({roadkill_risk(priodontes_maximus, high)}, {}).
-#neg({roadkill_risk(procyon_cancrivorus, high)}, {}).
-#neg({roadkill_risk(procyon_lotor, high)}, {}).
-#neg({roadkill_risk(puma_concolor, high)}, {}).
-#neg({roadkill_risk(rattus_norvegicus, high)}, {}).
-#neg({roadkill_risk(reithrodontomys_megalotis, high)}, {}).
-#neg({roadkill_risk(saguinus_midas, high)}, {}).
-#neg({roadkill_risk(saimiri_sciureus, high)}, {}).
-#neg({roadkill_risk(sapajus_apella, high)}, {}).
-#neg({roadkill_risk(sapajus_cay, high)}, {}).
-#neg({roadkill_risk(sapajus_libidinosus, high)}, {}).
-#neg({roadkill_risk(sciurus_aestuans, high)}, {}).
-#neg({roadkill_risk(sciurus_igniventris, high)}, {}).
-#neg({roadkill_risk(sciurus_variegatoides, high)}, {}).
-#neg({roadkill_risk(speothos_venaticus, high)}, {}).
-#neg({roadkill_risk(sylvilagus_brasiliensis, high)}, {}).
-#neg({roadkill_risk(sylvilagus_cunicularius, high)}, {}).
-#neg({roadkill_risk(tapirus_terrestris, high)}, {}).
-#neg({roadkill_risk(tayassu_pecari, high)}, {}).
+#neg({roadkill_risk_high(alouatta_caraya)}, {}).
+#neg({roadkill_risk_high(alouatta_guariba)}, {}).
+#neg({roadkill_risk_high(alouatta_palliata)}, {}).
+#neg({roadkill_risk_high(alouatta_seniculus)}, {}).
+#neg({roadkill_risk_high(bassaricyon_gabbii)}, {}).
+#neg({roadkill_risk_high(bassariscus_astutus)}, {}).
+#neg({roadkill_risk_high(blastocerus_dichotomus)}, {}).
+#neg({roadkill_risk_high(bradypus_tridactylus)}, {}).
+#neg({roadkill_risk_high(bradypus_variegatus)}, {}).
+#neg({roadkill_risk_high(cabassous_unicinctus)}, {}).
+#neg({roadkill_risk_high(callithrix_geoffroyi)}, {}).
+#neg({roadkill_risk_high(callithrix_jacchus)}, {}).
+#neg({roadkill_risk_high(callithrix_penicillata)}, {}).
+#neg({roadkill_risk_high(caluromys_lanatus)}, {}).
+#neg({roadkill_risk_high(caluromys_philander)}, {}).
+#neg({roadkill_risk_high(canis_latrans)}, {}).
+#neg({roadkill_risk_high(cavia_aperea)}, {}).
+#neg({roadkill_risk_high(chaetomys_subspinosus)}, {}).
+#neg({roadkill_risk_high(chironectes_minimus)}, {}).
+#neg({roadkill_risk_high(choloepus_didactylus)}, {}).
+#neg({roadkill_risk_high(chrysocyon_brachyurus)}, {}).
+#neg({roadkill_risk_high(coendou_insidiosus)}, {}).
+#neg({roadkill_risk_high(coendou_mexicanus)}, {}).
+#neg({roadkill_risk_high(coendou_prehensilis)}, {}).
+#neg({roadkill_risk_high(ctenomys_minutus)}, {}).
+#neg({roadkill_risk_high(cuniculus_paca)}, {}).
+#neg({roadkill_risk_high(cyclopes_didactylus)}, {}).
+#neg({roadkill_risk_high(dasyprocta_azarae)}, {}).
+#neg({roadkill_risk_high(dasyprocta_fuliginosa)}, {}).
+#neg({roadkill_risk_high(dasyprocta_leporina)}, {}).
+#neg({roadkill_risk_high(dasypus_kappleri)}, {}).
+#neg({roadkill_risk_high(dasypus_novemcinctus)}, {}).
+#neg({roadkill_risk_high(dasypus_sabanicola)}, {}).
+#neg({roadkill_risk_high(dasypus_septemcinctus)}, {}).
+#neg({roadkill_risk_high(eira_barbara)}, {}).
+#neg({roadkill_risk_high(galictis_cuja)}, {}).
+#neg({roadkill_risk_high(galictis_vittata)}, {}).
+#neg({roadkill_risk_high(gracilinanus_agilis)}, {}).
+#neg({roadkill_risk_high(herpailurus_yagouaroundi)}, {}).
+#neg({roadkill_risk_high(heterogeomys_cherriei)}, {}).
+#neg({roadkill_risk_high(heteromys_irroratus)}, {}).
+#neg({roadkill_risk_high(holochilus_brasiliensis)}, {}).
+#neg({roadkill_risk_high(hydrochoerus_hydrochaeris)}, {}).
+#neg({roadkill_risk_high(kerodon_rupestris)}, {}).
+#neg({roadkill_risk_high(leopardus_colocolo)}, {}).
+#neg({roadkill_risk_high(leopardus_pardalis)}, {}).
+#neg({roadkill_risk_high(leopardus_tigrinus)}, {}).
+#neg({roadkill_risk_high(leopardus_wiedii)}, {}).
+#neg({roadkill_risk_high(lepus_callotis)}, {}).
+#neg({roadkill_risk_high(lepus_europaeus)}, {}).
+#neg({roadkill_risk_high(lontra_longicaudis)}, {}).
+#neg({roadkill_risk_high(lutreolina_crassicaudata)}, {}).
+#neg({roadkill_risk_high(lycalopex_vetulus)}, {}).
+#neg({roadkill_risk_high(marmosa_murina)}, {}).
+#neg({roadkill_risk_high(mazama_americana)}, {}).
+#neg({roadkill_risk_high(mazama_gouazoubira)}, {}).
+#neg({roadkill_risk_high(mazama_nana)}, {}).
+#neg({roadkill_risk_high(metachirus_nudicaudatus)}, {}).
+#neg({roadkill_risk_high(mico_melanurus)}, {}).
+#neg({roadkill_risk_high(microsciurus_flaviventer)}, {}).
+#neg({roadkill_risk_high(microtus_mexicanus)}, {}).
+#neg({roadkill_risk_high(myocastor_coypus)}, {}).
+#neg({roadkill_risk_high(nasua_narica)}, {}).
+#neg({roadkill_risk_high(nasua_nasua)}, {}).
+#neg({roadkill_risk_high(nectomys_squamipes)}, {}).
+#neg({roadkill_risk_high(oligoryzomys_nigripes)}, {}).
+#neg({roadkill_risk_high(otospermophilus_variegatus)}, {}).
+#neg({roadkill_risk_high(ozotoceros_bezoarticus)}, {}).
+#neg({roadkill_risk_high(panthera_onca)}, {}).
+#neg({roadkill_risk_high(pecari_tajacu)}, {}).
+#neg({roadkill_risk_high(peromyscus_truei)}, {}).
+#neg({roadkill_risk_high(philander_frenatus)}, {}).
+#neg({roadkill_risk_high(potos_flavus)}, {}).
+#neg({roadkill_risk_high(priodontes_maximus)}, {}).
+#neg({roadkill_risk_high(procyon_cancrivorus)}, {}).
+#neg({roadkill_risk_high(procyon_lotor)}, {}).
+#neg({roadkill_risk_high(puma_concolor)}, {}).
+#neg({roadkill_risk_high(rattus_norvegicus)}, {}).
+#neg({roadkill_risk_high(reithrodontomys_megalotis)}, {}).
+#neg({roadkill_risk_high(saguinus_midas)}, {}).
+#neg({roadkill_risk_high(saimiri_sciureus)}, {}).
+#neg({roadkill_risk_high(sapajus_apella)}, {}).
+#neg({roadkill_risk_high(sapajus_cay)}, {}).
+#neg({roadkill_risk_high(sapajus_libidinosus)}, {}).
+#neg({roadkill_risk_high(sciurus_aestuans)}, {}).
+#neg({roadkill_risk_high(sciurus_igniventris)}, {}).
+#neg({roadkill_risk_high(sciurus_variegatoides)}, {}).
+#neg({roadkill_risk_high(speothos_venaticus)}, {}).
+#neg({roadkill_risk_high(sylvilagus_brasiliensis)}, {}).
+#neg({roadkill_risk_high(sylvilagus_cunicularius)}, {}).
+#neg({roadkill_risk_high(tapirus_terrestris)}, {}).
+#neg({roadkill_risk_high(tayassu_pecari)}, {}).
 
 % =========================================================
 % ILASP constraints
