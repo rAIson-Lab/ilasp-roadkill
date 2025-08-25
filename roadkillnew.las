@@ -25,7 +25,7 @@
 % Mode declarations
 % =========================================================
 
-#modeh(roadkill_risk(var(species), high)).
+#modeh(roadkill_class(var(species), high)).
 #modeb(8, trait(var(species), const(general_trait_name), const(general_trait_value)), (positive)).
 
 % =========================================================
@@ -1157,12 +1157,12 @@ roadkill_class(tayassu_pecari, mediumlow).
 #max_penalty(15).
 
 % Para cada especie 'S' con un riesgo de atropello 'alto',
-% la hipótesis aprendida DEBE ser capaz de derivar 'roadkill_risk(S, high)'.
+% la hipótesis aprendida DEBE ser capaz de derivar 'roadkill_class(S, high)'.
 % La hipótesis se penalizará si no lo hace.
-:- roadkill_class(S, high), not roadkill_risk(S, high).
+:- roadkill_class(S, high), not roadkill_class(S, high).
 
 % Restricción para ejemplos negativos:
 % Para cada especie 'S' con un riesgo de atropello 'mediumlow',
-% la hipótesis aprendida NO DEBE derivar 'roadkill_risk(S, high)'.
+% la hipótesis aprendida NO DEBE derivar 'roadkill_class(S, high)'.
 % La hipótesis se penalizará si lo hace.
-:- roadkill_class(S, mediumlow), roadkill_risk(S, high).
+:- roadkill_class(S, mediumlow), roadkill_class(S, high).
