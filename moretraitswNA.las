@@ -11,10 +11,9 @@
 #constant(general_trait_name,litters_or_clutches_per_y_cat).
 #constant(general_trait_name,diet_breadth_cat).
 #constant(general_trait_name,habitat_breadth_cat).
-#constant(general_trait_name,social_group_size_cat).
-#constant(general_trait_name,population_density_indkm2_cat).
 #constant(general_trait_name,diet_invertebrates_cat).
 #constant(general_trait_name,diet_scavenger_cat).
+#constant(general_trait_name,population_density_indkm2_cat).
 
 % Trait values
 #constant(general_trait_value,low).
@@ -162,19 +161,17 @@ trait(alouatta_caraya,litter_clutch_size_cat,low).
 trait(alouatta_caraya,litters_or_clutches_per_y_cat,low).
 trait(alouatta_caraya,diet_breadth_cat,low).
 trait(alouatta_caraya,habitat_breadth_cat,low).
-trait(alouatta_caraya,social_group_size_cat,high).
-trait(alouatta_caraya,population_density_indkm2_cat,medium).
 trait(alouatta_caraya,diet_invertebrates_cat,low).
 trait(alouatta_caraya,diet_scavenger_cat,low).
+trait(alouatta_caraya,population_density_indkm2_cat,medium).
 trait(alouatta_guariba,adult_body_mass_g_median_cat,high).
 trait(alouatta_guariba,home_range_km2_cat,low).
 trait(alouatta_guariba,longevity_y_cat,medium).
 trait(alouatta_guariba,diet_breadth_cat,low).
 trait(alouatta_guariba,habitat_breadth_cat,low).
-trait(alouatta_guariba,social_group_size_cat,high).
-trait(alouatta_guariba,population_density_indkm2_cat,medium).
 trait(alouatta_guariba,diet_invertebrates_cat,low).
 trait(alouatta_guariba,diet_scavenger_cat,low).
+trait(alouatta_guariba,population_density_indkm2_cat,medium).
 trait(alouatta_palliata,adult_body_mass_g_median_cat,high).
 trait(alouatta_palliata,home_range_km2_cat,medium).
 trait(alouatta_palliata,longevity_y_cat,high).
@@ -183,10 +180,9 @@ trait(alouatta_palliata,litter_clutch_size_cat,low).
 trait(alouatta_palliata,litters_or_clutches_per_y_cat,low).
 trait(alouatta_palliata,diet_breadth_cat,low).
 trait(alouatta_palliata,habitat_breadth_cat,low).
-trait(alouatta_palliata,social_group_size_cat,high).
-trait(alouatta_palliata,population_density_indkm2_cat,high).
 trait(alouatta_palliata,diet_invertebrates_cat,low).
 trait(alouatta_palliata,diet_scavenger_cat,low).
+trait(alouatta_palliata,population_density_indkm2_cat,high).
 trait(alouatta_seniculus,adult_body_mass_g_median_cat,high).
 trait(alouatta_seniculus,home_range_km2_cat,medium).
 trait(alouatta_seniculus,longevity_y_cat,high).
@@ -195,17 +191,15 @@ trait(alouatta_seniculus,litter_clutch_size_cat,low).
 trait(alouatta_seniculus,litters_or_clutches_per_y_cat,low).
 trait(alouatta_seniculus,diet_breadth_cat,low).
 trait(alouatta_seniculus,habitat_breadth_cat,low).
-trait(alouatta_seniculus,social_group_size_cat,high).
-trait(alouatta_seniculus,population_density_indkm2_cat,high).
 trait(alouatta_seniculus,diet_invertebrates_cat,low).
 trait(alouatta_seniculus,diet_scavenger_cat,low).
+trait(alouatta_seniculus,population_density_indkm2_cat,high).
 trait(atelocynus_microtis,adult_body_mass_g_median_cat,high).
 trait(atelocynus_microtis,longevity_y_cat,medium).
 trait(atelocynus_microtis,age_of_maturity_d_cat,high).
 trait(atelocynus_microtis,litter_clutch_size_cat,medium).
 trait(atelocynus_microtis,diet_breadth_cat,low).
 trait(atelocynus_microtis,habitat_breadth_cat,low).
-trait(atelocynus_microtis,social_group_size_cat,low).
 trait(atelocynus_microtis,diet_invertebrates_cat,low).
 trait(atelocynus_microtis,diet_scavenger_cat,low).
 trait(bassaricyon_gabbii,adult_body_mass_g_median_cat,medium).
@@ -214,7 +208,7 @@ trait(bassaricyon_gabbii,age_of_maturity_d_cat,high).
 trait(bassaricyon_gabbii,litter_clutch_size_cat,low).
 trait(bassaricyon_gabbii,diet_breadth_cat,medium).
 trait(bassaricyon_gabbii,habitat_breadth_cat,low).
-trait(bassaricyon_gabbii,diet_invertebrates_cat,low).
+trait(bassaricyon_gabbii,diet_invertebrates_cat,high).
 trait(bassaricyon_gabbii,diet_scavenger_cat,low).
 trait(bassariscus_astutus,adult_body_mass_g_median_cat,low).
 trait(bassariscus_astutus,home_range_km2_cat,medium).
@@ -224,7 +218,7 @@ trait(bassariscus_astutus,litter_clutch_size_cat,medium).
 trait(bassariscus_astutus,litters_or_clutches_per_y_cat,low).
 trait(bassariscus_astutus,diet_breadth_cat,medium).
 trait(bassariscus_astutus,habitat_breadth_cat,high).
-trait(bassariscus_astutus,diet_invertebrates_cat,low).
+trait(bassariscus_astutus,diet_invertebrates_cat,high).
 trait(bassariscus_astutus,diet_scavenger_cat,low).
 trait(blastocerus_dichotomus,adult_body_mass_g_median_cat,high).
 trait(blastocerus_dichotomus,home_range_km2_cat,medium).
@@ -233,10 +227,9 @@ trait(blastocerus_dichotomus,litter_clutch_size_cat,low).
 trait(blastocerus_dichotomus,litters_or_clutches_per_y_cat,low).
 trait(blastocerus_dichotomus,diet_breadth_cat,low).
 trait(blastocerus_dichotomus,habitat_breadth_cat,medium).
-trait(blastocerus_dichotomus,social_group_size_cat,high).
-trait(blastocerus_dichotomus,population_density_indkm2_cat,low).
 trait(blastocerus_dichotomus,diet_invertebrates_cat,low).
 trait(blastocerus_dichotomus,diet_scavenger_cat,low).
+trait(blastocerus_dichotomus,population_density_indkm2_cat,low).
 trait(bradypus_tridactylus,adult_body_mass_g_median_cat,medium).
 trait(bradypus_tridactylus,home_range_km2_cat,high).
 trait(bradypus_tridactylus,longevity_y_cat,high).
@@ -245,7 +238,6 @@ trait(bradypus_tridactylus,litter_clutch_size_cat,low).
 trait(bradypus_tridactylus,litters_or_clutches_per_y_cat,low).
 trait(bradypus_tridactylus,diet_breadth_cat,low).
 trait(bradypus_tridactylus,habitat_breadth_cat,low).
-trait(bradypus_tridactylus,social_group_size_cat,low).
 trait(bradypus_tridactylus,diet_invertebrates_cat,low).
 trait(bradypus_tridactylus,diet_scavenger_cat,low).
 trait(bradypus_variegatus,adult_body_mass_g_median_cat,medium).
@@ -256,10 +248,9 @@ trait(bradypus_variegatus,litter_clutch_size_cat,low).
 trait(bradypus_variegatus,litters_or_clutches_per_y_cat,medium).
 trait(bradypus_variegatus,diet_breadth_cat,low).
 trait(bradypus_variegatus,habitat_breadth_cat,low).
-trait(bradypus_variegatus,social_group_size_cat,low).
-trait(bradypus_variegatus,population_density_indkm2_cat,high).
 trait(bradypus_variegatus,diet_invertebrates_cat,low).
 trait(bradypus_variegatus,diet_scavenger_cat,low).
+trait(bradypus_variegatus,population_density_indkm2_cat,high).
 trait(cabassous_tatouay,adult_body_mass_g_median_cat,high).
 trait(cabassous_tatouay,diet_breadth_cat,low).
 trait(cabassous_tatouay,habitat_breadth_cat,medium).
@@ -271,7 +262,6 @@ trait(cabassous_unicinctus,longevity_y_cat,low).
 trait(cabassous_unicinctus,litter_clutch_size_cat,low).
 trait(cabassous_unicinctus,diet_breadth_cat,low).
 trait(cabassous_unicinctus,habitat_breadth_cat,medium).
-trait(cabassous_unicinctus,social_group_size_cat,low).
 trait(cabassous_unicinctus,diet_invertebrates_cat,high).
 trait(cabassous_unicinctus,diet_scavenger_cat,low).
 trait(callithrix_geoffroyi,adult_body_mass_g_median_cat,low).
@@ -282,9 +272,9 @@ trait(callithrix_geoffroyi,litter_clutch_size_cat,medium).
 trait(callithrix_geoffroyi,litters_or_clutches_per_y_cat,medium).
 trait(callithrix_geoffroyi,diet_breadth_cat,high).
 trait(callithrix_geoffroyi,habitat_breadth_cat,low).
-trait(callithrix_geoffroyi,population_density_indkm2_cat,medium).
-trait(callithrix_geoffroyi,diet_invertebrates_cat,low).
+trait(callithrix_geoffroyi,diet_invertebrates_cat,high).
 trait(callithrix_geoffroyi,diet_scavenger_cat,low).
+trait(callithrix_geoffroyi,population_density_indkm2_cat,medium).
 trait(callithrix_jacchus,adult_body_mass_g_median_cat,low).
 trait(callithrix_jacchus,home_range_km2_cat,low).
 trait(callithrix_jacchus,longevity_y_cat,medium).
@@ -293,10 +283,9 @@ trait(callithrix_jacchus,litter_clutch_size_cat,medium).
 trait(callithrix_jacchus,litters_or_clutches_per_y_cat,medium).
 trait(callithrix_jacchus,diet_breadth_cat,high).
 trait(callithrix_jacchus,habitat_breadth_cat,low).
-trait(callithrix_jacchus,social_group_size_cat,high).
-trait(callithrix_jacchus,population_density_indkm2_cat,high).
-trait(callithrix_jacchus,diet_invertebrates_cat,low).
+trait(callithrix_jacchus,diet_invertebrates_cat,high).
 trait(callithrix_jacchus,diet_scavenger_cat,low).
+trait(callithrix_jacchus,population_density_indkm2_cat,high).
 trait(callithrix_penicillata,adult_body_mass_g_median_cat,low).
 trait(callithrix_penicillata,home_range_km2_cat,low).
 trait(callithrix_penicillata,longevity_y_cat,medium).
@@ -305,10 +294,9 @@ trait(callithrix_penicillata,litter_clutch_size_cat,medium).
 trait(callithrix_penicillata,litters_or_clutches_per_y_cat,medium).
 trait(callithrix_penicillata,diet_breadth_cat,high).
 trait(callithrix_penicillata,habitat_breadth_cat,low).
-trait(callithrix_penicillata,social_group_size_cat,high).
-trait(callithrix_penicillata,population_density_indkm2_cat,high).
-trait(callithrix_penicillata,diet_invertebrates_cat,low).
+trait(callithrix_penicillata,diet_invertebrates_cat,high).
 trait(callithrix_penicillata,diet_scavenger_cat,low).
+trait(callithrix_penicillata,population_density_indkm2_cat,high).
 trait(caluromys_derbianus,adult_body_mass_g_median_cat,low).
 trait(caluromys_derbianus,longevity_y_cat,low).
 trait(caluromys_derbianus,age_of_maturity_d_cat,low).
@@ -316,8 +304,7 @@ trait(caluromys_derbianus,litter_clutch_size_cat,medium).
 trait(caluromys_derbianus,litters_or_clutches_per_y_cat,medium).
 trait(caluromys_derbianus,diet_breadth_cat,high).
 trait(caluromys_derbianus,habitat_breadth_cat,low).
-trait(caluromys_derbianus,social_group_size_cat,low).
-trait(caluromys_derbianus,diet_invertebrates_cat,low).
+trait(caluromys_derbianus,diet_invertebrates_cat,high).
 trait(caluromys_derbianus,diet_scavenger_cat,low).
 trait(caluromys_lanatus,adult_body_mass_g_median_cat,low).
 trait(caluromys_lanatus,longevity_y_cat,low).
@@ -325,8 +312,7 @@ trait(caluromys_lanatus,litter_clutch_size_cat,medium).
 trait(caluromys_lanatus,litters_or_clutches_per_y_cat,high).
 trait(caluromys_lanatus,diet_breadth_cat,high).
 trait(caluromys_lanatus,habitat_breadth_cat,low).
-trait(caluromys_lanatus,social_group_size_cat,low).
-trait(caluromys_lanatus,diet_invertebrates_cat,low).
+trait(caluromys_lanatus,diet_invertebrates_cat,high).
 trait(caluromys_lanatus,diet_scavenger_cat,low).
 trait(caluromys_philander,adult_body_mass_g_median_cat,low).
 trait(caluromys_philander,home_range_km2_cat,low).
@@ -336,10 +322,9 @@ trait(caluromys_philander,litter_clutch_size_cat,high).
 trait(caluromys_philander,litters_or_clutches_per_y_cat,medium).
 trait(caluromys_philander,diet_breadth_cat,high).
 trait(caluromys_philander,habitat_breadth_cat,low).
-trait(caluromys_philander,social_group_size_cat,low).
-trait(caluromys_philander,population_density_indkm2_cat,high).
-trait(caluromys_philander,diet_invertebrates_cat,low).
+trait(caluromys_philander,diet_invertebrates_cat,high).
 trait(caluromys_philander,diet_scavenger_cat,low).
+trait(caluromys_philander,population_density_indkm2_cat,high).
 trait(canis_latrans,adult_body_mass_g_median_cat,high).
 trait(canis_latrans,home_range_km2_cat,high).
 trait(canis_latrans,longevity_y_cat,high).
@@ -348,9 +333,9 @@ trait(canis_latrans,litter_clutch_size_cat,high).
 trait(canis_latrans,litters_or_clutches_per_y_cat,low).
 trait(canis_latrans,diet_breadth_cat,medium).
 trait(canis_latrans,habitat_breadth_cat,high).
-trait(canis_latrans,population_density_indkm2_cat,low).
 trait(canis_latrans,diet_invertebrates_cat,low).
-trait(canis_latrans,diet_scavenger_cat,low).
+trait(canis_latrans,diet_scavenger_cat,high).
+trait(canis_latrans,population_density_indkm2_cat,low).
 trait(cavia_aperea,adult_body_mass_g_median_cat,low).
 trait(cavia_aperea,home_range_km2_cat,low).
 trait(cavia_aperea,longevity_y_cat,low).
@@ -369,15 +354,13 @@ trait(cerdocyon_thous,litter_clutch_size_cat,high).
 trait(cerdocyon_thous,litters_or_clutches_per_y_cat,medium).
 trait(cerdocyon_thous,diet_breadth_cat,medium).
 trait(cerdocyon_thous,habitat_breadth_cat,high).
-trait(cerdocyon_thous,social_group_size_cat,high).
+trait(cerdocyon_thous,diet_invertebrates_cat,high).
+trait(cerdocyon_thous,diet_scavenger_cat,medium).
 trait(cerdocyon_thous,population_density_indkm2_cat,low).
-trait(cerdocyon_thous,diet_invertebrates_cat,medium).
-trait(cerdocyon_thous,diet_scavenger_cat,low).
 trait(chaetomys_subspinosus,adult_body_mass_g_median_cat,medium).
 trait(chaetomys_subspinosus,home_range_km2_cat,low).
 trait(chaetomys_subspinosus,diet_breadth_cat,low).
 trait(chaetomys_subspinosus,habitat_breadth_cat,low).
-trait(chaetomys_subspinosus,social_group_size_cat,low).
 trait(chaetomys_subspinosus,diet_invertebrates_cat,low).
 trait(chaetomys_subspinosus,diet_scavenger_cat,low).
 trait(chaetophractus_villosus,adult_body_mass_g_median_cat,medium).
@@ -387,9 +370,9 @@ trait(chaetophractus_villosus,litter_clutch_size_cat,low).
 trait(chaetophractus_villosus,litters_or_clutches_per_y_cat,low).
 trait(chaetophractus_villosus,diet_breadth_cat,high).
 trait(chaetophractus_villosus,habitat_breadth_cat,medium).
-trait(chaetophractus_villosus,population_density_indkm2_cat,medium).
-trait(chaetophractus_villosus,diet_invertebrates_cat,medium).
+trait(chaetophractus_villosus,diet_invertebrates_cat,high).
 trait(chaetophractus_villosus,diet_scavenger_cat,low).
+trait(chaetophractus_villosus,population_density_indkm2_cat,medium).
 trait(chironectes_minimus,adult_body_mass_g_median_cat,low).
 trait(chironectes_minimus,longevity_y_cat,low).
 trait(chironectes_minimus,age_of_maturity_d_cat,low).
@@ -397,8 +380,7 @@ trait(chironectes_minimus,litter_clutch_size_cat,high).
 trait(chironectes_minimus,litters_or_clutches_per_y_cat,medium).
 trait(chironectes_minimus,diet_breadth_cat,medium).
 trait(chironectes_minimus,habitat_breadth_cat,low).
-trait(chironectes_minimus,social_group_size_cat,low).
-trait(chironectes_minimus,diet_invertebrates_cat,medium).
+trait(chironectes_minimus,diet_invertebrates_cat,high).
 trait(chironectes_minimus,diet_scavenger_cat,low).
 trait(choloepus_didactylus,adult_body_mass_g_median_cat,high).
 trait(choloepus_didactylus,home_range_km2_cat,high).
@@ -408,7 +390,6 @@ trait(choloepus_didactylus,litter_clutch_size_cat,low).
 trait(choloepus_didactylus,litters_or_clutches_per_y_cat,low).
 trait(choloepus_didactylus,diet_breadth_cat,low).
 trait(choloepus_didactylus,habitat_breadth_cat,low).
-trait(choloepus_didactylus,social_group_size_cat,low).
 trait(choloepus_didactylus,diet_invertebrates_cat,low).
 trait(choloepus_didactylus,diet_scavenger_cat,low).
 trait(choloepus_hoffmanni,adult_body_mass_g_median_cat,high).
@@ -418,7 +399,6 @@ trait(choloepus_hoffmanni,litter_clutch_size_cat,low).
 trait(choloepus_hoffmanni,litters_or_clutches_per_y_cat,low).
 trait(choloepus_hoffmanni,diet_breadth_cat,low).
 trait(choloepus_hoffmanni,habitat_breadth_cat,low).
-trait(choloepus_hoffmanni,social_group_size_cat,low).
 trait(choloepus_hoffmanni,diet_invertebrates_cat,low).
 trait(choloepus_hoffmanni,diet_scavenger_cat,low).
 trait(chrysocyon_brachyurus,adult_body_mass_g_median_cat,high).
@@ -429,7 +409,7 @@ trait(chrysocyon_brachyurus,litter_clutch_size_cat,medium).
 trait(chrysocyon_brachyurus,litters_or_clutches_per_y_cat,low).
 trait(chrysocyon_brachyurus,diet_breadth_cat,high).
 trait(chrysocyon_brachyurus,habitat_breadth_cat,medium).
-trait(chrysocyon_brachyurus,diet_invertebrates_cat,low).
+trait(chrysocyon_brachyurus,diet_invertebrates_cat,medium).
 trait(chrysocyon_brachyurus,diet_scavenger_cat,low).
 trait(coendou_insidiosus,adult_body_mass_g_median_cat,low).
 trait(coendou_insidiosus,longevity_y_cat,low).
@@ -445,7 +425,6 @@ trait(coendou_mexicanus,litter_clutch_size_cat,low).
 trait(coendou_mexicanus,litters_or_clutches_per_y_cat,medium).
 trait(coendou_mexicanus,diet_breadth_cat,low).
 trait(coendou_mexicanus,habitat_breadth_cat,low).
-trait(coendou_mexicanus,social_group_size_cat,high).
 trait(coendou_mexicanus,diet_invertebrates_cat,low).
 trait(coendou_mexicanus,diet_scavenger_cat,low).
 trait(coendou_prehensilis,adult_body_mass_g_median_cat,medium).
@@ -456,7 +435,6 @@ trait(coendou_prehensilis,litter_clutch_size_cat,low).
 trait(coendou_prehensilis,litters_or_clutches_per_y_cat,medium).
 trait(coendou_prehensilis,diet_breadth_cat,low).
 trait(coendou_prehensilis,habitat_breadth_cat,low).
-trait(coendou_prehensilis,social_group_size_cat,low).
 trait(coendou_prehensilis,diet_invertebrates_cat,low).
 trait(coendou_prehensilis,diet_scavenger_cat,low).
 trait(coendou_spinosus,adult_body_mass_g_median_cat,low).
@@ -482,7 +460,6 @@ trait(conepatus_semistriatus,age_of_maturity_d_cat,low).
 trait(conepatus_semistriatus,litter_clutch_size_cat,high).
 trait(conepatus_semistriatus,diet_breadth_cat,medium).
 trait(conepatus_semistriatus,habitat_breadth_cat,high).
-trait(conepatus_semistriatus,social_group_size_cat,low).
 trait(conepatus_semistriatus,diet_invertebrates_cat,high).
 trait(conepatus_semistriatus,diet_scavenger_cat,low).
 trait(ctenomys_minutus,adult_body_mass_g_median_cat,low).
@@ -498,10 +475,9 @@ trait(cuniculus_paca,litter_clutch_size_cat,low).
 trait(cuniculus_paca,litters_or_clutches_per_y_cat,medium).
 trait(cuniculus_paca,diet_breadth_cat,medium).
 trait(cuniculus_paca,habitat_breadth_cat,low).
-trait(cuniculus_paca,social_group_size_cat,low).
-trait(cuniculus_paca,population_density_indkm2_cat,high).
 trait(cuniculus_paca,diet_invertebrates_cat,low).
 trait(cuniculus_paca,diet_scavenger_cat,low).
+trait(cuniculus_paca,population_density_indkm2_cat,high).
 trait(cyclopes_didactylus,adult_body_mass_g_median_cat,low).
 trait(cyclopes_didactylus,home_range_km2_cat,low).
 trait(cyclopes_didactylus,longevity_y_cat,low).
@@ -509,17 +485,16 @@ trait(cyclopes_didactylus,litter_clutch_size_cat,low).
 trait(cyclopes_didactylus,litters_or_clutches_per_y_cat,medium).
 trait(cyclopes_didactylus,diet_breadth_cat,low).
 trait(cyclopes_didactylus,habitat_breadth_cat,low).
-trait(cyclopes_didactylus,social_group_size_cat,low).
-trait(cyclopes_didactylus,population_density_indkm2_cat,high).
 trait(cyclopes_didactylus,diet_invertebrates_cat,high).
 trait(cyclopes_didactylus,diet_scavenger_cat,low).
+trait(cyclopes_didactylus,population_density_indkm2_cat,high).
 trait(dasyprocta_azarae,adult_body_mass_g_median_cat,medium).
 trait(dasyprocta_azarae,longevity_y_cat,medium).
 trait(dasyprocta_azarae,diet_breadth_cat,medium).
 trait(dasyprocta_azarae,habitat_breadth_cat,low).
-trait(dasyprocta_azarae,population_density_indkm2_cat,medium).
-trait(dasyprocta_azarae,diet_invertebrates_cat,low).
+trait(dasyprocta_azarae,diet_invertebrates_cat,medium).
 trait(dasyprocta_azarae,diet_scavenger_cat,low).
+trait(dasyprocta_azarae,population_density_indkm2_cat,medium).
 trait(dasyprocta_fuliginosa,adult_body_mass_g_median_cat,medium).
 trait(dasyprocta_fuliginosa,home_range_km2_cat,low).
 trait(dasyprocta_fuliginosa,longevity_y_cat,high).
@@ -527,8 +502,7 @@ trait(dasyprocta_fuliginosa,litter_clutch_size_cat,medium).
 trait(dasyprocta_fuliginosa,litters_or_clutches_per_y_cat,medium).
 trait(dasyprocta_fuliginosa,diet_breadth_cat,medium).
 trait(dasyprocta_fuliginosa,habitat_breadth_cat,low).
-trait(dasyprocta_fuliginosa,social_group_size_cat,high).
-trait(dasyprocta_fuliginosa,diet_invertebrates_cat,low).
+trait(dasyprocta_fuliginosa,diet_invertebrates_cat,medium).
 trait(dasyprocta_fuliginosa,diet_scavenger_cat,low).
 trait(dasyprocta_leporina,adult_body_mass_g_median_cat,medium).
 trait(dasyprocta_leporina,home_range_km2_cat,low).
@@ -537,9 +511,9 @@ trait(dasyprocta_leporina,age_of_maturity_d_cat,low).
 trait(dasyprocta_leporina,litter_clutch_size_cat,low).
 trait(dasyprocta_leporina,diet_breadth_cat,medium).
 trait(dasyprocta_leporina,habitat_breadth_cat,low).
-trait(dasyprocta_leporina,population_density_indkm2_cat,medium).
-trait(dasyprocta_leporina,diet_invertebrates_cat,low).
+trait(dasyprocta_leporina,diet_invertebrates_cat,medium).
 trait(dasyprocta_leporina,diet_scavenger_cat,low).
+trait(dasyprocta_leporina,population_density_indkm2_cat,medium).
 trait(dasypus_hybridus,adult_body_mass_g_median_cat,medium).
 trait(dasypus_hybridus,age_of_maturity_d_cat,medium).
 trait(dasypus_hybridus,litter_clutch_size_cat,high).
@@ -552,7 +526,6 @@ trait(dasypus_kappleri,longevity_y_cat,low).
 trait(dasypus_kappleri,litter_clutch_size_cat,high).
 trait(dasypus_kappleri,diet_breadth_cat,low).
 trait(dasypus_kappleri,habitat_breadth_cat,medium).
-trait(dasypus_kappleri,social_group_size_cat,low).
 trait(dasypus_kappleri,diet_invertebrates_cat,high).
 trait(dasypus_kappleri,diet_scavenger_cat,low).
 trait(dasypus_novemcinctus,adult_body_mass_g_median_cat,medium).
@@ -563,10 +536,9 @@ trait(dasypus_novemcinctus,litter_clutch_size_cat,high).
 trait(dasypus_novemcinctus,litters_or_clutches_per_y_cat,low).
 trait(dasypus_novemcinctus,diet_breadth_cat,low).
 trait(dasypus_novemcinctus,habitat_breadth_cat,medium).
-trait(dasypus_novemcinctus,social_group_size_cat,low).
-trait(dasypus_novemcinctus,population_density_indkm2_cat,low).
 trait(dasypus_novemcinctus,diet_invertebrates_cat,high).
 trait(dasypus_novemcinctus,diet_scavenger_cat,low).
+trait(dasypus_novemcinctus,population_density_indkm2_cat,low).
 trait(dasypus_sabanicola,adult_body_mass_g_median_cat,medium).
 trait(dasypus_sabanicola,litter_clutch_size_cat,high).
 trait(dasypus_sabanicola,diet_breadth_cat,low).
@@ -590,8 +562,8 @@ trait(didelphis_albiventris,litter_clutch_size_cat,high).
 trait(didelphis_albiventris,litters_or_clutches_per_y_cat,medium).
 trait(didelphis_albiventris,diet_breadth_cat,high).
 trait(didelphis_albiventris,habitat_breadth_cat,high).
-trait(didelphis_albiventris,diet_invertebrates_cat,low).
-trait(didelphis_albiventris,diet_scavenger_cat,low).
+trait(didelphis_albiventris,diet_invertebrates_cat,high).
+trait(didelphis_albiventris,diet_scavenger_cat,high).
 trait(didelphis_aurita,adult_body_mass_g_median_cat,medium).
 trait(didelphis_aurita,home_range_km2_cat,low).
 trait(didelphis_aurita,longevity_y_cat,low).
@@ -600,9 +572,9 @@ trait(didelphis_aurita,litter_clutch_size_cat,high).
 trait(didelphis_aurita,litters_or_clutches_per_y_cat,medium).
 trait(didelphis_aurita,diet_breadth_cat,high).
 trait(didelphis_aurita,habitat_breadth_cat,medium).
+trait(didelphis_aurita,diet_invertebrates_cat,high).
+trait(didelphis_aurita,diet_scavenger_cat,high).
 trait(didelphis_aurita,population_density_indkm2_cat,high).
-trait(didelphis_aurita,diet_invertebrates_cat,low).
-trait(didelphis_aurita,diet_scavenger_cat,low).
 trait(didelphis_marsupialis,adult_body_mass_g_median_cat,low).
 trait(didelphis_marsupialis,home_range_km2_cat,medium).
 trait(didelphis_marsupialis,longevity_y_cat,low).
@@ -611,10 +583,9 @@ trait(didelphis_marsupialis,litter_clutch_size_cat,high).
 trait(didelphis_marsupialis,litters_or_clutches_per_y_cat,medium).
 trait(didelphis_marsupialis,diet_breadth_cat,high).
 trait(didelphis_marsupialis,habitat_breadth_cat,medium).
-trait(didelphis_marsupialis,social_group_size_cat,low).
+trait(didelphis_marsupialis,diet_invertebrates_cat,high).
+trait(didelphis_marsupialis,diet_scavenger_cat,high).
 trait(didelphis_marsupialis,population_density_indkm2_cat,high).
-trait(didelphis_marsupialis,diet_invertebrates_cat,low).
-trait(didelphis_marsupialis,diet_scavenger_cat,low).
 trait(didelphis_pernigra,adult_body_mass_g_median_cat,low).
 trait(didelphis_pernigra,longevity_y_cat,low).
 trait(didelphis_pernigra,age_of_maturity_d_cat,medium).
@@ -622,8 +593,8 @@ trait(didelphis_pernigra,litter_clutch_size_cat,high).
 trait(didelphis_pernigra,litters_or_clutches_per_y_cat,medium).
 trait(didelphis_pernigra,diet_breadth_cat,high).
 trait(didelphis_pernigra,habitat_breadth_cat,medium).
-trait(didelphis_pernigra,diet_invertebrates_cat,low).
-trait(didelphis_pernigra,diet_scavenger_cat,low).
+trait(didelphis_pernigra,diet_invertebrates_cat,high).
+trait(didelphis_pernigra,diet_scavenger_cat,high).
 trait(didelphis_virginiana,adult_body_mass_g_median_cat,medium).
 trait(didelphis_virginiana,home_range_km2_cat,medium).
 trait(didelphis_virginiana,longevity_y_cat,low).
@@ -632,10 +603,9 @@ trait(didelphis_virginiana,litter_clutch_size_cat,high).
 trait(didelphis_virginiana,litters_or_clutches_per_y_cat,medium).
 trait(didelphis_virginiana,diet_breadth_cat,high).
 trait(didelphis_virginiana,habitat_breadth_cat,medium).
-trait(didelphis_virginiana,social_group_size_cat,low).
+trait(didelphis_virginiana,diet_invertebrates_cat,high).
+trait(didelphis_virginiana,diet_scavenger_cat,high).
 trait(didelphis_virginiana,population_density_indkm2_cat,medium).
-trait(didelphis_virginiana,diet_invertebrates_cat,low).
-trait(didelphis_virginiana,diet_scavenger_cat,low).
 trait(dolichotis_patagonum,adult_body_mass_g_median_cat,high).
 trait(dolichotis_patagonum,home_range_km2_cat,medium).
 trait(dolichotis_patagonum,longevity_y_cat,medium).
@@ -644,7 +614,6 @@ trait(dolichotis_patagonum,litter_clutch_size_cat,medium).
 trait(dolichotis_patagonum,litters_or_clutches_per_y_cat,high).
 trait(dolichotis_patagonum,diet_breadth_cat,low).
 trait(dolichotis_patagonum,habitat_breadth_cat,medium).
-trait(dolichotis_patagonum,social_group_size_cat,high).
 trait(dolichotis_patagonum,diet_invertebrates_cat,low).
 trait(dolichotis_patagonum,diet_scavenger_cat,low).
 trait(eira_barbara,adult_body_mass_g_median_cat,medium).
@@ -655,10 +624,9 @@ trait(eira_barbara,litter_clutch_size_cat,medium).
 trait(eira_barbara,litters_or_clutches_per_y_cat,low).
 trait(eira_barbara,diet_breadth_cat,low).
 trait(eira_barbara,habitat_breadth_cat,medium).
-trait(eira_barbara,social_group_size_cat,medium).
-trait(eira_barbara,population_density_indkm2_cat,low).
 trait(eira_barbara,diet_invertebrates_cat,low).
 trait(eira_barbara,diet_scavenger_cat,low).
+trait(eira_barbara,population_density_indkm2_cat,low).
 trait(euphractus_sexcinctus,adult_body_mass_g_median_cat,high).
 trait(euphractus_sexcinctus,home_range_km2_cat,medium).
 trait(euphractus_sexcinctus,longevity_y_cat,high).
@@ -666,10 +634,9 @@ trait(euphractus_sexcinctus,age_of_maturity_d_cat,low).
 trait(euphractus_sexcinctus,litter_clutch_size_cat,medium).
 trait(euphractus_sexcinctus,diet_breadth_cat,low).
 trait(euphractus_sexcinctus,habitat_breadth_cat,medium).
-trait(euphractus_sexcinctus,social_group_size_cat,low).
-trait(euphractus_sexcinctus,population_density_indkm2_cat,low).
-trait(euphractus_sexcinctus,diet_invertebrates_cat,medium).
+trait(euphractus_sexcinctus,diet_invertebrates_cat,high).
 trait(euphractus_sexcinctus,diet_scavenger_cat,low).
+trait(euphractus_sexcinctus,population_density_indkm2_cat,low).
 trait(galea_flavidens,adult_body_mass_g_median_cat,low).
 trait(galea_flavidens,age_of_maturity_d_cat,low).
 trait(galea_flavidens,litters_or_clutches_per_y_cat,high).
@@ -682,7 +649,7 @@ trait(galictis_cuja,longevity_y_cat,low).
 trait(galictis_cuja,litter_clutch_size_cat,high).
 trait(galictis_cuja,diet_breadth_cat,high).
 trait(galictis_cuja,habitat_breadth_cat,high).
-trait(galictis_cuja,diet_invertebrates_cat,low).
+trait(galictis_cuja,diet_invertebrates_cat,high).
 trait(galictis_cuja,diet_scavenger_cat,low).
 trait(galictis_vittata,adult_body_mass_g_median_cat,medium).
 trait(galictis_vittata,home_range_km2_cat,high).
@@ -690,8 +657,7 @@ trait(galictis_vittata,longevity_y_cat,medium).
 trait(galictis_vittata,litter_clutch_size_cat,medium).
 trait(galictis_vittata,diet_breadth_cat,high).
 trait(galictis_vittata,habitat_breadth_cat,high).
-trait(galictis_vittata,social_group_size_cat,low).
-trait(galictis_vittata,diet_invertebrates_cat,low).
+trait(galictis_vittata,diet_invertebrates_cat,high).
 trait(galictis_vittata,diet_scavenger_cat,low).
 trait(gracilinanus_agilis,adult_body_mass_g_median_cat,low).
 trait(gracilinanus_agilis,longevity_y_cat,low).
@@ -700,18 +666,17 @@ trait(gracilinanus_agilis,litter_clutch_size_cat,high).
 trait(gracilinanus_agilis,litters_or_clutches_per_y_cat,medium).
 trait(gracilinanus_agilis,diet_breadth_cat,medium).
 trait(gracilinanus_agilis,habitat_breadth_cat,low).
-trait(gracilinanus_agilis,diet_invertebrates_cat,medium).
+trait(gracilinanus_agilis,diet_invertebrates_cat,high).
 trait(gracilinanus_agilis,diet_scavenger_cat,low).
 trait(herpailurus_yagouaroundi,adult_body_mass_g_median_cat,high).
 trait(herpailurus_yagouaroundi,home_range_km2_cat,high).
-trait(herpailurus_yagouaroundi,longevity_y_cat,high).
+trait(herpailurus_yagouaroundi,longevity_y_cat,medium).
 trait(herpailurus_yagouaroundi,age_of_maturity_d_cat,high).
 trait(herpailurus_yagouaroundi,litter_clutch_size_cat,medium).
 trait(herpailurus_yagouaroundi,litters_or_clutches_per_y_cat,medium).
 trait(herpailurus_yagouaroundi,diet_breadth_cat,medium).
 trait(herpailurus_yagouaroundi,habitat_breadth_cat,high).
-trait(herpailurus_yagouaroundi,social_group_size_cat,medium).
-trait(herpailurus_yagouaroundi,diet_invertebrates_cat,low).
+trait(herpailurus_yagouaroundi,diet_invertebrates_cat,medium).
 trait(herpailurus_yagouaroundi,diet_scavenger_cat,low).
 trait(hydrochoerus_hydrochaeris,adult_body_mass_g_median_cat,high).
 trait(hydrochoerus_hydrochaeris,home_range_km2_cat,low).
@@ -721,10 +686,9 @@ trait(hydrochoerus_hydrochaeris,litter_clutch_size_cat,high).
 trait(hydrochoerus_hydrochaeris,litters_or_clutches_per_y_cat,low).
 trait(hydrochoerus_hydrochaeris,diet_breadth_cat,low).
 trait(hydrochoerus_hydrochaeris,habitat_breadth_cat,high).
-trait(hydrochoerus_hydrochaeris,social_group_size_cat,high).
-trait(hydrochoerus_hydrochaeris,population_density_indkm2_cat,medium).
 trait(hydrochoerus_hydrochaeris,diet_invertebrates_cat,low).
 trait(hydrochoerus_hydrochaeris,diet_scavenger_cat,low).
+trait(hydrochoerus_hydrochaeris,population_density_indkm2_cat,medium).
 trait(kerodon_rupestris,adult_body_mass_g_median_cat,low).
 trait(kerodon_rupestris,home_range_km2_cat,low).
 trait(kerodon_rupestris,longevity_y_cat,medium).
@@ -743,10 +707,9 @@ trait(lama_guanicoe,litter_clutch_size_cat,low).
 trait(lama_guanicoe,litters_or_clutches_per_y_cat,low).
 trait(lama_guanicoe,diet_breadth_cat,low).
 trait(lama_guanicoe,habitat_breadth_cat,medium).
-trait(lama_guanicoe,social_group_size_cat,high).
-trait(lama_guanicoe,population_density_indkm2_cat,low).
 trait(lama_guanicoe,diet_invertebrates_cat,low).
 trait(lama_guanicoe,diet_scavenger_cat,low).
+trait(lama_guanicoe,population_density_indkm2_cat,low).
 trait(leopardus_colocolo,adult_body_mass_g_median_cat,high).
 trait(leopardus_colocolo,home_range_km2_cat,high).
 trait(leopardus_colocolo,longevity_y_cat,high).
@@ -754,7 +717,6 @@ trait(leopardus_colocolo,litter_clutch_size_cat,medium).
 trait(leopardus_colocolo,litters_or_clutches_per_y_cat,low).
 trait(leopardus_colocolo,diet_breadth_cat,low).
 trait(leopardus_colocolo,habitat_breadth_cat,high).
-trait(leopardus_colocolo,social_group_size_cat,low).
 trait(leopardus_colocolo,diet_invertebrates_cat,low).
 trait(leopardus_colocolo,diet_scavenger_cat,low).
 trait(leopardus_geoffroyi,adult_body_mass_g_median_cat,medium).
@@ -775,10 +737,9 @@ trait(leopardus_pardalis,litter_clutch_size_cat,low).
 trait(leopardus_pardalis,litters_or_clutches_per_y_cat,low).
 trait(leopardus_pardalis,diet_breadth_cat,medium).
 trait(leopardus_pardalis,habitat_breadth_cat,high).
-trait(leopardus_pardalis,social_group_size_cat,low).
-trait(leopardus_pardalis,population_density_indkm2_cat,low).
 trait(leopardus_pardalis,diet_invertebrates_cat,low).
 trait(leopardus_pardalis,diet_scavenger_cat,low).
+trait(leopardus_pardalis,population_density_indkm2_cat,low).
 trait(leopardus_tigrinus,adult_body_mass_g_median_cat,medium).
 trait(leopardus_tigrinus,home_range_km2_cat,high).
 trait(leopardus_tigrinus,longevity_y_cat,high).
@@ -787,7 +748,6 @@ trait(leopardus_tigrinus,litter_clutch_size_cat,low).
 trait(leopardus_tigrinus,litters_or_clutches_per_y_cat,medium).
 trait(leopardus_tigrinus,diet_breadth_cat,low).
 trait(leopardus_tigrinus,habitat_breadth_cat,high).
-trait(leopardus_tigrinus,social_group_size_cat,low).
 trait(leopardus_tigrinus,diet_invertebrates_cat,low).
 trait(leopardus_tigrinus,diet_scavenger_cat,low).
 trait(leopardus_wiedii,adult_body_mass_g_median_cat,medium).
@@ -797,7 +757,6 @@ trait(leopardus_wiedii,age_of_maturity_d_cat,high).
 trait(leopardus_wiedii,litter_clutch_size_cat,low).
 trait(leopardus_wiedii,diet_breadth_cat,low).
 trait(leopardus_wiedii,habitat_breadth_cat,high).
-trait(leopardus_wiedii,social_group_size_cat,low).
 trait(leopardus_wiedii,diet_invertebrates_cat,low).
 trait(leopardus_wiedii,diet_scavenger_cat,low).
 trait(lepus_callotis,adult_body_mass_g_median_cat,medium).
@@ -806,7 +765,6 @@ trait(lepus_callotis,litter_clutch_size_cat,medium).
 trait(lepus_callotis,litters_or_clutches_per_y_cat,high).
 trait(lepus_callotis,diet_breadth_cat,low).
 trait(lepus_callotis,habitat_breadth_cat,low).
-trait(lepus_callotis,social_group_size_cat,high).
 trait(lepus_callotis,diet_invertebrates_cat,low).
 trait(lepus_callotis,diet_scavenger_cat,low).
 trait(lepus_europaeus,adult_body_mass_g_median_cat,medium).
@@ -817,17 +775,16 @@ trait(lepus_europaeus,litter_clutch_size_cat,medium).
 trait(lepus_europaeus,litters_or_clutches_per_y_cat,high).
 trait(lepus_europaeus,diet_breadth_cat,low).
 trait(lepus_europaeus,habitat_breadth_cat,medium).
-trait(lepus_europaeus,population_density_indkm2_cat,high).
 trait(lepus_europaeus,diet_invertebrates_cat,low).
 trait(lepus_europaeus,diet_scavenger_cat,low).
+trait(lepus_europaeus,population_density_indkm2_cat,high).
 trait(lontra_longicaudis,adult_body_mass_g_median_cat,high).
 trait(lontra_longicaudis,home_range_km2_cat,high).
 trait(lontra_longicaudis,longevity_y_cat,medium).
 trait(lontra_longicaudis,litter_clutch_size_cat,high).
 trait(lontra_longicaudis,diet_breadth_cat,medium).
 trait(lontra_longicaudis,habitat_breadth_cat,high).
-trait(lontra_longicaudis,social_group_size_cat,low).
-trait(lontra_longicaudis,diet_invertebrates_cat,low).
+trait(lontra_longicaudis,diet_invertebrates_cat,medium).
 trait(lontra_longicaudis,diet_scavenger_cat,low).
 trait(lutreolina_crassicaudata,adult_body_mass_g_median_cat,low).
 trait(lutreolina_crassicaudata,home_range_km2_cat,low).
@@ -837,7 +794,7 @@ trait(lutreolina_crassicaudata,litter_clutch_size_cat,high).
 trait(lutreolina_crassicaudata,litters_or_clutches_per_y_cat,medium).
 trait(lutreolina_crassicaudata,diet_breadth_cat,high).
 trait(lutreolina_crassicaudata,habitat_breadth_cat,medium).
-trait(lutreolina_crassicaudata,diet_invertebrates_cat,low).
+trait(lutreolina_crassicaudata,diet_invertebrates_cat,high).
 trait(lutreolina_crassicaudata,diet_scavenger_cat,low).
 trait(lycalopex_culpaeus,adult_body_mass_g_median_cat,high).
 trait(lycalopex_culpaeus,home_range_km2_cat,high).
@@ -847,19 +804,18 @@ trait(lycalopex_culpaeus,litter_clutch_size_cat,high).
 trait(lycalopex_culpaeus,litters_or_clutches_per_y_cat,low).
 trait(lycalopex_culpaeus,diet_breadth_cat,high).
 trait(lycalopex_culpaeus,habitat_breadth_cat,high).
-trait(lycalopex_culpaeus,social_group_size_cat,low).
-trait(lycalopex_culpaeus,diet_invertebrates_cat,low).
+trait(lycalopex_culpaeus,diet_invertebrates_cat,medium).
 trait(lycalopex_culpaeus,diet_scavenger_cat,low).
-trait(lycalopex_griseus,adult_body_mass_g_median_cat,high).
+trait(lycalopex_griseus,adult_body_mass_g_median_cat,medium).
 trait(lycalopex_griseus,home_range_km2_cat,medium).
 trait(lycalopex_griseus,longevity_y_cat,medium).
 trait(lycalopex_griseus,age_of_maturity_d_cat,medium).
 trait(lycalopex_griseus,litter_clutch_size_cat,medium).
 trait(lycalopex_griseus,diet_breadth_cat,high).
 trait(lycalopex_griseus,habitat_breadth_cat,high).
-trait(lycalopex_griseus,diet_invertebrates_cat,low).
+trait(lycalopex_griseus,diet_invertebrates_cat,medium).
 trait(lycalopex_griseus,diet_scavenger_cat,low).
-trait(lycalopex_gymnocercus,adult_body_mass_g_median_cat,high).
+trait(lycalopex_gymnocercus,adult_body_mass_g_median_cat,medium).
 trait(lycalopex_gymnocercus,home_range_km2_cat,high).
 trait(lycalopex_gymnocercus,longevity_y_cat,medium).
 trait(lycalopex_gymnocercus,age_of_maturity_d_cat,low).
@@ -873,8 +829,7 @@ trait(lycalopex_sechurae,adult_body_mass_g_median_cat,medium).
 trait(lycalopex_sechurae,longevity_y_cat,low).
 trait(lycalopex_sechurae,diet_breadth_cat,high).
 trait(lycalopex_sechurae,habitat_breadth_cat,medium).
-trait(lycalopex_sechurae,social_group_size_cat,low).
-trait(lycalopex_sechurae,diet_invertebrates_cat,low).
+trait(lycalopex_sechurae,diet_invertebrates_cat,medium).
 trait(lycalopex_sechurae,diet_scavenger_cat,low).
 trait(lycalopex_vetulus,adult_body_mass_g_median_cat,medium).
 trait(lycalopex_vetulus,home_range_km2_cat,high).
@@ -884,7 +839,7 @@ trait(lycalopex_vetulus,litter_clutch_size_cat,medium).
 trait(lycalopex_vetulus,litters_or_clutches_per_y_cat,medium).
 trait(lycalopex_vetulus,diet_breadth_cat,high).
 trait(lycalopex_vetulus,habitat_breadth_cat,medium).
-trait(lycalopex_vetulus,diet_invertebrates_cat,low).
+trait(lycalopex_vetulus,diet_invertebrates_cat,medium).
 trait(lycalopex_vetulus,diet_scavenger_cat,low).
 trait(marmosa_murina,adult_body_mass_g_median_cat,low).
 trait(marmosa_murina,longevity_y_cat,medium).
@@ -893,8 +848,7 @@ trait(marmosa_murina,litter_clutch_size_cat,high).
 trait(marmosa_murina,litters_or_clutches_per_y_cat,medium).
 trait(marmosa_murina,diet_breadth_cat,high).
 trait(marmosa_murina,habitat_breadth_cat,medium).
-trait(marmosa_murina,social_group_size_cat,low).
-trait(marmosa_murina,diet_invertebrates_cat,medium).
+trait(marmosa_murina,diet_invertebrates_cat,high).
 trait(marmosa_murina,diet_scavenger_cat,low).
 trait(mazama_americana,adult_body_mass_g_median_cat,high).
 trait(mazama_americana,home_range_km2_cat,medium).
@@ -904,10 +858,9 @@ trait(mazama_americana,litter_clutch_size_cat,low).
 trait(mazama_americana,litters_or_clutches_per_y_cat,low).
 trait(mazama_americana,diet_breadth_cat,low).
 trait(mazama_americana,habitat_breadth_cat,medium).
-trait(mazama_americana,social_group_size_cat,low).
-trait(mazama_americana,population_density_indkm2_cat,low).
 trait(mazama_americana,diet_invertebrates_cat,low).
 trait(mazama_americana,diet_scavenger_cat,low).
+trait(mazama_americana,population_density_indkm2_cat,low).
 trait(mazama_gouazoubira,adult_body_mass_g_median_cat,high).
 trait(mazama_gouazoubira,home_range_km2_cat,medium).
 trait(mazama_gouazoubira,longevity_y_cat,medium).
@@ -916,10 +869,9 @@ trait(mazama_gouazoubira,litter_clutch_size_cat,low).
 trait(mazama_gouazoubira,litters_or_clutches_per_y_cat,low).
 trait(mazama_gouazoubira,diet_breadth_cat,medium).
 trait(mazama_gouazoubira,habitat_breadth_cat,medium).
-trait(mazama_gouazoubira,social_group_size_cat,low).
-trait(mazama_gouazoubira,population_density_indkm2_cat,low).
 trait(mazama_gouazoubira,diet_invertebrates_cat,low).
 trait(mazama_gouazoubira,diet_scavenger_cat,low).
+trait(mazama_gouazoubira,population_density_indkm2_cat,low).
 trait(mazama_nana,adult_body_mass_g_median_cat,high).
 trait(mazama_nana,longevity_y_cat,high).
 trait(mazama_nana,diet_breadth_cat,low).
@@ -933,10 +885,9 @@ trait(metachirus_nudicaudatus,litter_clutch_size_cat,high).
 trait(metachirus_nudicaudatus,litters_or_clutches_per_y_cat,medium).
 trait(metachirus_nudicaudatus,diet_breadth_cat,high).
 trait(metachirus_nudicaudatus,habitat_breadth_cat,medium).
-trait(metachirus_nudicaudatus,social_group_size_cat,low).
-trait(metachirus_nudicaudatus,population_density_indkm2_cat,medium).
-trait(metachirus_nudicaudatus,diet_invertebrates_cat,low).
+trait(metachirus_nudicaudatus,diet_invertebrates_cat,high).
 trait(metachirus_nudicaudatus,diet_scavenger_cat,low).
+trait(metachirus_nudicaudatus,population_density_indkm2_cat,medium).
 trait(mico_melanurus,adult_body_mass_g_median_cat,low).
 trait(mico_melanurus,home_range_km2_cat,medium).
 trait(mico_melanurus,longevity_y_cat,medium).
@@ -945,15 +896,13 @@ trait(mico_melanurus,litter_clutch_size_cat,medium).
 trait(mico_melanurus,litters_or_clutches_per_y_cat,high).
 trait(mico_melanurus,diet_breadth_cat,medium).
 trait(mico_melanurus,habitat_breadth_cat,low).
-trait(mico_melanurus,social_group_size_cat,high).
-trait(mico_melanurus,population_density_indkm2_cat,medium).
-trait(mico_melanurus,diet_invertebrates_cat,low).
+trait(mico_melanurus,diet_invertebrates_cat,high).
 trait(mico_melanurus,diet_scavenger_cat,low).
+trait(mico_melanurus,population_density_indkm2_cat,medium).
 trait(microsciurus_flaviventer,adult_body_mass_g_median_cat,low).
 trait(microsciurus_flaviventer,litter_clutch_size_cat,medium).
 trait(microsciurus_flaviventer,diet_breadth_cat,low).
 trait(microsciurus_flaviventer,habitat_breadth_cat,low).
-trait(microsciurus_flaviventer,social_group_size_cat,high).
 trait(microsciurus_flaviventer,diet_invertebrates_cat,low).
 trait(microsciurus_flaviventer,diet_scavenger_cat,low).
 trait(mustela_frenata,adult_body_mass_g_median_cat,low).
@@ -964,7 +913,6 @@ trait(mustela_frenata,litter_clutch_size_cat,high).
 trait(mustela_frenata,litters_or_clutches_per_y_cat,low).
 trait(mustela_frenata,diet_breadth_cat,low).
 trait(mustela_frenata,habitat_breadth_cat,high).
-trait(mustela_frenata,social_group_size_cat,low).
 trait(mustela_frenata,diet_invertebrates_cat,low).
 trait(mustela_frenata,diet_scavenger_cat,low).
 trait(myocastor_coypus,adult_body_mass_g_median_cat,high).
@@ -975,7 +923,6 @@ trait(myocastor_coypus,litter_clutch_size_cat,high).
 trait(myocastor_coypus,litters_or_clutches_per_y_cat,high).
 trait(myocastor_coypus,diet_breadth_cat,low).
 trait(myocastor_coypus,habitat_breadth_cat,medium).
-trait(myocastor_coypus,social_group_size_cat,high).
 trait(myocastor_coypus,diet_invertebrates_cat,low).
 trait(myocastor_coypus,diet_scavenger_cat,low).
 trait(myrmecophaga_tridactyla,adult_body_mass_g_median_cat,high).
@@ -986,10 +933,9 @@ trait(myrmecophaga_tridactyla,litter_clutch_size_cat,low).
 trait(myrmecophaga_tridactyla,litters_or_clutches_per_y_cat,medium).
 trait(myrmecophaga_tridactyla,diet_breadth_cat,low).
 trait(myrmecophaga_tridactyla,habitat_breadth_cat,medium).
-trait(myrmecophaga_tridactyla,social_group_size_cat,low).
-trait(myrmecophaga_tridactyla,population_density_indkm2_cat,low).
 trait(myrmecophaga_tridactyla,diet_invertebrates_cat,high).
 trait(myrmecophaga_tridactyla,diet_scavenger_cat,low).
+trait(myrmecophaga_tridactyla,population_density_indkm2_cat,low).
 trait(nasua_narica,adult_body_mass_g_median_cat,medium).
 trait(nasua_narica,home_range_km2_cat,medium).
 trait(nasua_narica,longevity_y_cat,high).
@@ -998,9 +944,9 @@ trait(nasua_narica,litter_clutch_size_cat,high).
 trait(nasua_narica,litters_or_clutches_per_y_cat,medium).
 trait(nasua_narica,diet_breadth_cat,medium).
 trait(nasua_narica,habitat_breadth_cat,medium).
-trait(nasua_narica,population_density_indkm2_cat,high).
-trait(nasua_narica,diet_invertebrates_cat,low).
+trait(nasua_narica,diet_invertebrates_cat,medium).
 trait(nasua_narica,diet_scavenger_cat,low).
+trait(nasua_narica,population_density_indkm2_cat,high).
 trait(nasua_nasua,adult_body_mass_g_median_cat,medium).
 trait(nasua_nasua,home_range_km2_cat,medium).
 trait(nasua_nasua,longevity_y_cat,high).
@@ -1009,9 +955,9 @@ trait(nasua_nasua,litter_clutch_size_cat,high).
 trait(nasua_nasua,litters_or_clutches_per_y_cat,medium).
 trait(nasua_nasua,diet_breadth_cat,medium).
 trait(nasua_nasua,habitat_breadth_cat,medium).
-trait(nasua_nasua,population_density_indkm2_cat,medium).
-trait(nasua_nasua,diet_invertebrates_cat,low).
+trait(nasua_nasua,diet_invertebrates_cat,medium).
 trait(nasua_nasua,diet_scavenger_cat,low).
+trait(nasua_nasua,population_density_indkm2_cat,medium).
 trait(otospermophilus_variegatus,adult_body_mass_g_median_cat,low).
 trait(otospermophilus_variegatus,home_range_km2_cat,low).
 trait(otospermophilus_variegatus,longevity_y_cat,low).
@@ -1020,7 +966,7 @@ trait(otospermophilus_variegatus,litter_clutch_size_cat,high).
 trait(otospermophilus_variegatus,litters_or_clutches_per_y_cat,medium).
 trait(otospermophilus_variegatus,diet_breadth_cat,medium).
 trait(otospermophilus_variegatus,habitat_breadth_cat,medium).
-trait(otospermophilus_variegatus,diet_invertebrates_cat,low).
+trait(otospermophilus_variegatus,diet_invertebrates_cat,high).
 trait(otospermophilus_variegatus,diet_scavenger_cat,low).
 trait(ozotoceros_bezoarticus,adult_body_mass_g_median_cat,high).
 trait(ozotoceros_bezoarticus,home_range_km2_cat,high).
@@ -1030,10 +976,9 @@ trait(ozotoceros_bezoarticus,litter_clutch_size_cat,low).
 trait(ozotoceros_bezoarticus,litters_or_clutches_per_y_cat,low).
 trait(ozotoceros_bezoarticus,diet_breadth_cat,low).
 trait(ozotoceros_bezoarticus,habitat_breadth_cat,medium).
-trait(ozotoceros_bezoarticus,social_group_size_cat,high).
-trait(ozotoceros_bezoarticus,population_density_indkm2_cat,low).
 trait(ozotoceros_bezoarticus,diet_invertebrates_cat,low).
 trait(ozotoceros_bezoarticus,diet_scavenger_cat,low).
+trait(ozotoceros_bezoarticus,population_density_indkm2_cat,low).
 trait(panthera_onca,adult_body_mass_g_median_cat,high).
 trait(panthera_onca,home_range_km2_cat,high).
 trait(panthera_onca,longevity_y_cat,high).
@@ -1042,10 +987,9 @@ trait(panthera_onca,litter_clutch_size_cat,medium).
 trait(panthera_onca,litters_or_clutches_per_y_cat,low).
 trait(panthera_onca,diet_breadth_cat,medium).
 trait(panthera_onca,habitat_breadth_cat,medium).
-trait(panthera_onca,social_group_size_cat,low).
-trait(panthera_onca,population_density_indkm2_cat,low).
 trait(panthera_onca,diet_invertebrates_cat,low).
 trait(panthera_onca,diet_scavenger_cat,low).
+trait(panthera_onca,population_density_indkm2_cat,low).
 trait(pecari_tajacu,adult_body_mass_g_median_cat,high).
 trait(pecari_tajacu,home_range_km2_cat,medium).
 trait(pecari_tajacu,longevity_y_cat,high).
@@ -1054,10 +998,9 @@ trait(pecari_tajacu,litter_clutch_size_cat,low).
 trait(pecari_tajacu,litters_or_clutches_per_y_cat,medium).
 trait(pecari_tajacu,diet_breadth_cat,high).
 trait(pecari_tajacu,habitat_breadth_cat,high).
-trait(pecari_tajacu,social_group_size_cat,high).
-trait(pecari_tajacu,population_density_indkm2_cat,medium).
-trait(pecari_tajacu,diet_invertebrates_cat,low).
+trait(pecari_tajacu,diet_invertebrates_cat,medium).
 trait(pecari_tajacu,diet_scavenger_cat,low).
+trait(pecari_tajacu,population_density_indkm2_cat,medium).
 trait(philander_frenatus,adult_body_mass_g_median_cat,low).
 trait(philander_frenatus,home_range_km2_cat,low).
 trait(philander_frenatus,longevity_y_cat,low).
@@ -1066,7 +1009,7 @@ trait(philander_frenatus,litter_clutch_size_cat,high).
 trait(philander_frenatus,litters_or_clutches_per_y_cat,high).
 trait(philander_frenatus,diet_breadth_cat,high).
 trait(philander_frenatus,habitat_breadth_cat,medium).
-trait(philander_frenatus,diet_invertebrates_cat,low).
+trait(philander_frenatus,diet_invertebrates_cat,high).
 trait(philander_frenatus,diet_scavenger_cat,low).
 trait(philander_opossum,adult_body_mass_g_median_cat,low).
 trait(philander_opossum,home_range_km2_cat,low).
@@ -1076,10 +1019,9 @@ trait(philander_opossum,litter_clutch_size_cat,high).
 trait(philander_opossum,litters_or_clutches_per_y_cat,high).
 trait(philander_opossum,diet_breadth_cat,high).
 trait(philander_opossum,habitat_breadth_cat,medium).
-trait(philander_opossum,social_group_size_cat,low).
-trait(philander_opossum,population_density_indkm2_cat,high).
-trait(philander_opossum,diet_invertebrates_cat,low).
+trait(philander_opossum,diet_invertebrates_cat,high).
 trait(philander_opossum,diet_scavenger_cat,low).
+trait(philander_opossum,population_density_indkm2_cat,high).
 trait(potos_flavus,adult_body_mass_g_median_cat,medium).
 trait(potos_flavus,home_range_km2_cat,medium).
 trait(potos_flavus,longevity_y_cat,high).
@@ -1088,8 +1030,7 @@ trait(potos_flavus,litter_clutch_size_cat,low).
 trait(potos_flavus,litters_or_clutches_per_y_cat,low).
 trait(potos_flavus,diet_breadth_cat,medium).
 trait(potos_flavus,habitat_breadth_cat,medium).
-trait(potos_flavus,social_group_size_cat,low).
-trait(potos_flavus,diet_invertebrates_cat,low).
+trait(potos_flavus,diet_invertebrates_cat,medium).
 trait(potos_flavus,diet_scavenger_cat,low).
 trait(priodontes_maximus,adult_body_mass_g_median_cat,high).
 trait(priodontes_maximus,home_range_km2_cat,high).
@@ -1098,10 +1039,9 @@ trait(priodontes_maximus,age_of_maturity_d_cat,medium).
 trait(priodontes_maximus,litter_clutch_size_cat,low).
 trait(priodontes_maximus,diet_breadth_cat,low).
 trait(priodontes_maximus,habitat_breadth_cat,medium).
-trait(priodontes_maximus,social_group_size_cat,low).
-trait(priodontes_maximus,population_density_indkm2_cat,low).
 trait(priodontes_maximus,diet_invertebrates_cat,high).
 trait(priodontes_maximus,diet_scavenger_cat,low).
+trait(priodontes_maximus,population_density_indkm2_cat,low).
 trait(procyon_cancrivorus,adult_body_mass_g_median_cat,high).
 trait(procyon_cancrivorus,home_range_km2_cat,high).
 trait(procyon_cancrivorus,longevity_y_cat,medium).
@@ -1110,8 +1050,7 @@ trait(procyon_cancrivorus,litter_clutch_size_cat,medium).
 trait(procyon_cancrivorus,litters_or_clutches_per_y_cat,low).
 trait(procyon_cancrivorus,diet_breadth_cat,high).
 trait(procyon_cancrivorus,habitat_breadth_cat,medium).
-trait(procyon_cancrivorus,social_group_size_cat,low).
-trait(procyon_cancrivorus,diet_invertebrates_cat,medium).
+trait(procyon_cancrivorus,diet_invertebrates_cat,high).
 trait(procyon_cancrivorus,diet_scavenger_cat,low).
 trait(procyon_lotor,adult_body_mass_g_median_cat,high).
 trait(procyon_lotor,home_range_km2_cat,high).
@@ -1121,9 +1060,9 @@ trait(procyon_lotor,litter_clutch_size_cat,medium).
 trait(procyon_lotor,litters_or_clutches_per_y_cat,low).
 trait(procyon_lotor,diet_breadth_cat,high).
 trait(procyon_lotor,habitat_breadth_cat,high).
-trait(procyon_lotor,population_density_indkm2_cat,high).
-trait(procyon_lotor,diet_invertebrates_cat,medium).
+trait(procyon_lotor,diet_invertebrates_cat,high).
 trait(procyon_lotor,diet_scavenger_cat,low).
+trait(procyon_lotor,population_density_indkm2_cat,high).
 trait(puma_concolor,adult_body_mass_g_median_cat,high).
 trait(puma_concolor,home_range_km2_cat,high).
 trait(puma_concolor,longevity_y_cat,high).
@@ -1132,10 +1071,9 @@ trait(puma_concolor,litter_clutch_size_cat,medium).
 trait(puma_concolor,litters_or_clutches_per_y_cat,low).
 trait(puma_concolor,diet_breadth_cat,low).
 trait(puma_concolor,habitat_breadth_cat,high).
-trait(puma_concolor,social_group_size_cat,low).
-trait(puma_concolor,population_density_indkm2_cat,low).
 trait(puma_concolor,diet_invertebrates_cat,low).
 trait(puma_concolor,diet_scavenger_cat,low).
+trait(puma_concolor,population_density_indkm2_cat,low).
 trait(saguinus_midas,adult_body_mass_g_median_cat,low).
 trait(saguinus_midas,home_range_km2_cat,low).
 trait(saguinus_midas,longevity_y_cat,medium).
@@ -1144,10 +1082,9 @@ trait(saguinus_midas,litter_clutch_size_cat,medium).
 trait(saguinus_midas,litters_or_clutches_per_y_cat,medium).
 trait(saguinus_midas,diet_breadth_cat,medium).
 trait(saguinus_midas,habitat_breadth_cat,low).
-trait(saguinus_midas,social_group_size_cat,high).
-trait(saguinus_midas,population_density_indkm2_cat,high).
-trait(saguinus_midas,diet_invertebrates_cat,medium).
+trait(saguinus_midas,diet_invertebrates_cat,high).
 trait(saguinus_midas,diet_scavenger_cat,low).
+trait(saguinus_midas,population_density_indkm2_cat,high).
 trait(saimiri_sciureus,adult_body_mass_g_median_cat,low).
 trait(saimiri_sciureus,home_range_km2_cat,medium).
 trait(saimiri_sciureus,longevity_y_cat,high).
@@ -1156,10 +1093,9 @@ trait(saimiri_sciureus,litter_clutch_size_cat,low).
 trait(saimiri_sciureus,litters_or_clutches_per_y_cat,medium).
 trait(saimiri_sciureus,diet_breadth_cat,high).
 trait(saimiri_sciureus,habitat_breadth_cat,low).
-trait(saimiri_sciureus,social_group_size_cat,high).
-trait(saimiri_sciureus,population_density_indkm2_cat,medium).
-trait(saimiri_sciureus,diet_invertebrates_cat,low).
+trait(saimiri_sciureus,diet_invertebrates_cat,high).
 trait(saimiri_sciureus,diet_scavenger_cat,low).
+trait(saimiri_sciureus,population_density_indkm2_cat,medium).
 trait(sapajus_apella,adult_body_mass_g_median_cat,medium).
 trait(sapajus_apella,home_range_km2_cat,medium).
 trait(sapajus_apella,longevity_y_cat,high).
@@ -1168,10 +1104,9 @@ trait(sapajus_apella,litter_clutch_size_cat,low).
 trait(sapajus_apella,litters_or_clutches_per_y_cat,low).
 trait(sapajus_apella,diet_breadth_cat,high).
 trait(sapajus_apella,habitat_breadth_cat,low).
-trait(sapajus_apella,social_group_size_cat,high).
-trait(sapajus_apella,population_density_indkm2_cat,medium).
-trait(sapajus_apella,diet_invertebrates_cat,low).
+trait(sapajus_apella,diet_invertebrates_cat,high).
 trait(sapajus_apella,diet_scavenger_cat,low).
+trait(sapajus_apella,population_density_indkm2_cat,medium).
 trait(sapajus_cay,adult_body_mass_g_median_cat,medium).
 trait(sapajus_cay,home_range_km2_cat,medium).
 trait(sapajus_cay,longevity_y_cat,high).
@@ -1180,10 +1115,9 @@ trait(sapajus_cay,litter_clutch_size_cat,low).
 trait(sapajus_cay,litters_or_clutches_per_y_cat,low).
 trait(sapajus_cay,diet_breadth_cat,high).
 trait(sapajus_cay,habitat_breadth_cat,low).
-trait(sapajus_cay,social_group_size_cat,high).
-trait(sapajus_cay,population_density_indkm2_cat,medium).
-trait(sapajus_cay,diet_invertebrates_cat,low).
+trait(sapajus_cay,diet_invertebrates_cat,high).
 trait(sapajus_cay,diet_scavenger_cat,low).
+trait(sapajus_cay,population_density_indkm2_cat,medium).
 trait(sapajus_libidinosus,adult_body_mass_g_median_cat,medium).
 trait(sapajus_libidinosus,home_range_km2_cat,high).
 trait(sapajus_libidinosus,longevity_y_cat,high).
@@ -1192,15 +1126,14 @@ trait(sapajus_libidinosus,litter_clutch_size_cat,low).
 trait(sapajus_libidinosus,litters_or_clutches_per_y_cat,low).
 trait(sapajus_libidinosus,diet_breadth_cat,high).
 trait(sapajus_libidinosus,habitat_breadth_cat,low).
-trait(sapajus_libidinosus,population_density_indkm2_cat,medium).
-trait(sapajus_libidinosus,diet_invertebrates_cat,low).
+trait(sapajus_libidinosus,diet_invertebrates_cat,high).
 trait(sapajus_libidinosus,diet_scavenger_cat,low).
+trait(sapajus_libidinosus,population_density_indkm2_cat,medium).
 trait(sciurus_aestuans,adult_body_mass_g_median_cat,low).
 trait(sciurus_aestuans,longevity_y_cat,low).
 trait(sciurus_aestuans,litter_clutch_size_cat,medium).
 trait(sciurus_aestuans,diet_breadth_cat,medium).
 trait(sciurus_aestuans,habitat_breadth_cat,low).
-trait(sciurus_aestuans,social_group_size_cat,low).
 trait(sciurus_aestuans,diet_invertebrates_cat,low).
 trait(sciurus_aestuans,diet_scavenger_cat,low).
 trait(sciurus_aureogaster,adult_body_mass_g_median_cat,low).
@@ -1209,7 +1142,6 @@ trait(sciurus_aureogaster,longevity_y_cat,medium).
 trait(sciurus_aureogaster,litter_clutch_size_cat,medium).
 trait(sciurus_aureogaster,diet_breadth_cat,medium).
 trait(sciurus_aureogaster,habitat_breadth_cat,medium).
-trait(sciurus_aureogaster,social_group_size_cat,low).
 trait(sciurus_aureogaster,diet_invertebrates_cat,low).
 trait(sciurus_aureogaster,diet_scavenger_cat,low).
 trait(sciurus_granatensis,adult_body_mass_g_median_cat,low).
@@ -1219,14 +1151,12 @@ trait(sciurus_granatensis,litter_clutch_size_cat,medium).
 trait(sciurus_granatensis,litters_or_clutches_per_y_cat,medium).
 trait(sciurus_granatensis,diet_breadth_cat,medium).
 trait(sciurus_granatensis,habitat_breadth_cat,low).
-trait(sciurus_granatensis,social_group_size_cat,low).
-trait(sciurus_granatensis,population_density_indkm2_cat,high).
 trait(sciurus_granatensis,diet_invertebrates_cat,low).
 trait(sciurus_granatensis,diet_scavenger_cat,low).
+trait(sciurus_granatensis,population_density_indkm2_cat,high).
 trait(sciurus_igniventris,adult_body_mass_g_median_cat,low).
 trait(sciurus_igniventris,diet_breadth_cat,medium).
 trait(sciurus_igniventris,habitat_breadth_cat,low).
-trait(sciurus_igniventris,social_group_size_cat,low).
 trait(sciurus_igniventris,diet_invertebrates_cat,low).
 trait(sciurus_igniventris,diet_scavenger_cat,low).
 trait(sciurus_stramineus,adult_body_mass_g_median_cat,low).
@@ -1245,16 +1175,15 @@ trait(sciurus_variegatoides,diet_invertebrates_cat,low).
 trait(sciurus_variegatoides,diet_scavenger_cat,low).
 trait(speothos_venaticus,adult_body_mass_g_median_cat,high).
 trait(speothos_venaticus,home_range_km2_cat,high).
-trait(speothos_venaticus,longevity_y_cat,medium).
+trait(speothos_venaticus,longevity_y_cat,low).
 trait(speothos_venaticus,age_of_maturity_d_cat,medium).
 trait(speothos_venaticus,litter_clutch_size_cat,high).
 trait(speothos_venaticus,litters_or_clutches_per_y_cat,medium).
 trait(speothos_venaticus,diet_breadth_cat,low).
 trait(speothos_venaticus,habitat_breadth_cat,medium).
-trait(speothos_venaticus,social_group_size_cat,high).
-trait(speothos_venaticus,population_density_indkm2_cat,low).
 trait(speothos_venaticus,diet_invertebrates_cat,low).
 trait(speothos_venaticus,diet_scavenger_cat,low).
+trait(speothos_venaticus,population_density_indkm2_cat,low).
 trait(sylvilagus_audubonii,adult_body_mass_g_median_cat,low).
 trait(sylvilagus_audubonii,home_range_km2_cat,low).
 trait(sylvilagus_audubonii,longevity_y_cat,low).
@@ -1272,7 +1201,6 @@ trait(sylvilagus_brasiliensis,litter_clutch_size_cat,medium).
 trait(sylvilagus_brasiliensis,litters_or_clutches_per_y_cat,high).
 trait(sylvilagus_brasiliensis,diet_breadth_cat,low).
 trait(sylvilagus_brasiliensis,habitat_breadth_cat,medium).
-trait(sylvilagus_brasiliensis,social_group_size_cat,low).
 trait(sylvilagus_brasiliensis,diet_invertebrates_cat,low).
 trait(sylvilagus_brasiliensis,diet_scavenger_cat,low).
 trait(sylvilagus_cunicularius,adult_body_mass_g_median_cat,medium).
@@ -1290,9 +1218,9 @@ trait(sylvilagus_floridanus,litter_clutch_size_cat,high).
 trait(sylvilagus_floridanus,litters_or_clutches_per_y_cat,high).
 trait(sylvilagus_floridanus,diet_breadth_cat,low).
 trait(sylvilagus_floridanus,habitat_breadth_cat,medium).
-trait(sylvilagus_floridanus,population_density_indkm2_cat,high).
 trait(sylvilagus_floridanus,diet_invertebrates_cat,low).
 trait(sylvilagus_floridanus,diet_scavenger_cat,low).
+trait(sylvilagus_floridanus,population_density_indkm2_cat,high).
 trait(tamandua_mexicana,adult_body_mass_g_median_cat,medium).
 trait(tamandua_mexicana,home_range_km2_cat,medium).
 trait(tamandua_mexicana,longevity_y_cat,low).
@@ -1301,10 +1229,9 @@ trait(tamandua_mexicana,litter_clutch_size_cat,low).
 trait(tamandua_mexicana,litters_or_clutches_per_y_cat,medium).
 trait(tamandua_mexicana,diet_breadth_cat,low).
 trait(tamandua_mexicana,habitat_breadth_cat,medium).
-trait(tamandua_mexicana,social_group_size_cat,low).
-trait(tamandua_mexicana,population_density_indkm2_cat,medium).
 trait(tamandua_mexicana,diet_invertebrates_cat,high).
 trait(tamandua_mexicana,diet_scavenger_cat,low).
+trait(tamandua_mexicana,population_density_indkm2_cat,medium).
 trait(tamandua_tetradactyla,adult_body_mass_g_median_cat,high).
 trait(tamandua_tetradactyla,home_range_km2_cat,high).
 trait(tamandua_tetradactyla,longevity_y_cat,low).
@@ -1313,10 +1240,9 @@ trait(tamandua_tetradactyla,litter_clutch_size_cat,low).
 trait(tamandua_tetradactyla,litters_or_clutches_per_y_cat,medium).
 trait(tamandua_tetradactyla,diet_breadth_cat,low).
 trait(tamandua_tetradactyla,habitat_breadth_cat,medium).
-trait(tamandua_tetradactyla,social_group_size_cat,low).
-trait(tamandua_tetradactyla,population_density_indkm2_cat,low).
 trait(tamandua_tetradactyla,diet_invertebrates_cat,high).
 trait(tamandua_tetradactyla,diet_scavenger_cat,low).
+trait(tamandua_tetradactyla,population_density_indkm2_cat,low).
 trait(tapirus_terrestris,adult_body_mass_g_median_cat,high).
 trait(tapirus_terrestris,home_range_km2_cat,high).
 trait(tapirus_terrestris,longevity_y_cat,high).
@@ -1324,10 +1250,9 @@ trait(tapirus_terrestris,age_of_maturity_d_cat,high).
 trait(tapirus_terrestris,litter_clutch_size_cat,low).
 trait(tapirus_terrestris,diet_breadth_cat,low).
 trait(tapirus_terrestris,habitat_breadth_cat,medium).
-trait(tapirus_terrestris,social_group_size_cat,low).
-trait(tapirus_terrestris,population_density_indkm2_cat,low).
 trait(tapirus_terrestris,diet_invertebrates_cat,low).
 trait(tapirus_terrestris,diet_scavenger_cat,low).
+trait(tapirus_terrestris,population_density_indkm2_cat,low).
 trait(tayassu_pecari,adult_body_mass_g_median_cat,high).
 trait(tayassu_pecari,home_range_km2_cat,high).
 trait(tayassu_pecari,longevity_y_cat,high).
@@ -1335,10 +1260,9 @@ trait(tayassu_pecari,age_of_maturity_d_cat,high).
 trait(tayassu_pecari,litter_clutch_size_cat,medium).
 trait(tayassu_pecari,diet_breadth_cat,high).
 trait(tayassu_pecari,habitat_breadth_cat,high).
-trait(tayassu_pecari,social_group_size_cat,high).
-trait(tayassu_pecari,population_density_indkm2_cat,medium).
-trait(tayassu_pecari,diet_invertebrates_cat,low).
+trait(tayassu_pecari,diet_invertebrates_cat,medium).
 trait(tayassu_pecari,diet_scavenger_cat,low).
+trait(tayassu_pecari,population_density_indkm2_cat,medium).
 trait(urocyon_cinereoargenteus,adult_body_mass_g_median_cat,medium).
 trait(urocyon_cinereoargenteus,home_range_km2_cat,medium).
 trait(urocyon_cinereoargenteus,longevity_y_cat,medium).
@@ -1347,14 +1271,14 @@ trait(urocyon_cinereoargenteus,litter_clutch_size_cat,high).
 trait(urocyon_cinereoargenteus,litters_or_clutches_per_y_cat,low).
 trait(urocyon_cinereoargenteus,diet_breadth_cat,high).
 trait(urocyon_cinereoargenteus,habitat_breadth_cat,medium).
-trait(urocyon_cinereoargenteus,diet_invertebrates_cat,low).
+trait(urocyon_cinereoargenteus,diet_invertebrates_cat,medium).
 trait(urocyon_cinereoargenteus,diet_scavenger_cat,low).
 trait(xerospermophilus_perotensis,adult_body_mass_g_median_cat,low).
 trait(xerospermophilus_perotensis,litter_clutch_size_cat,high).
 trait(xerospermophilus_perotensis,litters_or_clutches_per_y_cat,low).
 trait(xerospermophilus_perotensis,diet_breadth_cat,medium).
 trait(xerospermophilus_perotensis,habitat_breadth_cat,medium).
-trait(xerospermophilus_perotensis,diet_invertebrates_cat,low).
+trait(xerospermophilus_perotensis,diet_invertebrates_cat,high).
 trait(xerospermophilus_perotensis,diet_scavenger_cat,low).
 trait(zaedyus_pichiy,adult_body_mass_g_median_cat,medium).
 trait(zaedyus_pichiy,longevity_y_cat,low).
@@ -1362,7 +1286,6 @@ trait(zaedyus_pichiy,age_of_maturity_d_cat,medium).
 trait(zaedyus_pichiy,litter_clutch_size_cat,medium).
 trait(zaedyus_pichiy,diet_breadth_cat,low).
 trait(zaedyus_pichiy,habitat_breadth_cat,medium).
-trait(zaedyus_pichiy,social_group_size_cat,low).
 trait(zaedyus_pichiy,diet_invertebrates_cat,high).
 trait(zaedyus_pichiy,diet_scavenger_cat,low).
 
@@ -1400,7 +1323,6 @@ trait(zaedyus_pichiy,diet_scavenger_cat,low).
 #pos({roadkill_risk_high(mustela_frenata)}, {}).
 #pos({roadkill_risk_high(myrmecophaga_tridactyla)}, {}).
 #pos({roadkill_risk_high(philander_opossum)}, {}).
-#pos({roadkill_risk_high(procyon_cancrivorus)}, {}).
 #pos({roadkill_risk_high(sciurus_aureogaster)}, {}).
 #pos({roadkill_risk_high(sciurus_granatensis)}, {}).
 #pos({roadkill_risk_high(sciurus_stramineus)}, {}).
@@ -1480,6 +1402,7 @@ trait(zaedyus_pichiy,diet_scavenger_cat,low).
 #neg({roadkill_risk_high(philander_frenatus)}, {}).
 #neg({roadkill_risk_high(potos_flavus)}, {}).
 #neg({roadkill_risk_high(priodontes_maximus)}, {}).
+#neg({roadkill_risk_high(procyon_cancrivorus)}, {}).
 #neg({roadkill_risk_high(procyon_lotor)}, {}).
 #neg({roadkill_risk_high(puma_concolor)}, {}).
 #neg({roadkill_risk_high(saguinus_midas)}, {}).
