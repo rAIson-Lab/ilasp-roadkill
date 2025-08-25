@@ -1,3 +1,8 @@
+% Risk categories (only for high risk)
+#constant(risk_category,high).
+#constant(risk_category,medium).
+#constant(risk_category,low).
+
 #modeha(roadkill_risk(var(species),const(risk_category))).
 
 % Mode declarations
@@ -672,5 +677,6 @@ trait(urocyon_cinereoargenteus,habitat_breadth_cat,medium).
 #pos({roadkill_risk(tamandua_mexicana,high)},{roadkill_risk(tamandua_mexicana,low),roadkill_risk(tamandua_mexicana,medium)}).
 #pos({roadkill_risk(tamandua_tetradactyla,high)},{roadkill_risk(tamandua_tetradactyla,low),roadkill_risk(tamandua_tetradactyla,medium)}).
 #pos({roadkill_risk(urocyon_cinereoargenteus,high)},{roadkill_risk(urocyon_cinereoargenteus,low),roadkill_risk(urocyon_cinereoargenteus,medium)}).
+
 #maxv(1).
 #max_penalty(5).
