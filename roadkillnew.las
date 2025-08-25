@@ -1298,13 +1298,3 @@ roadkill_class(tayassu_pecari, mediumlow).
 #maxv(1).
 #max_penalty(15).
 
-% Para cada especie 'S' con un riesgo de atropello 'alto',
-% la hipótesis aprendida DEBE ser capaz de derivar 'roadkill_risk(S, high)'.
-% La hipótesis se penalizará si no lo hace.
-:- roadkill_class(S, high), not roadkill_risk(S, high).
-
-% Restricción para ejemplos negativos:
-% Para cada especie 'S' con un riesgo de atropello 'mediumlow',
-% la hipótesis aprendida NO DEBE derivar 'roadkill_risk(S, high)'.
-% La hipótesis se penalizará si lo hace.
-:- roadkill_class(S, mediumlow), roadkill_risk(S, high).
