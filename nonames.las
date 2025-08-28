@@ -3,15 +3,12 @@
 % =========================================================
 
 :- trait(_, Trait, Value1), trait(_, Trait, Value2), Value1 != Value2.
-:- trait(_, adultbodymass_g_median_cat, high), trait(_, longevity_y_cat, low).
-:- trait(_, ageofmaturity_d_cat, low), trait(_, longevity_y_cat, high).
-:- trait(_, litter_clutch_size_cat, high), trait(_, litters_or_clutches_per_y_cat, low).
 
 % =========================================================
 % Mode declarations
 % =========================================================
 
-#modeh(roadkill_risk(var(feature))).
+#modeh(roadkill_risk(high)).
 #modeb(trait(var(feature),const(value))).
 
 #maxv(1).
