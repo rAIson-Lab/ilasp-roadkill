@@ -8,7 +8,7 @@
 % Mode declarations
 % =========================================================
 
-#modeh(roadkill_risk(high)).
+#modeh(roadkill_risk(var(risk))).
 #modeb(trait(var(feature),const(value))).
 
 #maxv(1).
