@@ -14,7 +14,7 @@
 #modeh(roadkill_risk(high)).
 #modeh(roadkill_risk(medium)).
 #modeh(roadkill_risk(low)).
-#modeb(12, trait(+feature,+value)).
+#modeb(12,trait(var(feature),var(value))).
 
 % =========================================================
 % ILASP parameters
