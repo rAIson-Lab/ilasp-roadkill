@@ -17,7 +17,7 @@
 % Mode declarations
 % =========================================================
 #modeh(roadkill_risk_high).
-#modeb(11, trait(var(trait), const(general_trait_name), const(general_trait_value)), (positive)).
+#modeb(11, trait(var(trait), const(general_trait_name), const(general_trait_value))).
 
 % =========================================================
 % Positive examples
