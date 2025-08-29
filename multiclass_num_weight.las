@@ -1,101 +1,101 @@
-#const (alouatta_caraya).
-#const (alouatta_guariba).
-#const (alouatta_seniculus).
-#const (atelocynus_microtis).
-#const (bradypus_variegatus).
-#const (cabassous_tatouay).
-#const (cabassous_unicinctus).
-#const (callithrix_geoffroyi).
-#const (callithrix_jacchus).
-#const (callithrix_penicillata).
-#const (caluromys_derbianus).
-#const (caluromys_lanatus).
-#const (caluromys_philander).
-#const (cavia_aperea).
-#const (cerdocyon_thous).
-#const (chaetomys_subspinosus).
-#const (chironectes_minimus).
-#const (choloepus_didactylus).
-#const (choloepus_hoffmanni).
-#const (chrysocyon_brachyurus).
-#const (coendou_insidiosus).
-#const (coendou_prehensilis).
-#const (coendou_spinosus).
-#const (conepatus_chinga).
-#const (conepatus_semistriatus).
-#const (cuniculus_paca).
-#const (cyclopes_didactylus).
-#const (dasyprocta_azarae).
-#const (dasyprocta_fuliginosa).
-#const (dasyprocta_leporina).
-#const (dasypus_hybridus).
-#const (dasypus_novemcinctus).
-#const (dasypus_sabanicola).
-#const (dasypus_septemcinctus).
-#const (didelphis_albiventris).
-#const (didelphis_aurita).
-#const (didelphis_marsupialis).
-#const (didelphis_pernigra).
-#const (didelphis_virginiana).
-#const (eira_barbara).
-#const (euphractus_sexcinctus).
-#const (galea_flavidens).
-#const (galictis_cuja).
-#const (galictis_vittata).
-#const (gracilinanus_agilis).
-#const (herpailurus_yagouaroundi).
-#const (hydrochoerus_hydrochaeris).
-#const (leopardus_colocolo).
-#const (leopardus_geoffroyi).
-#const (leopardus_pardalis).
-#const (leopardus_tigrinus).
-#const (leopardus_wiedii).
-#const (lepus_europaeus).
-#const (lontra_longicaudis).
-#const (lutreolina_crassicaudata).
-#const (lycalopex_gymnocercus).
-#const (lycalopex_sechurae).
-#const (lycalopex_vetulus).
-#const (marmosa_murina).
-#const (mazama_americana).
-#const (mazama_gouazoubira).
-#const (mazama_nana).
-#const (metachirus_nudicaudatus).
-#const (microsciurus_flaviventer).
-#const (mus_musculus).
-#const (mustela_frenata).
-#const (myocastor_coypus).
-#const (myrmecophaga_tridactyla).
-#const (nasua_nasua).
-#const (nectomys_squamipes).
-#const (oligoryzomys_flavescens).
-#const (orthogeomys_hispidus).
-#const (ozotoceros_bezoarticus).
-#const (panthera_onca).
-#const (philander_frenatus).
-#const (philander_opossum).
-#const (potos_flavus).
-#const (priodontes_maximus).
-#const (procyon_cancrivorus).
-#const (puma_concolor).
-#const (rattus_norvegicus).
-#const (rattus_rattus).
-#const (saimiri_sciureus).
-#const (sapajus_apella).
-#const (sapajus_cay).
-#const (sapajus_libidinosus).
-#const (sciurus_aestuans).
-#const (sciurus_aureogaster).
-#const (sciurus_granatensis).
-#const (sciurus_igniventris).
-#const (sciurus_stramineus).
-#const (sciurus_variegatoides).
-#const (speothos_venaticus).
-#const (sylvilagus_brasiliensis).
-#const (sylvilagus_floridanus).
-#const (tamandua_mexicana).
-#const (tamandua_tetradactyla).
-#const (tapirus_terrestris).
+#constant(alouatta_caraya).
+#constant(alouatta_guariba).
+#constant(alouatta_seniculus).
+#constant(atelocynus_microtis).
+#constant(bradypus_variegatus).
+#constant(cabassous_tatouay).
+#constant(cabassous_unicinctus).
+#constant(callithrix_geoffroyi).
+#constant(callithrix_jacchus).
+#constant(callithrix_penicillata).
+#constant(caluromys_derbianus).
+#constant(caluromys_lanatus).
+#constant(caluromys_philander).
+#constant(cavia_aperea).
+#constant(cerdocyon_thous).
+#constant(chaetomys_subspinosus).
+#constant(chironectes_minimus).
+#constant(choloepus_didactylus).
+#constant(choloepus_hoffmanni).
+#constant(chrysocyon_brachyurus).
+#constant(coendou_insidiosus).
+#constant(coendou_prehensilis).
+#constant(coendou_spinosus).
+#constant(conepatus_chinga).
+#constant(conepatus_semistriatus).
+#constant(cuniculus_paca).
+#constant(cyclopes_didactylus).
+#constant(dasyprocta_azarae).
+#constant(dasyprocta_fuliginosa).
+#constant(dasyprocta_leporina).
+#constant(dasypus_hybridus).
+#constant(dasypus_novemcinctus).
+#constant(dasypus_sabanicola).
+#constant(dasypus_septemcinctus).
+#constant(didelphis_albiventris).
+#constant(didelphis_aurita).
+#constant(didelphis_marsupialis).
+#constant(didelphis_pernigra).
+#constant(didelphis_virginiana).
+#constant(eira_barbara).
+#constant(euphractus_sexcinctus).
+#constant(galea_flavidens).
+#constant(galictis_cuja).
+#constant(galictis_vittata).
+#constant(gracilinanus_agilis).
+#constant(herpailurus_yagouaroundi).
+#constant(hydrochoerus_hydrochaeris).
+#constant(leopardus_colocolo).
+#constant(leopardus_geoffroyi).
+#constant(leopardus_pardalis).
+#constant(leopardus_tigrinus).
+#constant(leopardus_wiedii).
+#constant(lepus_europaeus).
+#constant(lontra_longicaudis).
+#constant(lutreolina_crassicaudata).
+#constant(lycalopex_gymnocercus).
+#constant(lycalopex_sechurae).
+#constant(lycalopex_vetulus).
+#constant(marmosa_murina).
+#constant(mazama_americana).
+#constant(mazama_gouazoubira).
+#constant(mazama_nana).
+#constant(metachirus_nudicaudatus).
+#constant(microsciurus_flaviventer).
+#constant(mus_musculus).
+#constant(mustela_frenata).
+#constant(myocastor_coypus).
+#constant(myrmecophaga_tridactyla).
+#constant(nasua_nasua).
+#constant(nectomys_squamipes).
+#constant(oligoryzomys_flavescens).
+#constant(orthogeomys_hispidus).
+#constant(ozotoceros_bezoarticus).
+#constant(panthera_onca).
+#constant(philander_frenatus).
+#constant(philander_opossum).
+#constant(potos_flavus).
+#constant(priodontes_maximus).
+#constant(procyon_cancrivorus).
+#constant(puma_concolor).
+#constant(rattus_norvegicus).
+#constant(rattus_rattus).
+#constant(saimiri_sciureus).
+#constant(sapajus_apella).
+#constant(sapajus_cay).
+#constant(sapajus_libidinosus).
+#constant(sciurus_aestuans).
+#constant(sciurus_aureogaster).
+#constant(sciurus_granatensis).
+#constant(sciurus_igniventris).
+#constant(sciurus_stramineus).
+#constant(sciurus_variegatoides).
+#constant(speothos_venaticus).
+#constant(sylvilagus_brasiliensis).
+#constant(sylvilagus_floridanus).
+#constant(tamandua_mexicana).
+#constant(tamandua_tetradactyla).
+#constant(tapirus_terrestris).
 
 % Mode declarations
 #modeh(roadkill_low).
@@ -111,8 +111,8 @@
 #modeb(1, diet_breadth(pos)).
 #modeb(1, habitat_breadth(pos)).
 #modeb(1, socialgrpsize(pos)).
-#modeb(1, diet_invertebrates(pos)).
-#modeb(1, diet_scavenger(pos)).
+#modeb(1, diet_invertebrates(int)).
+#modeb(1, diet_scavenger(int)).
 #modeb(1, population_density_indkm2(pos)).
 
 % Exclusividad mutua:
