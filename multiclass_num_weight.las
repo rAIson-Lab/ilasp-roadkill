@@ -12,8 +12,8 @@
 #modeb(1, diet_breadth(pos)).
 #modeb(1, habitat_breadth(pos)).
 #modeb(1, socialgrpsize(pos)).
-#modeb(1, diet_invertebrates(pos)).
-#modeb(1, diet_scavenger(pos)).
+#modeb(1, diet_invertebrates(int)).
+#modeb(1, diet_scavenger(int)).
 #modeb(1, population_density_indkm2(pos)).
 
 % Exclusividad mutua:
