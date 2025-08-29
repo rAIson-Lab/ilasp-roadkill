@@ -1194,7 +1194,7 @@ trait(zaedyus_pichiy,habitat_breadth_cat,medium).
 % =========================================================
 % Negative examples: with low/medium risk
 % =========================================================
-
+#pos(roadkill_low@2, 
 #neg({roadkill_risk_high(alouatta_caraya)}, {}).
 #neg({roadkill_risk_high(alouatta_guariba)}, {}).
 #neg({roadkill_risk_high(alouatta_palliata)}, {}).
