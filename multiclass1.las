@@ -139,3 +139,6 @@
 #neg({roadkill_high}, {adultbodymass_g_median_high, home_range_km2_high, longevity_y_medium, diet_breadth_medium, habitat_breadth_high}).
 #neg({roadkill_low}, {adultbodymass_g_median_high, home_range_km2_high, longevity_y_medium, diet_breadth_high, habitat_breadth_medium}).
 #neg({roadkill_high}, {adultbodymass_g_median_high, home_range_km2_high, longevity_y_medium, diet_breadth_high, habitat_breadth_medium}).
+
+#maxv(1).
+#max_penalty(50).
