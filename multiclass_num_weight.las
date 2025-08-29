@@ -1,1 +1,1 @@
-#pos(test@2, {roadkill_low}, {}, {adultbodymass_g_median(557)}).
+#pos(test@2, {roadkill_low}, {}, {adultbodymass_g_median(557);}).
