@@ -1,4 +1,3 @@
-#constant(risk_level,high).
-#constant(risk_level,low).
+#modeh(risk(high)).
 
-#modeh(risk(const(risk_level))).
+#pos({risk(high)}, {}).
