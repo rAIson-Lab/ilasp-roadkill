@@ -1,2 +1,2 @@
-#constant(risk,high).
-#constant(risk,low).
+#modeh(risk(high)).
+#modeh(risk(low)).
