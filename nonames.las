@@ -20,7 +20,6 @@
 #constant(general_trait_value,high).
 #constant(general_trait_value,nan).
 
-
 % =========================================================
 % Mode declarations
 % =========================================================
@@ -28,7 +27,7 @@
 #modeh(roadkill_risk_high).
 #modeh(roadkill_risk_medium).
 #modeh(roadkill_risk_low).
-#modeb(*, trait(var(species), const(general_trait_name), const(general_trait_value))).
+#modeb(12, trait(var(species), const(general_trait_name), const(general_trait_value))).
 
 % =========================================================
 % Background knowledge
