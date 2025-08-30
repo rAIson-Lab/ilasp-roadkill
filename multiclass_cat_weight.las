@@ -39,42 +39,6 @@
 #modeb(1, population_density_indkm2_cat_medium).
 #modeb(1, population_density_indkm2_cat_high).
 
-% Exclusividad mutua:
-:- adultbodymass_g_median_cat_high, adultbodymass_g_median_cat_medium.
-:- adultbodymass_g_median_cat_high, adultbodymass_g_median_cat_low.
-:- adultbodymass_g_median_cat_medium, adultbodymass_g_median_cat_low.
-:- home_range_km2_cat_low, home_range_km2_cat_high.
-:- home_range_km2_cat_low, home_range_km2_cat_medium.
-:- home_range_km2_cat_high, home_range_km2_cat_medium.
-:- longevity_y_cat_high, longevity_y_cat_medium.
-:- longevity_y_cat_high, longevity_y_cat_low.
-:- longevity_y_cat_medium, longevity_y_cat_low.
-:- ageofmaturity_d_cat_high, ageofmaturity_d_cat_medium.
-:- ageofmaturity_d_cat_high, ageofmaturity_d_cat_low.
-:- ageofmaturity_d_cat_medium, ageofmaturity_d_cat_low.
-:- litter_clutch_size_cat_low, litter_clutch_size_cat_medium.
-:- litter_clutch_size_cat_low, litter_clutch_size_cat_high.
-:- litter_clutch_size_cat_medium, litter_clutch_size_cat_high.
-:- litters_or_clutches_per_y_cat_low, litters_or_clutches_per_y_cat_medium.
-:- litters_or_clutches_per_y_cat_low, litters_or_clutches_per_y_cat_high.
-:- litters_or_clutches_per_y_cat_medium, litters_or_clutches_per_y_cat_high.
-:- diet_breadth_cat_low, diet_breadth_cat_high.
-:- diet_breadth_cat_low, diet_breadth_cat_medium.
-:- diet_breadth_cat_high, diet_breadth_cat_medium.
-:- habitat_breadth_cat_low, habitat_breadth_cat_medium.
-:- habitat_breadth_cat_low, habitat_breadth_cat_high.
-:- habitat_breadth_cat_medium, habitat_breadth_cat_high.
-:- socialgrpsize_cat_high, socialgrpsize_cat_low.
-:- socialgrpsize_cat_high, socialgrpsize_cat_medium.
-:- socialgrpsize_cat_low, socialgrpsize_cat_medium.
-:- diet_invertebrates_cat_low, diet_invertebrates_cat_high.
-:- diet_invertebrates_cat_low, diet_invertebrates_cat_medium.
-:- diet_invertebrates_cat_high, diet_invertebrates_cat_medium.
-:- diet_scavenger_cat_medium, diet_scavenger_cat_high.
-:- population_density_indkm2_cat_low, population_density_indkm2_cat_medium.
-:- population_density_indkm2_cat_low, population_density_indkm2_cat_high.
-:- population_density_indkm2_cat_medium, population_density_indkm2_cat_high.
-
 % Ejemplos
 % Positive examples
 #pos(roadkill_low@2, {adultbodymass_g_median_high, home_range_km2_low, longevity_y_high, ageofmaturity_d_high, litter_clutch_size_low, litters_or_clutches_per_y_low, diet_breadth_low, habitat_breadth_low, socialgrpsize_high, diet_invertebrates_low, diet_scavenger_medium, population_density_indkm2_low}, {}, {}).
