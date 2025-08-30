@@ -12,13 +12,13 @@
 #modeb(1, diet_breadth(var)).
 #modeb(1, habitat_breadth(var)).
 #modeb(1, socialgrpsize(var)).
-#modeb(1, diet_invertebrates(int)).
-#modeb(1, diet_scavenger(int)).
+#modeb(1, diet_invertebrates(var)).
+#modeb(1, diet_scavenger(var)).
 #modeb(1, population_density_indkm2(var)).
 #modeb(1, road_length_km(var)).
 #modeb(1, survey_period_days(var)).
-#modeb(1, latitude(int)).
-#modeb(1, longitude(int)).
+#modeb(1, latitude(var)).
+#modeb(1, longitude(var)).
 
 % Exclusividad mutua:
 
