@@ -82,3 +82,6 @@
 #neg({roadkill_high}, {adultbodymass_g_median_655, home_range_km2_629, longevity_y_1489, ageofmaturity_d_52153, litter_clutch_size_339, litters_or_clutches_per_y_115, diet_breadth_300, habitat_breadth_700, socialgrpsize_100, diet_invertebrates_1000, diet_scavenger_0, population_density_indkm2_1118}).
 #neg({roadkill_low}, {adultbodymass_g_median_2324, home_range_km2_2136, longevity_y_1566, ageofmaturity_d_73000, litter_clutch_size_250, litters_or_clutches_per_y_100, diet_breadth_500, habitat_breadth_600, socialgrpsize_354, diet_invertebrates_1000, diet_scavenger_0, population_density_indkm2_2421}).
 #neg({roadkill_high}, {adultbodymass_g_median_2324, home_range_km2_2136, longevity_y_1566, ageofmaturity_d_73000, litter_clutch_size_250, litters_or_clutches_per_y_100, diet_breadth_500, habitat_breadth_600, socialgrpsize_354, diet_invertebrates_1000, diet_scavenger_0, population_density_indkm2_2421}).
+
+#maxv(1).
+#max_penalty(23).
