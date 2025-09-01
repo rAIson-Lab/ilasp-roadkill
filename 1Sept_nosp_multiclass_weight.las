@@ -1,14 +1,14 @@
-#constant(trait,adult_body_mass_g_median).
-#constant(trait,home_range_km2).
-#constant(trait,longevity_y).
-#constant(trait,age_of_maturity_d).
-#constant(trait,litter_clutch_size).
-#constant(trait,litters_or_clutches_per_y).
-#constant(trait,diet_breadth).
-#constant(trait,habitat_breadth).
-#constant(trait,diet_invertebrates).
-#constant(trait,diet_scavenger).
-#constant(trait,population_density_indkm2).
+#constant(trait_name, adultbodymass_g_median).
+#constant(trait_name, home_range_km2).
+#constant(trait_name, longevity_y).
+#constant(trait_name, age_of_maturity_d).
+#constant(trait_name, litter_clutch_size).
+#constant(trait_name, litters_or_clutches_per_y).
+#constant(trait_name, diet_breadth).
+#constant(trait_name, habitat_breadth).
+#constant(trait_name, diet_invertebrates).
+#constant(trait_name, diet_scavenger).
+#constant(trait_name, population_density_indkm2).
 
 #constant(level, low).
 #constant(level, medium).
@@ -18,10 +18,7 @@
 #constant(risk, medium).
 #constant(risk, high).
 
-% Predicado objetivo compacto con argumento de clase
 #modeh(roadkill(var(risk))).
-
-% Predicado de traits con argumentos: nombre del trait y nivel
 #modeb(1, trait(const(trait_name), var(level))).
 
 % =========================================================
