@@ -19,7 +19,7 @@
 #constant(risk, high).
 
 #modeh(roadkill(var(risk))).
-#modeb(1, trait(const(trait_name), var(level))).
+#modeb(3, trait(const(trait_name), var(level))).
 
 % =========================================================
 % POSITIVE EXAMPLES (Penalty = 1)
