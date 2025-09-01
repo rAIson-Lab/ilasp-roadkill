@@ -18,7 +18,7 @@
 #constant(risk, medium).
 #constant(risk, high).
 
-#modeh(roadkill(var(risk))).
+#modeh(roadkill(const(risk))).
 #modeb(3, trait(const(trait_name), var(level))).
 
 % =========================================================
