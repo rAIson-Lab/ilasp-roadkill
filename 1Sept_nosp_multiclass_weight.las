@@ -1,3 +1,7 @@
+#constant(trait_name, [adultbodymass_g_median, home_range_km2, longevity_y, diet_breadth, habitat_breadth]).
+#constant(level, [low, medium, high]).
+#constant(risk, [low, medium, high]).
+
 % Predicado objetivo compacto con argumento de clase
 #modeh(roadkill(var(risk))).
 
