@@ -19,7 +19,7 @@
 #constant(risk, high).
 
 #modeh(roadkill(const(risk))).
-#modeb(11, trait(const(trait_name), var(level))).
+#modeb(5, trait(const(trait_name), var(level))).
 
 % =========================================================
 % EJEMPLOS SIN CONTRADICCIONES
@@ -328,4 +328,4 @@
 }).
 
 #maxv(10).
-#max_penalty(100).
+#max_penalty(500).
