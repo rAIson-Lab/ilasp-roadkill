@@ -20,42 +20,6 @@
 #modeb(1, habitat_breadth_medium).
 #modeb(1, habitat_breadth_high).
 
-% Exclusividad mutua:
-:- adultbodymass_g_median_high, adultbodymass_g_median_medium.
-:- adultbodymass_g_median_high, adultbodymass_g_median_low.
-:- adultbodymass_g_median_medium, adultbodymass_g_median_low.
-:- home_range_km2_low, home_range_km2_high.
-:- home_range_km2_low, home_range_km2_medium.
-:- home_range_km2_high, home_range_km2_medium.
-:- longevity_y_high, longevity_y_medium.
-:- longevity_y_high, longevity_y_low.
-:- longevity_y_medium, longevity_y_low.
-:- ageofmaturity_d_high, ageofmaturity_d_medium.
-:- ageofmaturity_d_high, ageofmaturity_d_low.
-:- ageofmaturity_d_medium, ageofmaturity_d_low.
-:- litter_clutch_size_low, litter_clutch_size_medium.
-:- litter_clutch_size_low, litter_clutch_size_high.
-:- litter_clutch_size_medium, litter_clutch_size_high.
-:- litters_or_clutches_per_y_low, litters_or_clutches_per_y_medium.
-:- litters_or_clutches_per_y_low, litters_or_clutches_per_y_high.
-:- litters_or_clutches_per_y_medium, litters_or_clutches_per_y_high.
-:- diet_breadth_low, diet_breadth_high.
-:- diet_breadth_low, diet_breadth_medium.
-:- diet_breadth_high, diet_breadth_medium.
-:- habitat_breadth_low, habitat_breadth_medium.
-:- habitat_breadth_low, habitat_breadth_high.
-:- habitat_breadth_medium, habitat_breadth_high.
-:- socialgrpsize_high, socialgrpsize_low.
-:- socialgrpsize_high, socialgrpsize_medium.
-:- socialgrpsize_low, socialgrpsize_medium.
-:- diet_invertebrates_low, diet_invertebrates_high.
-:- diet_invertebrates_low, diet_invertebrates_medium.
-:- diet_invertebrates_high, diet_invertebrates_medium.
-:- diet_scavenger_medium, diet_scavenger_high.
-:- population_density_indkm2_low, population_density_indkm2_medium.
-:- population_density_indkm2_low, population_density_indkm2_high.
-:- population_density_indkm2_medium, population_density_indkm2_high.
-
 % =========================================================
 % POSITIVE EXAMPLES (Penalty = 1)
 % =========================================================
