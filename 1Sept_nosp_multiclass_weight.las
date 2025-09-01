@@ -327,5 +327,5 @@
     trait(habitat_breadth, medium)
 }).
 
-#maxv(1).
+#maxv(10).
 #max_penalty(100).
