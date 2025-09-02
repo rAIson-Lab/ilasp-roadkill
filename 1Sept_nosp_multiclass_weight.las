@@ -19,7 +19,7 @@
 #constant(risk, high).
 
 #modeh(roadkill(const(risk))).
-#modeb(11, trait(const(trait_name), var(level))).
+#modeb(6, trait(const(trait_name), var(level))).
 
 % =========================================================
 % EJEMPLOS SIN CONTRADICCIONES
